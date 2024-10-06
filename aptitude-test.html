@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>APTITUDE TEST</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href="aptitude-test.css" .css'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>APTITUDE TEST 1</h1>
+            <h1 id="time"><button id="timebtn">start timer</button></h1>
+        </nav>
+    </header>
+    <main>
+        <form>
+            <section class="questions">
+                <!-- <div class="question">
+                    <h3> 1) What is the HCF (Highest Common Factor) of 24 and 36?</h3>
+                    <div class="options">
+                        <div class="left">
+                            <div class="option"><input type="radio" name="1" id="q1o1" value="4"><label
+                                    for="q1o1">4</label></div>
+                            <div class="option"><input type="radio" name="1" id="q1o2" value="6"><label
+                                    for="q1o2">6</label></div>
+                        </div>
+                        <div class="right">
+                            <div class="option"><input type="radio" name="1" id="q1o3" value="12"><label
+                                    for="q1o3">12</label></div>
+                            <div class="option"><input type="radio" name="1" id="q1o4" value="18"><label
+                                    for="q1o4">18</label></div>
+                        </div>
+                    </div>
+                    <details>
+                        <summary>Show Answer</summary>
+                        <p< /p>
+                    </details>
+                </div> -->
+            </section>
+            <div>
+                <button type="submit" id="submitbtn">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+        <section class="scorecard">
+            
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'F5' || (e.ctrlKey && e.key === 'r')) {
+                    e.preventDefault();
+                }
+            });
+
+            let appendquestion = document.getElementsByClassName("questions")[0];
+            let url = new URLSearchParams(window.location.search).get('test');
+            fetch("./questions.json").then((data) => { return data.json() }).then((data) => data[url - 1].map((ele, index) => {
+                appendquestion.innerHTML += `<div class="question">
+                        <h3> ${ele['id']}) ${ele['question']}</h3>
+                        <div class="options">
+                            <div class="left">
+                                <div class="option"><input type="radio" name="${index}" id="q${index + 1}o1" value="${ele['options'][0]}"><label for="q${index + 1}o1">${ele['options'][0]}</label></div>
+                                <div class="option"><input type="radio" name="${index}" id="q${index + 1}o2" value="${ele['options'][1]}"><label for="q${index + 1}o2">${ele['options'][1]}</label></div>
+                            </div>
+                            <div class="right">
+                                <div class="option"><input type="radio" name="${index}" id="q${index + 1}o3" value="${ele['options'][2]}"><label for="q${index + 1}o3">${ele['options'][2]}</label></div>
+                                <div class="option"><input type="radio" name="${index}" id="q${index + 1}o4" value="${ele['options'][3]}"><label for="q${index + 1}o4">${ele['options'][3]}</label></div>
+                            </div>
+                        </div>
+                        <details>
+                            <summary>Show Answer</summary>
+                            <p>${ele['explanation']}</p>
+                        </details>
+                    </div>`;
+            }))
+
+            let score = 0;
+            let form = document.querySelector('form');
+            form.addEventListener('submit', (event) => {
+                event.preventDefault()
+                let questions = document.querySelectorAll('input[type=radio]:checked')
+                fetch("./questions.json").then((data) => { return data.json() }).then((data) => {
+                    const answers = data[url - 1]
+                    for (let index = 0; index < questions.length; index++) {
+                        if (answers[questions[index].name].answer == questions[index].value) {
+                            score++;
+                            document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = 'green'
+                        } else {
+                            document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = 'red'
+                        }
+                    }
+                    let overlay=document.getElementsByClassName('scorecard')[0]
+                    overlay.style.display = 'flex'
+                    overlay.innerHTML=`<h1>your score was ${score} out 25</h1>`
+                    setTimeout(() => {
+                        document.getElementsByClassName('scorecard')[0].style.display = 'none'
+                    }, 5000);
+                })
+            })
+
+            document.getElementById("timebtn").addEventListener('click', function starttime() {
+                let time = document.getElementById('time')
+                let minutes = 24, seconds = 59;
+                let interval = setInterval(() => {
+                    time.innerHTML = `${minutes}:${seconds--} Minutes Left`
+                    if (seconds == 0 && minutes != 0) {
+                        minutes--
+                    }
+                    if (minutes == 0 && seconds == 0) {
+                        clearInterval(interval)
+                        document.querySelector('#submitbtn').click()
+                    }
+                }, 1000);
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-color: rgb(39, 38, 38);
+    --font-color: whitesmoke;
+}
+
+body {
+    width: 98.7dvw;
+    height: 100dvh;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+body::-webkit-scrollbar {
+    scrollbar-width: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color);
+}
+
+header nav h1 button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(10, 155, 212);
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+header nav h1 button:hover {
+    background-color: rgb(8, 117, 160);
+}
+
+main form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main section.questions {
+    width: 85dvw;
+}
+
+main section.questions .question {
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid rgb(59, 57, 57);
+    border-radius: 10px;
+}
+
+main section.questions .question .options {
+    display: flex;
+}
+
+main section.questions .question .options .option {
+    border: 1px solid wheat;
+    width: 20dvw;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+
+main section.questions .question .options .option label {
+    width: 100%;
+    cursor: pointer;
+}
+
+main section.questions .question .options .option label,
+input[type='radio'] {
+    padding: 7px;
+    margin-left: 5px;
+    accent-color: rgb(15, 250, 15);
+}
+
+main section.questions .question .options .option input[type="radio"]:checked+label,
+main section.questions .question .options .option label:hover {
+    background-color: rgb(4, 106, 146);
+}
+
+main section.questions .question details {
+    font-weight: bold;
+    color: wheat;
+    margin: 10px;
+    display: none;
+}
+
+main section.questions .question details summary {
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: rgb(15, 159, 10);
+    width: 20dvw;
+}
+
+main section.questions .question details summary+p {
+    padding: 10px;
+    line-height: 20px;
+}
+
+main form button {
+    background-color: rgb(8, 117, 160);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 100px;
+    margin: 10px;
+}
+
+main form button[type='reset']{
+    background-color: rgb(132, 138, 23);
+}
+
+main form button:hover {
+    background-color: rgb(10, 155, 212);
+}
+
+main section.scorecard {
+    position: absolute;
+    text-wrap: nowrap;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(89, 131, 83, 0.09);
+    backdrop-filter: blur(2px);
+    display: none;
+}
+
+main section.scorecard h1 {
+    background-color: rebeccapurple;
+    padding: 50px;
+    border-radius: 5px;
+}

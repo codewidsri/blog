@@ -1,0 +1,48 @@
+[
+    [
+        {
+            "id":1,
+            "question":"What is the remainder when 123456789 is divided by 9?",
+            "options":[0,1,2,3],
+            "answer":0,
+            "explanation": "Explanation: A number is divisible by 9 if the sum of its digits is divisible by 9. Let's check the sum of the digits of 123456789 \n 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45 \n Since 45 is divisible by 9, 123456789 is also divisible by 9, and the remainder is 0."
+        },
+        {
+            "id":2,
+            "question":"What is the smallest number that leaves a remainder of 3 when divided by 4, 5, and 6?",
+            "options":[57,59,63,83],
+            "answer":63,
+            "explanation": "Explanation: To find the smallest number that leaves a remainder of 3 when divided by 4, 5, and 6, we first find the least common multiple (LCM) of these numbers and then add the remainder. \n The LCM of 4, 5, and 6 is:\n LCM(4,5,6)=60 \n Therefore, the smallest number that leaves a remainder of 3 is: \n 60+3=63"
+        },
+        {
+            "id":3,
+            "question":"How many integers between 1 and 1000 are divisible by both 3 and 5?",
+            "options":[33,66,100,200],
+            "answer":66,
+            "explanation":"Explanation: To find how many integers between 1 and 1000 are divisible by both 3 and 5, we need to find the number of integers divisible by their least common multiple (LCM).\n The LCM of 3 and 5 is 15. \nNow, we need to determine how many multiples of 15 are there between 1 and 1000 \n Number of multiples of 15 between 1 and 1000 = 1000/15 = 66 \n So, there are 66 integers between 1 and 1000 that are divisible by both 3 and 5."
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"A car travels 150 km in 3 hours. What is the average speed of the car in km/h?",
+            "options":[45,50,55,60],
+            "answer":50,
+            "explanation":"Explanation: To find the average speed, use the formula: \nAverage Speed=Total Distance/Total Time\nHere, the total distance is 150 km and the total time is 3 hours. \n Average Speed = 150/3 = 50 km/hr"
+        },
+        {
+            "id":2,
+            "question":"A box contains 3 red, 5 green, and 2 blue balls. If a ball is randomly picked from the box, what is the probability that it is green?",
+            "options":["1/2","5/10","6/10","1/3"],
+            "answer":"1/2",
+            "explanation":"Explanation: Here, the number of favorable outcomes (green balls) is 5, and the total number of balls is 3+5+2=10 \nSo, the probability of picking a green ball is:\n probability = 5/10 is equal to 1/2"
+        },
+        {
+            "id":3,
+            "question":"What is the HCF (Highest Common Factor) of 24 and 36?",
+            "options":[4,6,12,18],
+            "answer":12,
+            "explanation":"Explanation : To find the HCF of 24 and 36, list the factors of each number: \nTo find the HCF of 24 and 36, list the factors of each number:\nFactors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36\nThe common factors are 1, 2, 3, 4, 6, and 12. The highest of these is 12"
+        }
+    ]
+]

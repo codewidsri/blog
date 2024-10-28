@@ -20,7 +20,7 @@
         <form>
             <section class="questions">
                 <!-- <div class="question">
-                    <h3> 1) What is the HCF (Highest Common Factor) of 24 and 36?</h3>
+                    <p> 1) What is the HCF (Highest Common Factor) of 24 and 36?</p>
                     <div class="options">
                         <div class="left">
                             <div class="option"><input type="radio" name="1" id="q1o1" value="4"><label
@@ -42,8 +42,8 @@
                 </div> -->
             </section>
             <div>
-                <button type="submit" id="submitbtn">Submit</button>
                 <button type="reset">Reset</button>
+                <button type="submit" id="submitbtn">Submit</button>
             </div>
         </form>
         <section class="scorecard">
@@ -62,7 +62,7 @@
             let url = new URLSearchParams(window.location.search).get('test');
             fetch("./questions.json").then((data) => { return data.json() }).then((data) => data[url - 1].map((ele, index) => {
                 appendquestion.innerHTML += `<div class="question">
-                        <h3> ${ele['id']}) ${ele['question']}</h3>
+                        <p> ${ele['id']}) ${ele['question']}</p>
                         <div class="options">
                             <div class="left">
                                 <div class="option"><input type="radio" name="${index}" id="q${index + 1}o1" value="${ele['options'][0]}"><label for="q${index + 1}o1">${ele['options'][0]}</label></div>
@@ -80,10 +80,10 @@
                     </div>`;
             }))
 
-            let score = 0;
             let form = document.querySelector('form');
             form.addEventListener('submit', (event) => {
                 event.preventDefault()
+                let score = 0;
                 let questions = document.querySelectorAll('input[type=radio]:checked')
                 fetch("./questions.json").then((data) => { return data.json() }).then((data) => {
                     const answers = data[url - 1]
@@ -111,6 +111,7 @@
                     time.innerHTML = `${minutes}:${seconds--} Minutes Left`
                     if (seconds == 0 && minutes != 0) {
                         minutes--
+                        seconds=59
                     }
                     if (minutes == 0 && seconds == 0) {
                         clearInterval(interval)

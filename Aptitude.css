@@ -1,0 +1,57 @@
+:root {
+    --background-color: rgb(39, 38, 38);
+    --background-color: #f9f9f9;
+    --font-color: whitesmoke;
+    --font-color: #333;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+main section.posts {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+main section.posts .post {
+    box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7);
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+main section.posts .post a {
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--font-color);
+    font-weight: bolder;
+}
+
+main section.posts .post .right button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(13, 156, 13);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+main section.posts .post .right button:hover {
+    background-color: rgb(17, 211, 17);
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Introduction to Java Swing</h1>
+</header>
+
+<main>
+    <section>
+        <h2>What is Java Swing?</h2>
+        <p>Java Swing is a powerful GUI (Graphical User Interface) toolkit that is part of Java's standard library, used for creating desktop applications. It is built on top of AWT (Abstract Window Toolkit) and provides a richer set of components and a platform-independent experience.</p>
+    </section>
+
+    <section>
+        <h2>Key Features of Java Swing</h2>
+        <ul>
+            <li><strong>Lightweight Components:</strong> Swing components are lightweight and do not rely directly on native operating system code.</li>
+            <li><strong>MVC Architecture:</strong> Swing follows the Model-View-Controller (MVC) design pattern.</li>
+            <li><strong>Pluggable Look-and-Feel:</strong> Change the appearance of applications without affecting functionality.</li>
+            <li><strong>Rich Components:</strong> Swing provides a variety of customizable components like buttons, labels, tables, and more.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Core Swing Components</h2>
+        <ul>
+            <li><strong>JFrame:</strong> The main container for Swing applications.
+                <pre><code>import javax.swing.*;
+
+public class SwingExample {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("My First Swing Application");
+        frame.setSize(400, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+    }
+}</code></pre>
+            </li>
+
+            <li><strong>JLabel:</strong> Used to display a short string or an image.
+                <pre><code>JLabel label = new JLabel("Hello, Swing!");
+frame.add(label);</code></pre>
+            </li>
+
+            <li><strong>JButton:</strong> Represents a button that triggers an action.
+                <pre><code>JButton button = new JButton("Click Me");
+button.addActionListener(e -> System.out.println("Button Clicked"));
+frame.add(button);</code></pre>
+            </li>
+
+            <li><strong>JPanel:</strong> A generic container to hold and organize components.
+                <pre><code>JPanel panel = new JPanel();
+panel.add(label);
+panel.add(button);
+frame.add(panel);</code></pre>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Layouts in Swing</h2>
+        <p>Layouts define how components are arranged in a container. Swing provides several layout managers:</p>
+        <ul>
+            <li><strong>FlowLayout:</strong> Arranges components in a left-to-right flow.</li>
+            <li><strong>BorderLayout:</strong> Divides the container into five regions: North, South, East, West, and Center.</li>
+            <li><strong>GridLayout:</strong> Arranges components in a grid with equal-sized cells.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Event Handling in Swing</h2>
+        <p>Event handling is a crucial part of interactive GUI applications. Swing uses the <strong>Event-Delegation Model</strong>, where events are dispatched to listeners that handle them.</p>
+        <pre><code>button.addActionListener(e -> System.out.println("Button was clicked!"));</code></pre>
+    </section>
+
+    <section>
+        <h2>Advantages of Swing</h2>
+        <ul>
+            <li><strong>Cross-Platform Compatibility:</strong> Write once, run anywhere.</li>
+            <li><strong>Customizable Components:</strong> Create visually appealing UIs with advanced components.</li>
+            <li><strong>Thread-Safe:</strong> Swing components are thread-safe when handled using the Event Dispatch Thread (EDT).</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Applications of Swing</h2>
+        <ul>
+            <li>Desktop applications like text editors, calculators, and media players.</li>
+            <li>Enterprise-level applications with custom UIs.</li>
+            <li>GUI tools for data analysis and visualization.</li>
+        </ul>
+    </section>
+</main>
+
+</body>
+</html>

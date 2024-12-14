@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+:root {
+    --background-color: rgb(39, 38, 38);
+    --background-color: #f9f9f9;
+    --font-color: whitesmoke;
+    --font-color: #333;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+}
+
+main .posts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main .posts .post{
+    width: 20dvw;
+    height: auto;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 15px 15px 50px rgba(167, 160, 160,0.7);
+    margin: 10px;
+}
+
+main .posts .post img{
+    width: inherit;
+    height: 30dvh;
+    /* object-fit: fill; */
+    object-fit: contain;
+    /* object-fit: initial; */
+}
+
+main .posts .post .content{
+    padding: 10px;
+    line-height: 22px;
+}
+
+main .posts .post .content h2{
+    text-align: center;
+}
+
+main .posts .post .content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .posts .post button{
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+main .posts .post button:hover{
+    background-color: rgb(14, 185, 14);
+}
+
+main .posts .post button + span{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(75, 67, 67);
+}

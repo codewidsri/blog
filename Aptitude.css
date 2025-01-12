@@ -39,6 +39,7 @@ main section.posts .post a {
     font-size: 25px;
     color: var(--font-color);
     font-weight: bolder;
+    text-transform: uppercase;
 }
 
 main section.posts .post .right button {

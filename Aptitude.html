@@ -34,9 +34,9 @@
             data.map((ele, index) => {
                 posts.innerHTML += `<div class="post">
                 <div class="left">
-                    <a href="#">PROBLEMS ON AVERAGE ${index + 1}</a>
-                    <h4>Total Number of Questions :- ${ele.length}</h4>
-                    <h4>Total Time :- ${ele.length} minutes</h4>
+                    <a href="#">PROBLEMS ON ${data[0][0].category} ${index + 1}</a>
+                    <h4>Number of Questions :- ${ele.length}</h4>
+                    <h4>Time :- ${ele.length} minutes</h4>
                 </div>
                 <div class="right">
                     <button onclick="window.location.href='aptitude-test.html?test=${index + 1}'">Take Test</button>

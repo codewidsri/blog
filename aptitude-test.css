@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #f9f9f9;
+    --font-color: #333;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: var(--font-color);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--background-color);
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+form{
+    padding-bottom: 25px;
+    max-width: 1000px;
+    box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7);
+}
+
+section.questions{
+    margin: 10px;
+}
+
+section.questions .question{
+    margin: 30px;
+    padding: 15px;
+    border-bottom: 2px dotted var(--font-color);
+}
+
+section.questions .question p{
+    font-weight: bold;
+    line-height: 28px;
+}
+
+section.questions .question .options{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+section.questions .question .options .left,.right{
+    width: 100%;
+}
+
+section.questions .question .options label{
+    display: block;
+}
+
+section.questions .question .options input[type='radio']:checked + label{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+}
+
+section.questions .question .options input{
+    accent-color: rebeccapurple;
+    display: none;
+}
+
+section.questions .question .options label{
+    padding: 10px 30px;
+    border: 1px solid rebeccapurple;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    user-select: none;
+}
+
+section.questions .question .options label:hover{
+    background-color: rebeccapurple;
+    color: white;
+    font-weight: bold;
+}
+
+main form .btn-group{
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.startbtn{
+    background-color: rgb(32, 137, 179);
+    color: white;
+}
+
+.stopbtn{
+    background-color: red;
+    color: white;
+}
+
+.submitbtn{
+    background-color: rgb(111, 190, 221);
+}
+
+.resetbtn{
+    background-color: tomato;
+    background-color: yellow;
+}
+
+#time{
+    background-color: #252222;
+    padding: 15px;
+}

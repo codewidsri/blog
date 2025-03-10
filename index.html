@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aptitude</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./index.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=double_arrow" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Aptitude</li>
+                <li>Coding Problems</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <iframe src="Aptitude.html?topic=average" name="content" style="width: 99.5dvw; height: 85dvh;" seamless frameborder="0"></iframe> -->
+     <main>
+        <section class="aptitude">
+            <h1>Learn Aptitude Concepts Topic Wise</h1>
+            <div class="cards"></div>
+            <h1>Company wise Aptitude Questions</h1>
+            <div class="cards company"></div>
+            <h1>Mock Tests</h1>
+        </section>
+     </main>
+    <footer>
+        <p>&copy; designed and developed by <strong>sriharish kumar ❤️</strong></p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Mensuration','#'],['Allegation and Mixture','#'],['Ratios and Proportion','#'],['Work and Time','#'],['Speed Time and Distance','#'],['Profit and Loss','#'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','#'],['Probability','#'],['Pipes and Cisterns','#'],['Simple Interest and Compund Interest','#'],['Problems on Train','#'],['Boats and Streams','#']]
+            let cards=document.getElementsByClassName('cards')[0];
+            topics.map((ele,index)=>{
+                let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
+                cards.innerHTML+=div
+            })
+
+            let companies=[['Zoho','#'],['TCS NQT','Aptitude.html?topic=tcsnqt']]
+            let company=document.getElementsByClassName("company")[0];
+            companies.map((ele,index)=>{
+                let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
+                company.innerHTML+=div;
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,859 @@
+[
+    [
+        {
+            "id":1,
+            "question":"Amit starts a businss with RS 20,000 after 6 month ravi joins amit with RS 10,000 in what ratio should they share their profit at the end of 3 years?",
+            "options":["15:8","9:4","11:4","12:5"],
+            "answer":"12:5",
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":2,
+            "question":"The length of a rectangular sheet is twice its breadth if the area of the rectangular sheet is 242 cm^2 what is the length of the rectangular sheet? in cm",
+            "options":[12,22,18,16],
+            "answer":22,
+            "category":"Mensuration"
+        },
+        {
+            "id":3,
+            "question":"what is the remainder of 2^243 when is divided by 9?",
+            "options":[5,8,7,3],
+            "answer":8,
+            "category":"Number System"
+        },
+        {
+            "id":4,
+            "question":"The average score of a player in 43 innings is 72. In his 44th match he scored a certain amount of run that increased his average by 2 run what was his score in his last match?",
+            "options":[160,190,165,155],
+            "answer":160,
+            "category":"Average"
+        },
+        {
+            "id":5,
+            "question":"Ram starts a factory and hires workers for that factory. The average monthly salary of 8 workers is Rs 4000. The average monthly salary of 7 other workers is Rs 4500, the average monthly salary of 5 other wokes is 5000, the average monthly salary of 3 other workers is 5200, and the average monthly salary of other 2 workers is 7800 calculate how much salary Ram has to pay to all the workers of the factory in a month?",
+            "options":["1,19,560","1,18,770","1,19,700","1,18,650"],
+            "answer":"1,19,700",
+            "category":"Average"
+        },
+        {
+            "id":6,
+            "question":"It is given that (8x^2 - 5y^2):(4x^2 - 3y^2)=18 : 1 , where x and y are positive whole numbers which among the following cannot be the value of (x^2 + y^2)?",
+            "options":[2825,452,113,5424],
+            "answer":5424,
+            "category":"Number System"
+        },
+        {
+            "id":7,
+            "question":"(3a + 19)% of 2225 = 890 = (b-11)% of 500. what is the cube root of b/a?",
+            "options":[7,3,21,25],
+            "answer":3,
+            "category":"Number System"
+        },
+        {
+            "id":8,
+            "question":"what is the sum which when divided among A,B,C and D in the proportion 2:3:5:8 provides Rs. 8420 less to D than what it provides to him when the proportion is 1/2 : 1/3 : 1/5 : 1/8 ?",
+            "options":["37,530","17,540","12,510","25,020"],
+            "answer":"25,020",
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":9,
+            "question":"The men population of a city is increased by 20% from the previous year while the women population is increased by 42.5%. If the total population is increased by 30% then find the women population of the city as what percent of the men population in the previous year?",
+            "options":[90,80,70,60],
+            "answer":80,
+            "category":"Percentage"
+        },
+        {
+            "id":10,
+            "question":"If ashraf sells his products ata 20% discount, he make a 25% profit, what will be his profit % if he offers three successive discounts of 4%?",
+            "options":[40,17.50,38.24,36],
+            "answer":38.24,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":11,
+            "question":"In what time does a sum of money becomes triple the amount at a simple interest of 10% per annum?",
+            "options":[20,10,15,25],
+            "answer":20,
+            "category":"Percentage"
+        },
+        {
+            "id":12,
+            "question":"m and n are the greatest and the least numbers to be subtracted from 1325 to provide non-zero multiples of each of the numbers 4,5,6 and 12. what is the value of (1/2) x (m+n)?",
+            "options":[675,635,615,625],
+            "answer":635,
+            "category":"Number System"
+        },
+        {
+            "id":13,
+            "question":"The loss incurred by a tea dealer in tea by selling 20kg of tea at the rate of Rs 330 per kg is the same as the gain made by him by selling 25kg of it as Rs 384 per kg. what is his gain percentage when he sells that tea at the rate of Rs 390 per kg?",
+            "options":["8 1/3","8 3/4","7 2/5","7 1/2"],
+            "answer": "8 1/3",
+            "category":"Profit and Loss"
+        },
+        {
+            "id":14,
+            "question":"Amal took two seperate loans of Rs 4,000 and Rs 3,000 on the basis of simple interest at the rates of 4 and 8 per cent respectively per annum. The loans were provided exactly at the zero hour of 1st january 2017 with the condition that the entire sum has to be returned when the total interest works out to be Rs 880 on which date had amal got to return the sum?",
+            "options":["14th January 2019","14th March 2019","16th February 2019","28th February 2019"],
+            "answer":"14th March 2019",
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":15,
+            "question":"A person reserve some land area for tree plantation. He plants lemon trees in 1/15 of total area and papaya trees in 2/5 of the remaining areas. He divides the remaining area into 2:3:4 for rose,sunflower and jasmine plants respectively. if the area for jasmine plants is 1440 m^2 then what is the area for papaya trees?",
+            "options":[2100,2050,2160,2240],
+            "answer":2160,
+            "category":"Percentage"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"A person starts his journey at 8:00 A.M. with a speed of 25 km/h. He increased his speed by 5 km/h every hour and reached his destination at 6:00 PM. on the same day. Instead, if he travelled 40% of his journey with km/h and the rest of the journey with (a+19) km/h and reached in the same time as before, what is the vale of a?",
+            "options":[38,34,32,42],
+            "answer":38,
+            "category":"Distance Speed Time"   
+        },
+        {
+            "id":2,
+            "question":"If 20% of (p + q) = 25% of (p - q), what percent of p is q ?",
+            "options":["11 2/9","11 1/9","11 7/9","11 5/9"],
+            "answer":"11 1/9",
+            "category":"Percentage"
+        },
+        {
+            "id":3,
+            "question":"if p, q and r represents the mean, mode and median of the data given below, what is the value of 3p - 2q + r ( 6, 4, 2, 4, 7, 5, 8, 4)",
+            "options":[11.5,10,13,27.5],
+            "answer":11.5,
+            "category":"Statistics"   
+        },
+        {
+            "id":4,
+            "question":"Height of a right circular cone is increased by 10% and radius of its base is increased by 20%. Find the change in volume",
+            "options":[62.5,58.4,50.2,45.5],
+            "answer":58.4,
+            "category":"Mensuration"   
+        },
+        {
+            "id":5,
+            "question":"In a Factory, there are 12 plumbers, 15 electricians, 20 carpenters and 10 clerks. The mean of weight of plumbers, electricians, carpenters and clerks is 64.5kg, 59kg, 71kg and 74kg respectively. Find the mean weight of all these employees of the factory.",
+            "options":[73,67,71,73],
+            "answer":67,
+            "category":"Average"   
+        },
+        {
+            "id":6,
+            "question":"Two friends Kavitha and Divya walk from M to N, a distance of 27 km, with the speed of 4 km/h and 5 km/h respectively. Divya reaches the point N and returned immediately and met Kavitha at point 'O'. Find the distance between M and O.",
+            "options":[24,26,27,28],
+            "answer":24,
+            "category":"Distance Speed Time"   
+        },
+        {
+            "id":7,
+            "question":"If the 12 digit number 32x4567899y0 is divisible by 72, then what is the possible value of (2x + 3y)? (Assume y > 2)",
+            "options":[24,26,28,32],
+            "answer":24,
+            "category":"Number System"   
+        },
+        {
+            "id":8,
+            "question":"The selling price of an item, after offering 18% discount on its marked price was Rs.287. What was the marked price of the item in rupees.",
+            "options":[300,400,350,325],
+            "answer":350,
+            "category": "Percentage"  
+        },
+        {
+            "id":9,
+            "question":"if a,b and c are roots of x^3-6x^2+11x-6=0 then what is the value of [(4-a)(4-b)(4-c)]",
+            "options":[12,8,6,4],
+            "answer":6,
+            "category":"Number System"   
+        },
+        {
+            "id":10,
+            "question":"The length and breadth of a square are increased by 30% and 20% respectively. The area of resulting rectangle excesses the area of square by?",
+            "options":[40,50,25,56],
+            "answer":56,
+            "category":"Mensuration"   
+        },
+        {
+            "id":11,
+            "question":"Sweta invested Rs.50,000 in a bank. In two years how much compound interest will she get, if the first year rate of interest was 10% and in the second year it was 4% more than first year ?",
+            "options":["12,700","12,720","12,690","12,710"],
+            "answer":"12,700",
+            "category":"Simple Interest and Compound Interest"   
+        },
+        {
+            "id":12,
+            "question":"A seller sold 19 cookies for Rs.95 instead of 20 cookies in one kg, cheating a customer. What is the gain(in Rs) if the seller bought the cookies for Rs.76?",
+            "options":[28.2,26.2,22.8,25.8],
+            "answer":22.8,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":13,
+            "question":"What is the sum of all 4-digit numbers less than 2000 formed by the digits 1, 2, 3 and 4, where none of the digits is repeated?",
+            "options":[7998,8028,8878,9238],
+            "answer":7998,
+            "category":"Number System"   
+        },
+        {
+            "id":14,
+            "question":"In adult population of a city, 40% men and 30% women are married. What is the percentage of married adult population if no man marries more than one woman and no woman marries more than one man: and there are no widows and widowers ?",
+            "options":["33 1/7","34","34 2/7","35"],
+            "answer":"34 2/7",
+            "category":"Percentage"
+        },
+        {
+            "id":15,
+            "question":"If the 7-digit number x89424 is divisible by 56, what is the value of (x^2 +y) for the largest value of v. where x and y are natural numbers?",
+            "options":[33,44,55,70],
+            "answer":55,
+            "category":"Number System"   
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Ramesh and Suresh can together complete a work in 16 days. After seven days of working together. Ramesh got sick and his efficiency fell by 30%. As a result, they completed the work in 17 days instead of 16 days. If Suresh had worked alone after Ramesh got sick, in how many days would be have completed the remaining work?",
+            "options":[13.5,11,12,14.5],
+            "answer":13.5,
+            "category":"Time and Work"
+        },
+        {
+            "id":2,
+            "question":"The age of a father will be double the age of his son ten years later. 10 years ago,the father's age was six times the age of the son. How many years from now, the ratio of their ages will be 3: 2?",
+            "options":[35,30,20,25],
+            "answer":35,
+            "category":"Ages"
+        },
+        {
+            "id":3,
+            "question":"In an election between two candidates, 10% of the voters did not cast their votes and 5% of the votes polled were found invalid. The successful candidate got 52.5% of the valid votes and won by a majority of 1710 votes. The number of voters enrolled on the voters list was?",
+            "options":[36000,42000,40000,48000],
+            "answer":40000,
+            "category":"Percentage"
+        },
+        {
+            "id":4,
+            "question":"Atul gives Vishu a head-start of 20 seconds in a 900 m race and beats him by 135m. While running the same race again Atul gives a start of 189m and beats him by 8 seconds. In how much time can Vishu complete the full race of 900m?",
+            "options":[210,170,200,190],
+            "answer":200,
+            "category":"Distance Speed Time"
+        },
+        {
+            "id":5,
+            "question":"find the greatest number that will divide 330, 647 and 829 leaving remainders 15, 17 and 19 respectively.",
+            "options":[55,45,15,35],
+            "answer":45,
+            "category":"Number System"
+        },
+        {
+            "id":6,
+            "question":"A sum of Rs.5000 is divided into two parts such that the first part is invested at 4% p.a and the second part at 5% p.a. simple interest. The total interest earned from both the investment after one year is Rs.235. find the amount invested in first part.",
+            "options":[1200,1500,1000,1800],
+            "answer":1500,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":7,
+            "question":"What is the smallest number greater than 1000 that when divided by any one of the numbers 6, 9, 12, 15 & 18 leave a remainder of 3 ?",
+            "options":[1063,1073,1083,1183],
+            "answer":1083,
+            "category":"Number System"
+        },
+        {
+            "id":8,
+            "question":"If 15 × 14 × 13 x ............ x 3 x 2 x 1 = 3^m x n  Where m and n are positive integers, then what is the maximum Value of m?",
+            "options":[7,6,5,4],
+            "answer":6,
+            "category":"Number System"
+        },
+        {
+            "id":9,
+            "question":"A person is able to buy 3 kg more for Rs.360, due to a reduction of 20% in the price of the sugar. What is the difference between the original and the reduced rate of sugar per kg?.",
+            "options":[5,8,6,10],
+            "answer":6,
+            "category":"Percentage"
+        },
+        {
+            "id":10,
+            "question":"The average cost of articles P,Q,R and S is 204, the average of P, Q is Rs.102 and the average of Q and R is Rs.132. If the cost of the article Q is the average of P and R. then the average cost of articles Q and S is ?",
+            "options":[204,264,234,291],
+            "answer":291,
+            "category":"Average"
+        },
+        {
+            "id":11,
+            "question":"The Compound interest on a certain sum for 2 years at 20% per annum, compounded annually is Rs.3696. What will be the simple interest on the same sum for triple the time at 22% of the rate of interest.",
+            "options":[12980,12474,11484,11088],
+            "answer":11088,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":12,
+            "question":"A sales representative commission is 6% on all sales up to 15000 and 5% on all sales exceeding this. He remits Rs. 47350 to his company after deducting his commission. What were the total sales.",
+            "options":[50000,49000,47500,50500],
+            "answer":50000,
+            "category":"Percentage"
+        },
+        {
+            "id":13,
+            "question":"A can do a work in double the time than what B takes to do it and B can do the same work in double the time than what C takes to do it. If A and B together can complete the work in 4 days, then in how many days can C alone complete the same work ?",
+            "options":[7,2,3,5],
+            "answer":3,
+            "category":"Time and Work"
+        },
+        {
+            "id":14,
+            "question":"Rekha covers a certain distance by car. Had she moved 5km/h faster, she would have taken 30 minute less time to cover the distance. If she had moved 2 km/h slower, she would have taken 40 minute more time to cover the distance. Find the distance. in Kms.",
+            "options":[10,20,5,15],
+            "answer":5,
+            "category":"Distance Speed Time"
+        },
+        {
+            "id":15,
+            "question":"If (V5 - V3) / (V5 + V3) = a + bv15, what is the value of 2a + 3b?",
+            "options":[11,10,5,8],
+            "answer":5,
+            "category":"Number System"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Mr. Ramu invested Rs. 9000 at a certain rate of interest compounded annually for three years. If it amounts to Rs. 10,890 at the end of second year, what will be the interest for the third year?",
+            "options":[990,1210,1089,1331],
+            "answer":1089,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":2,
+            "question":"Due to an increase of 10% in the price of bananas, 4 bananas less are available for Rs 40. The present rate is (Rs) of bananas per dozen is",
+            "options":[10,16,12,14],
+            "answer":12,
+            "category":"Percentage"
+        },
+        {
+            "id":3,
+            "question":"8 litres are drawn from a cask full of wine and is then filled with water. This operation is performed three more times. The ratio of the quantity of wine now left in cask to that of the water is 16: 65. How much wine the cask hold originally?",
+            "options":[24,20,28,24],
+            "answer":24,
+            "category":"Mixture and Allegation"
+        },
+        {
+            "id":4,
+            "question":"How many 9 digit numbers are possible by using the digits 1, 2, 3, 4, 5 which are divisible by 4 if the repetition is allowed?",
+            "options":["5^7","5^6","5^8","5^9"],
+            "answer":"5^8",
+            "category":"Permutation Combination"
+        },
+        {
+            "id":5,
+            "question":"Two people, Ranbir and Katrina decide to meet at a beach between 1 pm to 2 pm, given that both will surely turn up once in the given time frame. If Ranbir arrives, he waits for 15 minutes and then leaves feeling betrayed and similarly Katrina waits for 15 minutes after she arrives. So what's the probability that they meet?",
+            "options":[0.75,0.25,0.275,0.5],
+            "answer":0.25,
+            "category":"Probability"
+        },
+        {
+            "id":6,
+            "question":"The Fourth term of an Arithmetic Progression is 37 and the Sixth term is 12 more than the Fourth term. What is the sum of the Second and Eight terms?",
+            "options":[86,64,54,34],
+            "answer":86,
+            "category":"Number System"
+        },
+        {
+            "id":7,
+            "question":"The height and radius of the cone is 24 cm and 7 cm respectively and the radius of the cylinder equal to the radius of the cone. What is the ratio of the curved surface area of the cone to the total surface area of the cylinder whose height is 18 cm?",
+            "options":["1:2","3:4","2:3","4:5"],
+            "answer":"1:2",
+            "category":"Mensuration"
+        },
+        {
+            "id":8,
+            "question":"A dealer in stationary items purchased 20 dozens of pen from a wholesale market and sold them at the cost price of 250 pens what was his profit or loss percentage?",
+            "options":["4% profit","4% loss","25/6% loss","25/6% profit"],
+            "answer":"25/6% profit",
+            "category":"Profit and Loss"
+        },
+        {
+            "id":9,
+            "question":"In an exam, the marks scored by A are 20% more than the marks scored by B who has scored 25% less marks than C, if C obtained 360 marks, what is the percentage of marks obtained by A, if full marks obtainable in the exam are 500?",
+            "options":[64.6,64.8,68.4,62.6],
+            "answer":64.8,
+            "category":"Percentage"
+        },
+        {
+            "id":10,
+            "question":"After replacing an old member by a new member, it was found that the average age of five members of a club is the same as it was 3 years ago. What is the difference between the ages of the replaced and the new member?",
+            "options":[14,12,15,20],
+            "answer":15,
+            "category":"Average"
+        },
+        {
+            "id":11,
+            "question":"80 kg of alloy X is mixed with 50 kg of alloy Y. If alloy X has lead and copper in the ratio 3: and and alloy Y has lead and copper in the ration 7:3, what is the amount of lead in the new alloy?",
+            "options":[24,35,56,59],
+            "answer":59,
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":12,
+            "question":"In a competitive exam, 5 marks are awarded for every correct answer and for every wrong answer, 2 marks are deducted. Sathwik scores 32 marks in the examination. If 4 marks had been awarded for each correct answer and 1 mark had been deducted for each incorrect answer, Sathwik would have scored 34 marks. If Sathwik attempted all the questions, how many questions were there in the test ",
+            "options":[14,12,20,26],
+            "answer":26,
+            "category":"Number System"
+        },
+        {
+            "id":13,
+            "question":"A solid glass cube of side length 2m is placed inside a spherical globe such that each corner of the cube touches the surface of the globe. What is the volume (in cu m) of the region inside the globe but outside the cube?",
+            "options":["4(3^1/2 - 2)","(3^1/2π - 2) / 2","3^1/2π - 2","2(3^1/2π - 2)"],
+            "answer":"4(3^1/2 - 2)",
+            "category":"Mensuration"
+        },
+        {
+            "id":14,
+            "question":"Two poles of equal height are standing opposite to each other on either side of a road which is 200 m wide. From a point between them on road, angle of elevation of their top are 30° and 60°. The height of each pole (in meters)",
+            "options":["50√3","45√3","40√3","25√3"],
+            "answer":"50√3",
+            "category":"Trigonometry"
+        },
+        {
+            "id":15,
+            "question":"The ratio of efficiency of P is to R is 7: 4 and the ratio of number of days taken by Q is to R is 2: 3 while working alone P takes 9 days less than R to complete the work. If Q and R started the work and left after 2 days then find the number of days taken by P to finish the remaining work?",
+            "options":["64/7","8","32/7","128/7"],
+            "answer":"64/7",
+            "category":"Time and Work"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Calculate the compound interest on Rs. 15,625 for 2 years at the rate of 12% p.a, If the interest is compounded 8 monthly?",
+            "options":[3075,4058,3675,4088],
+            "answer":4058,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":2,
+            "question":"A family has 4 earning members P, Q, R, S. In 2011 their respective shares in the total income was 25%, 35%, 10%, 30% respectively. They spend 40% of the total income and save the remaining. In 2012 P's salary went up by 20%, Q's salary increased by 20% and R's salary decreased by 10% and S's salary decreased by 20%. In 2012 what percent total family income should they spend to save same amount as in 2011?",
+            "options":[25.3,34.6,41.5,42.8],
+            "answer":42.8,
+            "category":"Percentage"
+        },
+        {
+            "id":3,
+            "question":"Pratik sold the stock of Company Y for 77,200 and incurred a loss of 40% At what price should Pratik have sold the stock to have gained a profit of 25%?",
+            "options":[12600,7000,13700,15000],
+            "answer":15000,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":4,
+            "question":"4 women and 3 boys can do a piece of work in 20 days while 2 women and 4 boys can do the same piece of work in 30 days. How much time will be taken by 7 women and 9 boys to do the same piece of work?",
+            "options":[22,16,14,10],
+            "answer":10,
+            "category":"Time and Work"
+        },
+        {
+            "id":5,
+            "question":"The average weight of a b and c is 45kg. if the average weight of A and B be 40kg and that of B and C be 43kg then find the weight of B",
+            "options":[20,26,31,17],
+            "answer":31,
+            "category":"Average"
+        },
+        {
+            "id":6,
+            "question":"A person Acan do a work in 20 days. He works for 5days and stop doing the work.Then, a second person B completes the remaining work in 9days. If A and B work together, how long will they take to complete the work?",
+            "options":[9,8.5,3.8,7.5],
+            "answer":7.5,
+            "category":"Time and Work"
+        },
+        {
+            "id":7,
+            "question":"Given that A, B, and C have a capital investment ratio of 14:5:3 and a total profit of 22,000, what is the difference between the largest and smallest profit shares?at the end",
+            "options":[11000,10000,9500.5000],
+            "answer":11000,
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":8,
+            "question":"Two trains of same length are running in parallel tracks in the same direction with speed 60 km/hr and 90 km/hr respectively. The latter completely crosses the former in 30 seonds. The length of each train (in metres) is A. 125 B. 150 C. 100 D. 115?",
+            "options":[125,150,100,115],
+            "answer":125,
+            "category":"Problems on Train"
+        },
+        {
+            "id":9,
+            "question":"There are two spheres, with the radius of one sphere being 22 cm larger than the radius of the other. If the difference in their surface areas is 19360 cm?, what is the diameter of the larger sphere?",
+            "options":[92,96,80,60],
+            "answer":92,
+            "category":"Mensuration"
+        },
+        {
+            "id":10,
+            "question":"The time taken for the boat to travel from point A to point B against the current is 40 minutes longer than the time taken to travel the same distance with the current. The upstream speed is 40 km/h, while the downstream speed is 60 km/h. What is the distance between points A and B?",
+            "options":[80,60,85,90],
+            "answer":80,
+            "category":"Boats and Streams"
+        },
+        {
+            "id":11,
+            "question":"A train travel a distance with 70kmph for 1 hour. Then travel a distance with pkm/hr for 1 and 1/2 hours. If the ag speed is 64km/hr then the value of 'p'?.",
+            "options":[60,75,70,65],
+            "answer":60,
+            "category":"Distance Speed Time"
+        },
+        {
+            "id":12,
+            "question":"LCM of 18, 45, 408, 255.",
+            "options":[6120,6360,5050,2050],
+            "answer":6120,
+            "category":"Number System"
+        },
+        {
+            "id":13,
+            "question":"Difference between the si and ci of 20000 with 10% rate for 3 years..",
+            "options":[620,720,550,820],
+            "answer":620,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":14,
+            "question":"Sum of 2760 with 5% ci rate for 5 years.",
+            "options":[762,672,552,740],
+            "answer":762,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":15,
+            "question":"A and B invested 20000 and 40000 . Total profit is 15000. A get his share plus salary 7000. What is the amount of A's salary.",
+            "options":[2000,3000,2500,4000],
+            "answer":2000,
+            "category":"Ratio and Proportion"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Case 1 where mode is 'M' . median and mean is 12 and 7. Case 2 where mode is 'N'Median and mean is 22 and 18. Then what is the mean of M, N.?",
+            "options":[26,27,30,32],
+            "answer":26,
+            "category":"Statistics"
+        },
+        {
+            "id":2,
+            "question":"The remainder of 2^243 / 3^2",
+            "options":[0,8,9,3],
+            "answer":8,
+            "category":"Number System"
+        },
+        {
+            "id":3,
+            "question":"Ankush bought (x+2) apples at the rate of Rs. 12 each. One apple got rotten during transportation and he sold all the remaining apples for Rs. 300. If the percentage profit made by Ankush in the whole transaction is 25%, find the number of apples sold by Ankush.",
+            "options":[19,15,10,12],
+            "answer":19,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":4,
+            "question":"in an examination the marks of Anil was 28.57% less than that of Barun's marks and Barun's marks was 11.11% less than that of Chandan's marks. If the difference between the marks obtained by Anil and Chandan is 80.5 then find the marks obtained by Barun?",
+            "options":[196,225.5,140,184],
+            "answer":196,
+            "category":"Percentage"
+        },
+        {
+            "id":5,
+            "question":"There are five consecutive even numbers. Each number is multiplied by 2 and then 2, 3, 4 and 5 is added to first, second, third, fourth and fifth number respectively. The new average of the five numbers is 125% more than the original average. What is the difference between the highest and lowest original number",
+            "options":[12,6,10,8],
+            "answer":8,
+            "category":"Average"
+        },
+        {
+            "id":6,
+            "question":"Two daily workers Rajesh and Dinesh agreed to complete a work in MNREGA for Rs. 1200. They can complete the work in 10 days and 20 days respectively, working alone. Since another person Sameer also joined them, they completed the work in six days. What is the share of the wages of the most efficient person of the three?",
+            "options":[440,570,610,720],
+            "answer":720,
+            "category":"Time and Work"
+        },
+        {
+            "id":7,
+            "question":"Rahul takes a sum of Rs. 2310 as a loan. He has to repay this in two equal installments. If the rate of interest is 20% compounded annually, what percent of the principal amount taken by Rahul is the total interest paid by him.",
+            "options":[20,40.9,130.9,30.9],
+            "answer":30.9,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":8,
+            "question":"A dealer incurred a loss of 20%, when he allowed a discount of 25% on marked price of an article. Then what per cent discount should he allow on the marked price so as to gain Rs. 900 on the article, if the marked price of the article is Rs. 40,000? ",
+            "options":[5,7,6,4],
+            "answer":4,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":9,
+            "question":"The sum of ages of Rahul and Ravi is equal to sum of the ages of Nitin and Nishant ten years from now. Ravi is older than Nishant by 5 years. The ratio of age of Nitin and Ravi is 3 : 2. If the sum of ages of Rahul and Nitin was 47 five years before, find the age of Rahul at present.",
+            "options":[39,35,37,36],
+            "answer":36,
+            "category":"Ages"
+        },
+        {
+            "id":10,
+            "question":"How many Numbers are there in the set S = { 200, 201,...., 800 }divisible by 5 or 7?",
+            "options":[210,190,199,500],
+            "answer":190,
+            "category":"Number System"
+        },
+        {
+            "id":11,
+            "question":"The New Delhi - Howrah Rajdhani express is running at 75 kmph takes 15 seconds to pass Dhanbad platform. Next it takes 9 sec to pass a man walking at 5 kmph in the same direction in which the New Delhi - Howrah Rajdhani express is going. Find the length of the New Delhi - Howrah Rajdhani express and the length of the Dhanbad platform.",
+            "options":["175m , 137.5m","170m , 137m","160m , 135.5","160m , 137.5m"],
+            "answer":"175m , 137.5m",
+            "category":"Problems on Train"
+        },
+        {
+            "id":12,
+            "question":"The cost of filling a gas tank at a shop is Rs 800 If the shopkeeper reduces the price by 15%. The number of his customer increase by 30%. By what % did his revenue decreases/increases?",
+            "options":[10.5,10,8,12.5],
+            "answer":10.5,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":13,
+            "question":"Aman, Barun and Charu enter into a partnership with an investment of rs. 40000, rs. X and rs. 100000 respectively. At the end of the year Barun withdrew Rs. 10000 and Aman added Rs. 40000. The ratio of their profit after 2 years was 6:3:10 respectively. Find the initial amount invested by Barun.",
+            "options":[40000,50000,35000,60000],
+            "answer":35000,
+            "category":"Partnership"
+        },
+        {
+            "id":14,
+            "question":"A, B, C, D and E are five persons. The weight of A, B and C is 90%, 112% and 94% respectively of the average weight of all flve. The ratio of weight of D and E is 6 : 11. The difference between the weight of D and E is 75kg. What is the average weight of all the flve persons?",
+            "options":[84,90,76,125],
+            "answer":125,
+            "category":"Percentage"
+        },
+        {
+            "id":15,
+            "question":"X can do 1/4th of a work in 18days. Y can do 20% of the work in 17days and Z can do 80% of the work in 72days. If all of them started working together, in how many days the work will get completed?",
+            "options":[45,27.2,30,40],
+            "answer":27.2,
+            "category":"Time and Work"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Two trains start simultaneously from stations A and B, which are 300 km apart. Train X, starting from A, travels at a speed of 60 km/h, while Train Y, starting from B, travels at 80 km/h. However, Train X stops for 5 minutes after every 20 km, while Train Y stops for 10 minutes after every 40 km. Considering these stoppages, how long will it take for the two trains to meet?",
+            "options":["3hrs","2hrs 10min","2hrs 47min","3hrs 50min"],
+            "answer":"2hrs 47min",
+            "category":"Problems on Train"
+        },
+        {
+            "id":2,
+            "question":"A man saves Rs.20,000 at the beginning of each year and puts the money in a bank that pays 10% interest per year, interest being compounded annually. What would be the total savings of the man at the end of 6 years?(approx)",
+            "options":[196840,169840,189480,199480],
+            "answer":169840,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":3,
+            "question":"A quadratic equation x^2+bx+c=O has two real roots. If the difference between the reciprocals of the roots is 1/3 , and the sum of the reciprocals of the squares of the roots is 5/9 , then the largest possible value of (b+C) is",
+            "options":[7,8,9,10],
+            "answer":9,
+            "category":"Number System"
+        },
+        {
+            "id":4,
+            "question":"A person purchased a few sheep from a wholesaler at a certain price. Due to some urgent requirement of money, he sold half of them at a loss of 10%. At what percent profit should he sell the remaining sheep to make an overall 20% profit?",
+            "options":[50,35,40,33.33],
+            "answer":50,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":5,
+            "question":"What is the Fourth Proportional between the mean proportionals of (6, 24); 15 and 0.2",
+            "options":[0.5,0.4,0.15,0.25],
+            "answer":0.25,
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":6,
+            "question":"A sum of Rs. (P — 500) at 20% per annum compounded annually for two years is amounted Rs. (P+3020). What is the value of P",
+            "options":[8500,9000,8000,7500],
+            "answer":8500,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":7,
+            "question":"Ten years ago, the average of the ages of a man and his wife was 35 years. The average of the present ages of their children (son and daughter) is 19 years. The average of the present ages of the man and son is 34 years. The difference between the present ages of the wife and daughter is 24 years, then find the present age of son?",
+            "options":[21,19,20,22],
+            "answer":20,
+            "category":"Ages"
+        },
+        {
+            "id":8,
+            "question":"What amount (in nearest Rupees) must I invest for three years at 10% per annum compounded annually so as to draw an annuity of Rs 1,00,000 every year?",
+            "options":[227727,248685,252428,300000],
+            "answer":248685,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":9,
+            "question":"Dinesh bought a refrigerator on credit. There is no down payment, and interest at 12% per annum is compounded annually. If three annual installments of Rs 2550 are payable, the first one due one year after purchase, how much would be the interest on the loan?",
+            "options":[1750,2500,1525,2750],
+            "answer":1525,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "id":10,
+            "question":"The price of petrol goes up by 10%. By how much per cent must a motorist reduce the consumption of petrol so that the expenditure on it remains unchanged ?.",
+            "options":[9.09,8.08,7.07,10],
+            "answer":9.09,
+            "category":"Percentage"
+        },
+        {
+            "id":11,
+            "question":"The price of sugar is increased by 20%. By what percent must the consumption of sugar be decreased so that the expenditure on sugar may remain the same ?",
+            "options":[15.57,14.17,13.47,16.67],
+            "answer":16.67,
+            "category":"Percentage"
+        },
+        {
+            "id":12,
+            "question":"The price of a commodity has been increased by 60%. By what percent must a consumer reduce the consumption of the commodity so as not to increase his expenditure on the commoditv?",
+            "options":[30,35,27.5,37.5],
+            "answer":37.5,
+            "category":"Percentage"
+        },
+        {
+            "id":13,
+            "question":"Sam, Tom and John Cover a Certain distance. Their Speed at that times was the ratio 3:4:5. What is the respective ratio of the the time taken to cover the distance..",
+            "options":["20:12:15","20:15:12","15:12:20","15:20:12"],
+            "answer":"20:15:12",
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":14,
+            "question":"A shopkeeper offers a 20% discount on an item with a marked price of Rs 500. What is the selling price of the item?",
+            "options":[400,450,480,420],
+            "answer":400,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":15,
+            "question":"A boat can travel 36 km downstream in 3 hours and the same distance upstream in 6 hours. Find the speed of the boat in still water and the speed of the stream.",
+            "options":["9km 3km","12km 6km","10km 2km","8km 4km"],
+            "answer":"9km 3km",
+            "category":"Boats and Streams"
+        }
+    ],
+    [
+        {
+            "id":1,
+            "question":"Find the missing number in the series: 5, 11, 23, 47, 95, ?",
+            "options":[140,191,175,185],
+            "answer":191,
+            "category":"Number System"
+        },
+        {
+            "id":2,
+            "question":"A shirt originally priced at $80 is on sale for 30% off. During a promotion, an additional 15% is taken off the sale price. What is the final price of the shirt?",
+            "options":[44,47.60,56,52.36],
+            "answer":47.6,
+            "category":"Percentage"
+        },
+        {
+            "id":3,
+            "question":"The ratio of men to women in a club is 3:5. If there are 24 men, how many women are there?",
+            "options":[40,36,45,15],
+            "answer":40,
+            "category":"Ratio and Proportion"
+        },
+        {
+            "id":4,
+            "question":"Select the number from among the given options that can replace the question mark(?) in the following series. 9, 20, 57, 232, ?",
+            "options":[924,1032,1165,1155],
+            "answer":1155,
+            "category":"Number System"
+        },
+        {
+            "id":5,
+            "question":"Amina spends 72% of her income. If her income increases by 29.2% and her expenditure increases by 25%. Her savings increases by ?",
+            "options":[35,30,40,45],
+            "answer":40,
+            "category":"Percentage"
+        },
+        {
+            "id":6,
+            "question":"To cover a distance of 172.8km, a man takes 2.4 hours. In what time (in hours) will he cover double the distance when his speed is increased by 25%?",
+            "options":[4.16,3.84,3.5,3.9],
+            "answer":3.84,
+            "category":"Distance Speed Time"
+        },
+        {
+            "id":7,
+            "question":"Two ants of lengths 1 cm and 1.2 cm crawl in opposite directions with average speeds of 2 and 3 mm per second respectively. How many seconds will they take to cross each other?",
+            "options":[4.4,2.8,0.4,1.5],
+            "answer":4.4,
+            "category":"Distance Speed Time"
+        },
+        {
+            "id":8,
+            "question":"Rahul and Sachin can complete a work in 60 days and 45 days respectively. Rahul starts working with 120% of his capacity and Sachin with 80% of his capacity. In how many days will they complete 75% of the work if they work together?",
+            "options":[25.71,19.85,17.64,16.24],
+            "answer":19.85,
+            "category":"Time and Work"
+        },
+        {
+            "id":9,
+            "question":"In 80 litres pure milk, 8 litres of milk is replaced by water if this process is repeated two times then what will be the amount of milk left in the mixture?",
+            "options":[64.8,70,58.8,62.4],
+            "answer":64.8,
+            "category":"Mixture and Allegation"
+        },
+        {
+            "id":10,
+            "question":"30L container has pure milk. 3L of milk is taken out and replaced with water. How many times this process must be done so that the concentration of pure milk reduces by 27.1%? ",
+            "options":[3,4,2,1],
+            "answer":1,
+            "category":"Mixture and Allegation"
+        },
+        {
+            "id":11,
+            "question":"After Purchasing two copies of the same book, X sold them respectively at 0.8 and 1.4 times their cost prices. What was the percentage gain earned or loss incurred bv X ?",
+            "options":["10% loss","5% gain","10% gain","5% loss"],
+            "answer":"10% gain",
+            "category":"Profit and Loss"
+        },
+        {
+            "id":12,
+            "question":"A business lady bought 400 handbags. She sold 100 of them at a profit of 20% and the rest at 10% profit. Find her overall profit %.",
+            "options":[11.25,12.5,16.75,13.75],
+            "answer":12.5,
+            "category":"Profit and Loss"
+        },
+        {
+            "id":13,
+            "question":"The price of a commodity is reduced by 40% but its consumption is increased by 35%. What percent of the consumption should be increased so as to keep the same expenditure as before? ( correct to one decimal place) ",
+            "options":[24.2,15.4,18.5,23.5],
+            "answer":23.5,
+            "category":"Percentage"
+        },
+        {
+            "id":14,
+            "question":"If the price of a commodity is decreases by 40% but its consumption is increased by 30%. , then what will be the percentage increase or decrease in the expenditure of the commodity? TCS NQT",
+            "options":["22% decrease","22% increase","12% increase","12% decrease"],
+            "answer":"22% decrease",
+            "category":"Percentage"
+        },
+        {
+            "id":15,
+            "question":"A number 452p36 is such that it is divisible by 36. What can the value of P^2 be?",
+            "options":[36,49,25,16],
+            "answer":49,
+            "category":"Number System"
+        }
+    ]
+
+]

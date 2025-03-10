@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background-color: #282a35;
+    --font-color: whitesmoke;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+    height: 5dvw;
+    background-color: var(--background-color);
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    padding: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 5px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid rgb(22, 173, 22);
+}
+
+main section.aptitude h1{
+    padding: 10px;
+    margin: 10px;
+}
+
+main section.aptitude div.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section.aptitude div.cards a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    text-decoration: none;
+    color: rgb(127, 13, 241);
+    box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7);
+    box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
+    margin: 20px;
+}
+
+main section.aptitude div.cards span{
+    transition: transform 0.5s;
+    color: black;
+    margin-left: 10px;
+}
+
+main section.aptitude div.cards a:hover span{
+    transform: translateX(30px);
+}
+
+main section.aptitude div.cards a:hover{
+    transform: scale(1.05);
+    border-bottom: 3px solid;
+}
+
+footer{
+    text-align: center;
+}

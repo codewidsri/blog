@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Aptitude.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=double_arrow" />
+</head>
+
+<body>
+    <main>
+        <h1>Practice Questions</h1>
+        <section class="posts">
+            <!-- <div class="post">
+                <h3>Average Part 1</h3>
+                <button onclick="window.location.href='aptitude-test.html?test=1'"><span class="material-symbols-sharp">double_arrow</span></button>
+            </div> -->
+        </section>
+    </main>
+</body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        let topic = new URLSearchParams(window.location.search).get("topic");
+        let posts = document.getElementsByClassName('posts')[0];
+        fetch(`${topic}.json`).then((data) => { return data.json() }).then((data) => {
+            data.map((ele, index) => {
+                posts.innerHTML += `
+               <div class="post">
+                <h3>${topic} ${index+1}</h3>
+                <button onclick="window.location.href='aptitude-test.html?topic=${topic}&test=${index}'"><span class="material-symbols-sharp">double_arrow</span></button>
+            </div>`;
+            })
+        })
+    })
+</script>
+
+</html>

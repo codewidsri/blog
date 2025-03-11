@@ -133,3 +133,12 @@ main form .btn-group{
     background-color: #252222;
     padding: 15px;
 }
+
+body.dark{
+    background-color: #1e2028;
+    color: aliceblue;
+}
+
+body.dark form{
+    box-shadow: 15px 15px 70px rgb(11, 11, 11);
+}

@@ -17,6 +17,10 @@
             <ul>
                 <li>Aptitude</li>
                 <li>Coding Problems</li>
+                <li>
+                    <span class="material-symbols-outlined" id="toggle">partly_cloudy_day</span>
+                    <!-- <span class="material-symbols-outlined">partly_cloudy_night</span> -->
+                </li>
             </ul>
         </nav>
     </header>
@@ -49,6 +53,17 @@
                 let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
                 company.innerHTML+=div;
             })
+
+            
+            document.getElementById('toggle').addEventListener('click',()=>{
+                document.body.classList.toggle('dark')
+                document.getElementById('toggle').textContent=document.getElementById('toggle').textContent=='partly_cloudy_day'?'partly_cloudy_night':'partly_cloudy_day';
+                localStorage.setItem('theme',document.getElementById('toggle').textContent=='partly_cloudy_night'?'dark':'light')
+            })
+            
+            let theme=localStorage.getItem('theme');
+            document.body.classList.toggle(theme);
+            document.getElementById('toggle').textContent=theme=='light'?'partly_cloudy_day':'partly_cloudy_night'
         })
     </script>
 </body>

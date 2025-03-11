@@ -44,6 +44,9 @@
   </main>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
+      
+      let theme=localStorage.getItem('theme');
+      document.body.classList.toggle(theme);
 
       let appendquestion = document.getElementsByClassName("questions")[0];
       let url = new URLSearchParams(window.location.search).get("test");
@@ -73,7 +76,7 @@
         let score = 0;
         let questions = document.querySelectorAll("input[type=radio]:checked");
         fetch(`${topic}.json`).then((data) => {return data.json();}).then((data) => {
-            const answers = data[url - 1];
+            const answers = data[url];
             for (let index = 0; index < questions.length; index++) {
               if (answers[questions[index].name].answer == questions[index].value) {
                 score++;
@@ -81,6 +84,7 @@
               } else {
                 document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = "red";
               }
+              document.querySelector(`#${questions[index].id} + label`).style.color = "white";
             }
             alert(`your score is ${score}`)
           });

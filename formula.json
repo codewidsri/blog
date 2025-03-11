@@ -31,5 +31,9 @@
     "shape":"sphere",
     "volume":"V = (4/3)πr³",
     "csa":"A = 4πr²"
+  },
+  {
+    "shape":"hemisphere",
+    "tsa":"TSA = 2πr² + πr² = 3πr²"
   }
 ]

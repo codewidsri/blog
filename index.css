@@ -64,6 +64,7 @@ main section.aptitude div.cards a{
     box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7);
     box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
     margin: 20px;
+    font-weight: bold;
 }
 
 main section.aptitude div.cards span{
@@ -83,4 +84,22 @@ main section.aptitude div.cards a:hover{
 
 footer{
     text-align: center;
+}
+
+body.dark{
+    background-color: #1e2028;
+}
+
+body.dark main section.aptitude h1{
+    color: wheat;
+}
+
+body.dark main section.aptitude div.cards a{
+    color: rgb(128, 0, 255);
+    /* box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7); */
+    box-shadow: 15px 15px 70px rgb(11, 11, 11);
+}
+
+body.dark main section.aptitude div.cards span{
+    color: wheat;
 }

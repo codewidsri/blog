@@ -11,11 +11,10 @@
 
 <body>
     <main>
-        <h1>Practice Questions</h1>
+        <h2>Practice Questions</h2>
         <section class="posts">
             <!-- <div class="post">
-                <h3>Average Part 1</h3>
-                <button onclick="window.location.href='aptitude-test.html?test=1'"><span class="material-symbols-sharp">double_arrow</span></button>
+                <a href="aptitude-test.html?topic=average&test=0"><h4>Average </h4><span class="material-symbols-sharp">double_arrow</span></a>
             </div> -->
         </section>
     </main>
@@ -28,10 +27,9 @@
         fetch(`${topic}.json`).then((data) => { return data.json() }).then((data) => {
             data.map((ele, index) => {
                 posts.innerHTML += `
-               <div class="post">
-                <h3>${topic} ${index+1}</h3>
-                <button onclick="window.location.href='aptitude-test.html?topic=${topic}&test=${index}'"><span class="material-symbols-sharp">double_arrow</span></button>
-            </div>`;
+                <div class="post">
+                    <a href="aptitude-test.html?topic=${topic}&test=${index}"><h4>${topic} ${index+1}</h4><span class="material-symbols-sharp">double_arrow</span></a>
+                </div>`;
             })
         })
         
@@ -39,5 +37,10 @@
         document.body.classList.toggle(theme);
     })
 </script>
-
+<template>
+    <div class="post">
+        <h3>Average Part 1</h3>
+        <button onclick="window.location.href='aptitude-test.html?test=1'"><span class="material-symbols-sharp">double_arrow</span></button>
+    </div>
+</template>
 </html>

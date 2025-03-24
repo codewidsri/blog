@@ -1,94 +1,94 @@
 [
     [
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"In an election between two candidates, 64% of the voters cast their votes, out of which 4% of the votes were declared invalid. A candidate got 12,288 votes which were 64% of the total valid votes. Find the total number of votes enrolled in that election.",
+            "options":[30250,32152,31250,20152],
+            "answer":31250,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Ayush spends 25% of an amount of money on an insurance policy, 26% on food, 23% on children’s education and 19% on recreation. He deposits the remaining amount of ₹26,600 in the bank. What is the total amount (in ₹) that he spends on food and recreation together?",
+            "options":[195000,183000,162000,171000],
+            "answer":171000,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"The monthly income of an employee was ₹26,500 and his monthly expenditure was ₹22,000. Next year his income increased by 20% and his expenditure increased by 15%. Find the percentage increase in his savings.",
+            "options":["44 4/9","44 7/9","44 5/9","44 8/9"],
+            "answer":"44 4/9",
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"The cost price of pulses is 12% less than the selling price. Using a faulty weighing machine, shopkeeper is able to earn 25% profit. How much percent of the faulty machine shows more weight as compared to the actual weight (Rounded off to the nearest integer)?",
+            "options":[10,14,13,15],
+            "answer":10,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while ₹12,800 is spent on rent, ₹32,000 on education and ₹7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money (in ₹) is spent on food?",
+            "options":[9600,12000,15000,10800],
+            "answer":12000,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"A number is first increased by 16% and then increased by 20%. The number so obtained is now decreased by 40%. The net decrease percentage in the original number is:",
+            "options":["16 12/5","15 9/25","11 13/25","13 7/25"],
+            "answer":"16 12/5",
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Two candidates A and B contested in an election. 80% of the voters cast their votes, out of which 2% of the votes were invalid. A got 9,408 votes which was 60% of the valid votes. Find the total number of votes.",
+            "options":[12000,22000,20000,21000],
+            "answer":20000,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"A number first increased by 8% and then decreased by 3% to get 2619. What is 5% of that number ?",
+            "options":[125,135,130,140],
+            "answer":125,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"A spends 68% of his monthly income. If A's monthly income increases by 25% and his monthly saving increases by 15%, then the percentage increase in his monthly expenditure will be:",
+            "options":["27 13/17","29 12/17","33 7/17","31 6/17"],
+            "answer":"29 12/17",
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Harsha's expenditure is 45% of her income. If the income from the next month is increased by 15% and the amount she saved each month remains the same, then find the percentage increase in her expenditure (rounded off to 2 decimal places).",
+            "options":[33.33,15,45,27.50],
+            "answer":33.33,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"The price of an article is increased by r%. The new price was decreased by r% later. Now the latest price is Rs.1.What was the original price of the article?",
+            "options":["10000 / ( 10000 - r^2)","( 10000 - r^2 ) / 10000","100 / ( 100 - r^2 )","100 / ( 1 - r^2 )"],
+            "answer":"10000 / ( 10000 - r^2)",
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Aditya buys 300 mangoes for Rs.1,100. Some of these mangoes are rotten and are thrown away. He sells the remaining mangoes at Rs.5 each and makes a profit of Rs.150. Find the percentage of mangoes thrown away",
+            "options":["16 1/2","15 2/3","16 2/3","16 1/3"],
+            "answer":"16 2/3",
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"In an election, 15% of the voters on the voters list did not cast their votes and 100 voters cast their ballot paper blank. There were only two candidates Ram and Shyam. The winner, Ram, was supported by 69% of all the voters in the list and he got 630 votes more than Shyam. Find the number of voters on the list.",
+            "options":[1200,1000,1100,1300],
+            "answer":1000,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"If the price of rice is increased by 25 percent, then by what percentage consumption of rice should be decreased so that the expenditure incurred on rice gets decreased by 40 percent?",
+            "options":[52,43.33,42,48],
+            "answer":52,
+            "category":"Percentage"
         },
         {
-            "question":"",
-            "options":[],
-            "answer":,
-            "category":
+            "question":"Shiva’s monthly salary is Rs.75,000. He spends Rs.12,000 on household items, Rs.14,000 on LIC and mutual funds, Rs.15,000 on his children’s education, and keeps Rs.10,000 for miscellaneous expenses. His savings are Rs.21,000 per month and he donates the rest of the amount to an orphanage. The percentage of his income that he donates is:",
+            "options":[3,6,8,4],
+            "answer":4,
+            "category":"Percentage"
         }
     ]
 ]

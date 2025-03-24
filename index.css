@@ -20,8 +20,8 @@ header nav {
     align-items: center;
     justify-content: right;
     flex-wrap: wrap;
-    height: 5dvw;
     background-color: var(--background-color);
+    padding: 5px;
 }
 
 header nav ul {
@@ -42,9 +42,10 @@ header nav ul li a:hover {
     border-bottom: 2px solid rgb(22, 173, 22);
 }
 
-main section.aptitude h1{
+main section.aptitude h2{
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 
 main section.aptitude div.cards{
@@ -88,6 +89,7 @@ footer{
 
 body.dark{
     background-color: #1e2028;
+    color: wheat;
 }
 
 body.dark main section.aptitude h1{
@@ -102,4 +104,8 @@ body.dark main section.aptitude div.cards a{
 
 body.dark main section.aptitude div.cards span{
     color: wheat;
+}
+
+@media screen and (max-width: 768px) {
+    
 }

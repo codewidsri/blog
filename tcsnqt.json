@@ -918,6 +918,98 @@
             "answer":"2/35",
             "category":"Ratio and Proportion"
         }
+    ],
+    [
+        {
+            "question":"The ratio of the speed of a bus and a car is 2:5. The car covers a distance of 280 km in some time and the bus covers a distance of d km less in the same time. What is the distance covered bv the bus?",
+            "options":[112,144,168,132],
+            "answer":112,
+            "category":"Distance Speed Time"
+        },
+        {
+            "question":"The average of 9 consecutive even numbers is 40. What is the value of biggest of these numbers.",
+            "options":[46,48,50,44],
+            "answer":48,
+            "category":"Average"
+        },
+        {
+            "question":"The average age of five persons in a group is 18 years. The group has an additional member, such that the new average is 25 years less than the age of new member. What is thebage(in years) of the new member..",
+            "options":[48,38,50,42],
+            "answer":48,
+            "category":"Average"
+        },
+        {
+            "question":"the 9 digit number 807x6y9z8 is divisible by 99, the value Of (x+Y+z)^1/2?",
+            "options":[6,5,4,"√3"],
+            "answer":4,
+            "category":"Number System"
+        },
+        {
+            "question":"If n is an integer such that Inn352 is a six digit number exactly divisible by 24, what will be the sum Of all possible values Of n?",
+            "options":[15,27,9,21],
+            "answer":15,
+            "category":"Number System"
+        },
+        {
+            "question":"Selling an item at 5/6th of its marked price results in a loss of 10%. What is the % of profit/loss, if a discount of 5% is offered on the marked price.",
+            "options":["2.6% loss","2.6% profit","3% profit","3% loss"],
+            "answer":"2.6% profit",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Namita offers a discount of 20% on all the items at her shop and still makes a profit of 12%. What is the cost price of an article marked at Rs. 280.",
+            "options":[160,180,200,240],
+            "answer":200,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A sum amounts to Rs.16,000 at the end of three years and to Rs. 25,000 at the end of six years under compound interest(interest being compounded annually). Find the simple interest earned if the same sum is invested at 15% p.a for two years.",
+            "options":[3072,4105,3540,4550],
+            "answer":3072,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "question":"A loan of Rs.16,550 has to be paid in three equal installments at compound interest.Calculate the value of annual installments if the rate of interest is 10% per annum.",
+            "options":[6656,1243,6655,1343],
+            "answer":6655,
+            "category":"Simple Interest and Compound Interest"
+        },
+        {
+            "question":"20 men can do a job in 10 days, working 8 hours a day. if women are 33.33% more efficient than men, how many woman will it take to finish the same job in 10 days. Working 6 hours a day?",
+            "options":[10,12,15,20],
+            "answer":20,
+            "category":"Time and Work"
+        },
+        {
+            "question":"X is four times as efficient as Y in respect of doing a particular work. Working together they complete the work in 16days. In how many days Y working alone will be able to do half of the work?",
+            "options":[80,20,40,60],
+            "answer":40,
+            "category":"Time and Work"
+        },
+        {
+            "question":"The average of 10 numbers is given as 40. However, one number was mistakenly recorded as 40 instead of 45. What will be the correct average after correcting the mistake?",
+            "options":[41.5,40.5,35.5,41.5],
+            "answer":40.5,
+            "category":"Average"
+        },
+        {
+            "question":"The radius of a bigger sphere is 16 cm more than the radius of a smaller sphere. The difference between their surface areas is 1408π cm^2. Find the diameter of the bigger sphere.",
+            "options":[40,52,38,55],
+            "answer":38,
+            "category":"Mensuration"
+        },
+        {
+            "question":"A man covers three equal distances with the speeds of 10 km/hr, 20 km/hr and 30 km/hr respectively. Average speed of the man in the whole journey.",
+            "options":[16.36,15.54,17.58,19.10],
+            "answer":16.36,
+            "category":"Distance Speed Time"
+        },
+        {
+            "question":"Virat spends 75% of his monthly income. Along with the salary he also gets an incentive every month which equal to 5% of his salary. If his annual saving is Rs. 126000, then find the Montly Income of Virat. [Monthly income = salary + incentive]",
+            "options":[40000,35000,42000,50000],
+            "answer":42000,
+            "category":"Percentage"
+        }
     ]
 
 ]

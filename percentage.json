@@ -90,5 +90,190 @@
             "answer":4,
             "category":"Percentage"
         }
+    ],
+    [
+        {
+            "question":"The expenditure on the cost of living of a man and his family is 60% of his salary. He gets two increments of 30% and 60% in his salary. If his saving increases by 250% of his initial saving, then the new cost of living expenditure is what percentage (rounded off to the nearest integer) of the increased salary?",
+            "options":[32.7,43.6,29.5,36.6],
+            "answer":32.7,
+            "category":"Percentage"
+        },
+        {
+            "question":"A mask manufacturing company manufactured ‘X’ number of masks in 2018. It increased its manufacturing capacity by 30% in 2019 and further increased its manufacturing by 15% in 2020. In 2021, due to the machinery breakdown, its manufacturing declined by 40%. What is the value of ‘X’ if it manufactured 179400 masks in 2021?",
+            "options":[180000,230000,200000,210000],
+            "answer":200000,
+            "category":"Percentage"
+        },
+        {
+            "question":"The population of country A decreased by p% and the population of country B decreased by q% from the year 2020 to 2021. Here 'p' is greater than 'q'. Let 'x' be the ratio of the population of country A to the population of country B in the given year. What is the percentage decrease in 'x' from 2020 to 2021?",
+            "options":["100(p-q)/(100-q)","100(p-q)/(100+q)","100(p-q)/(100-p)","100(p-q)/100"],
+            "answer":"100(p-q)/(100-q)",
+            "category":"Percentage"
+        },
+        {
+            "question":"In an election between two candidates, the defeated candidate secured 42% of the valid votes polled and lost the election by 7,68,400 votes. If 82,560 votes were declared invalid and 20% people did NOT cast their vote, then the invalid votes were what percentage (rounded off to 1 decimal place) of the votes which people did NOT cast ?",
+            "options":[10.6,9.8,12.9,6.8],
+            "answer":6.8,
+            "category":"Percentage"
+        },
+        {
+            "question":"Sonam is a cab driver, who plies within a city. The number of kilometres that she drives on a Tuesday was 12.5% less than the number of kilometres that she drives on the day before.On the other hand, the number of kilometres that she drives on Wednesday was 20% more than the number of kilometres that she drives on Tuesday. If Sonam drives a total of 336 km on Wednesday, how many kilometers did she drive on Monday ?",
+            "options":[315,318,320,324],
+            "answer":320,
+            "category":"Percentage"
+        },
+        {
+            "question":"In an election, there were three candidates: A, B and C. 10% of the eligible voters did not vote. Out of those who voted, 45% voted for A, 35% voted for B and the remaining 20% voted for C. 30% of the votes polled for A and 20% of the votes polled for B were later deemed invalid, while all the votes polled for C were deemed valid. If A got 882 more valid votes than B did, how many valid votes did C receive ",
+            "options":[5020,5040,5050,5060],
+            "answer":5040,
+            "category":"Percentage"
+        },
+        {
+            "question":"A fruit seller sells 45% of the oranges that he has along with one more oranges to a customer . He then sells 20% of the remaining oranges and 2 more oranges to a second customer. He then sells 90% of the now remaining oranges to a third customer and is still left with 5 oranges. How many oranges did the fruit seller have initially?",
+            "options":[100,111,121,120],
+            "answer":120,
+            "category":"Percentage"
+        },
+        {
+            "question":"By mistake, the reciprocal of a positive fraction got typed in place of itself, and thereby its value got reduced by 175/4%. What was the value of the fraction?",
+            "options":["1/2","4/3","3/4","1/4"],
+            "answer":"4/3",
+            "category":"Percentage"
+        },
+        {
+            "question":"The income of A is 20% less than the income of B and the income of C is 70% of the sum of incomes of A and B. The income of D is 25% more than the income of C. If the difference between the incomes of B and D is Rs 23000, then what is the income (in Rs) of A?",
+            "options":[32000,25000,26000,28000],
+            "answer":32000,
+            "category":"Percentage"
+        },
+        {
+            "question":"A certain number of students from school X appeared in an examination and 20% students failed. From school Y, 130% more students than that from school X, appeared in the same examination. If 90% of the total number of students appeared from both the schools passed, then what is the percentage of students from school Y who failed (correct to one decimal place) ",
+            "options":[8.3,10,6.4,5.7],
+            "answer":5.7,
+            "category":"Percentage"
+        },
+        {
+            "question":"In a workshop with 80 students and 10 resource persons, sweets were distributed at the end of the workshop. The amount spent for distributing sweets to each student was 30% of the total number of students and the amount spent towards each resource person was 40% of the total number of students. The total amount spent for sweets distribution in the workshop was",
+            "options":[2400,2440,2420,2240],
+            "answer":2240,
+            "category":"Percentage"
+        },
+        {
+            "question":"In a constituency, 55% of the total number of voters are males and the rest are females. If 40% of the males are illiterate and 40% of the females are literate, then by what percentage is the number of illiterate females more than that if the illiterate males(correct to the one decimal place)",
+            "options":[22.7,16.4,21.5,20.8],
+            "answer":22.7,
+            "category":"Percentage"
+        },
+        {
+            "question":"A reduction of 20% in the price of sugar enables a purchaser to obtain 4 kg more for Rs.160. The original price of sugar per kg is:",
+            "options":[12,10,14,15],
+            "answer":10,
+            "category":"Percentage"
+        },
+        {
+            "question":"A student multiplied a number with 3/4 instead of 4/3. What is the error percentage? ",
+            "options":[59.67,43.75,67.45,39.34],
+            "answer":43.75,
+            "category":"Percentage"
+        },
+        {
+            "question":"A crate of fruits contains one spoiled fruit for every 25 fruits. 60% of the spoiled fruits were sold. If the seller had sold 48 spoiled fruits, then the number of fruits in the crate were:",
+            "options":[2000,2400,3000,1200],
+            "answer":2000,
+            "category":"Percentage"
+        }
+    ],
+    [
+        {
+            "question":"If each edge of a cube is increased by 10%, then the percentage increase in its surface area is:",
+            "options":[21,19,22,20],
+            "answer":21,
+            "category":"Percentage"
+        },
+        {
+            "question":"In a school, 4% of the students did not appear for the annual exams. 10% of the students who appeared for the exams could not pass the exam. Out of the remaining students, 50% got distinction marks and 432 students passed the exam but could not get distinction marks. The total number of students in the school is:",
+            "options":[960,1000,878,1200],
+            "answer":1000,
+            "category":"Percentage"
+        },
+        {
+            "question":"A, B and C donate 8%,7% and 9%, of their salaries respectively to a charitable trust. The salaries of A and B are the same and the difference between their donations is ₹259. The total donation of A and B is ₹1,185 more than that of C. The total donation of A and C is what percentage of the total salaries of A, B and C? (Correct to one decimal place)",
+            "options":[6.2,5.8,6.4,7.1],
+            "answer":5.8,
+            "category":"Percentage"
+        },
+        {
+            "question":"The income of A is 60% less than that of B, and the expenditure of A is equal to 60% of B’s expenditure. If A’s income is equal to 70% of B’s expenditure, then what is the ratio of the savings of A and B?",
+            "options":["3:8","5:9","4:7","2:15"],
+            "answer":"2:15",
+            "category":"Percentage"
+        },
+        {
+            "question":"The population of town B is 300% more than that of town A. For the next two years, the population of A increases by x% per year and that of B decreases by the same percentage per year. After 2 years, if the population of A and B become equal, then the value of x is ",
+            "options":["30 2/3","40","25","33 1/3"],
+            "answer":"33 1/3",
+            "category":
+        },
+        {
+            "question":"The monthly salary of a person was Rs.50,000. He used to spend on three heads- personal and family expenses (E), taxes(T), philanthropy (P), and the rest were his savings. E was 50% of the income, T was 20%of E and P was 15% of T. When his salary got raised by 40%, he maintained the average level of E, but T became 30% of E and P became 20% of T. By what percentage is the new savings more or less than the earlier savings?(correct upto one decimal place)",
+            "options":["16.4 more","8.2 more","16.4 less","8.2 less"],
+            "answer":"16.4 more",
+            "category":"Percentage"
+        },
+        {
+            "question":"In an examination, A obtained 10% more marks than B, B obtained 20% more marks than C and C obtained 32% less marks that D. If A obtained 272 more marks than C, then the marks obtained by B is :",
+            "options":[850,816,1020,952],
+            "answer":1020,
+            "category":"Percentage"
+        },
+        {
+            "question":"If A is 28% more than B and C is 25% less than the sum of A and B, then by what percent will C be more than A (correct to one decimal place)?",
+            "options":[32.2,28,43,33.6],
+            "answer":33.6,
+            "category":"Percentage"
+        },
+        {
+            "question":"When the price of an item was reduced by 25%, then its sale was increased by x%. If there is an increase of 20% in the receipt of the revenue, then the value of x will be :",
+            "options":[50,60,45,75],
+            "answer":60,
+            "category":"Percentage"
+        },
+        {
+            "question":"With reference to a number greater than one, the difference between itself and its reciprocal is 25% of the sum of itself and its reciprocal. By how much percentage (correct one decimal place) is the fourth power of the number greater than its square?",
+            "options":[57.8,62.5,64.5,66.7],
+            "answer":66.7,
+            "category":"Percentage"
+        },
+        {
+            "question":"For an examination of a practical based subject, the total marks is 100. The break-up for theory, practical, project and viva voce is 40%, 30%, 20%, 10%. A candidate scored 80% in theory, 70% in practical, 60% in project and 50% in viva voce. What was her aggregate percentage ?",
+            "options":[70,72,68,67],
+            "answer":70,
+            "category":
+        },
+        {
+            "question":"Two students, A and B, appeared for an examination. A secured 8 marks more than B and the marks of the former was 55% of the sum of their marks. The marks obtained by A and B, respectively, are :",
+            "options":["44 36","36 28","38 30","40 32"],
+            "answer":"44 36",
+            "category":"Percentage"
+        },
+        {
+            "question":"Sudha decided to donate 12% of her monthly income to an orphanage. On the day of donation, she changed her decision and donated a sum of Rs. 4800 which was equal to 80% of what she had decided earlier. What is 27% of her monthly income ?",
+            "options":[13959,11934,14040,13500],
+            "answer":13500,
+            "category":"Percentage"
+        },
+        {
+            "question":"If decreasing 120 by x% gives the same result as increasing 40 by x% then x% of 210 is what percent less than (x + 20)% of 180?",
+            "options":["33 1/3","18","16 2/3","20"],
+            "answer":"16 2/3",
+            "category":"Percentage"
+        },
+        {
+            "question":"The price of an article increases by 20% every year. If the difference between the prices at the end of the third and fourth years is Rs. 259.20, then 40% of the price (In Rs.) at the end of the second year is :",
+            "options":[484,432,384,472],
+            "answer":432,
+            "category":"Percentage"
+        }
     ]
+
 ]

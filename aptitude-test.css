@@ -10,7 +10,7 @@
 }
 
 body {
-    width: 100dvw;
+    /* width: 100dvw; */
     height: 100dvh;
     background-color: var(--background-color);
     color: var(--font-color);
@@ -20,6 +20,7 @@ body {
 nav{
     position: sticky;
     top: 0;
+    /* right: 0; */
     background-color: var(--font-color);
     display: flex;
     justify-content: space-evenly;
@@ -106,7 +107,7 @@ main form .btn-group{
     cursor: pointer;
     border: none;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -141,4 +142,16 @@ body.dark{
 
 body.dark form{
     box-shadow: 15px 15px 70px rgb(11, 11, 11);
+}
+
+@media screen and (max-width:480px) {
+    html{
+        font-size: 0.8rem;
+    }
+    section.questions .question{
+        margin: 0px;
+    }
+    .btn{
+        font-size: 1rem;
+    }
 }

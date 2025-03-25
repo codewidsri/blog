@@ -15,16 +15,22 @@
     <header>
         <nav>
             <ul>
-                <li>Aptitude</li>
-                <li>Coding Problems</li>
                 <li>
                     <span class="material-symbols-outlined" id="toggle">partly_cloudy_day</span>
-                    <!-- <span class="material-symbols-outlined">partly_cloudy_night</span> -->
                 </li>
+                <li>Aptitude</li>
+                <li>Coding Problems</li>
+                <li class="openmenu"><span class="material-symbols-outlined">menu</span></li>
             </ul>
         </nav>
     </header>
-    <!-- <iframe src="Aptitude.html?topic=average" name="content" style="width: 99.5dvw; height: 85dvh;" seamless frameborder="0"></iframe> -->
+    <section class="overlay">
+        <h1 class="closemenu"><span class="material-symbols-outlined">close</span></h1>
+        <ul>
+            <li>Aptitude</li>
+            <li>Coding Problems</li>
+        </ul>
+    </section>
      <main>
         <section class="aptitude">
             <h2>Learn Aptitude Concepts Topic Wise</h2>
@@ -39,7 +45,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Mensuration','#'],['Allegation and Mixture','#'],['Ratios and Proportion','#'],['Work and Time','#'],['Speed Time and Distance','#'],['Profit and Loss','#'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','#'],['Probability','#'],['Pipes and Cisterns','#'],['Simple Interest and Compund Interest','#'],['Problems on Train','#'],['Boats and Streams','#']]
+            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Mensuration','#'],['Allegation and Mixture','#'],['Ratios and Proportion','#'],['Work and Time','#'],['Distance Speed Time','#'],['Profit and Loss','Aptitude.html?topic=profitloss'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','#'],['Probability','#'],['Pipes and Cisterns','#'],['Simple Interest and Compund Interest','#'],['Problems on Train','#'],['Boats and Streams','#']]
             let cards=document.getElementsByClassName('cards')[0];
             topics.map((ele,index)=>{
                 let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
@@ -63,6 +69,14 @@
             let theme=localStorage.getItem('theme');
             document.body.classList.toggle(theme);
             document.getElementById('toggle').textContent=theme=='light'?'partly_cloudy_day':'partly_cloudy_night'
+
+            document.querySelector('.openmenu').addEventListener('click',()=>{
+                document.getElementsByClassName('overlay')[0].classList.add('show');
+            })
+
+            document.querySelector('.closemenu').addEventListener('click',()=>{
+                document.getElementsByClassName('overlay')[0].classList.remove('show');
+            })
         })
     </script>
 </body>

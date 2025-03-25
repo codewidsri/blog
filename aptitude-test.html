@@ -13,8 +13,8 @@
 <body>
 
     <nav class="nav">
-      <button class="btn startbtn">start</button>
-      <button class="btn stopbtn">reset</button>
+      <button class="btn startbtn">Start</button>
+      <button class="btn stopbtn">Reset</button>
       <p id="time">15:00 Minutes</p>
     </nav>
  
@@ -91,11 +91,8 @@
       });
 
       document.getElementsByClassName("startbtn")[0].addEventListener("click", function starttime() {
-        document.getElementsByClassName("stopbtn")[0].addEventListener("click",function(){
-          clearInterval(interval);
-        })
-          let time = document.getElementById("time");
-          let minutes = 14,seconds = 59;
+        let time = document.getElementById("time");
+        let minutes = 14,seconds = 59;
           let interval = setInterval(() => {
             time.innerHTML = `${minutes}:${seconds--} Minutes Left`;
             if (seconds == 0 && minutes != 0) {
@@ -106,6 +103,10 @@
               clearInterval(interval);
               document.querySelector("#submitbtn").click();
             }
+            document.getElementsByClassName("stopbtn")[0].addEventListener("click",function(){
+              clearInterval(interval);
+               time.innerHTML = `15:00 Minutes Left`
+            })
           }, 1000);
         });
 

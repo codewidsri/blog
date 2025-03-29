@@ -20,17 +20,17 @@ body {
     right: -100%;
     top: 0px;
     height: 100dvh;
-    width: 100%;
+    width: 0%;
     position: absolute;
     background-color: #1e2028;
     color: var(--font-color);
     padding: 5%;
-    display: none;
+    transition: all 1.2s;
 }
 
 .overlay.show{
-    display: block;
-    right: 0px;
+    right: 0%;
+    width: 100%;
 }
 
 .overlay ul{

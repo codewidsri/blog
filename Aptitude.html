@@ -24,7 +24,7 @@
     document.addEventListener('DOMContentLoaded', () => {
         let topic = new URLSearchParams(window.location.search).get("topic");
         let posts = document.getElementsByClassName('posts')[0];
-        fetch(`${topic}.json`).then((data) => { return data.json() }).then((data) => {
+        fetch(`./jsons/${topic}.json`).then((data) => { return data.json() }).then((data) => {
             data.map((ele, index) => {
                 posts.innerHTML += `
                 <div class="post">

@@ -212,7 +212,7 @@
             "question":"The population of town B is 300% more than that of town A. For the next two years, the population of A increases by x% per year and that of B decreases by the same percentage per year. After 2 years, if the population of A and B become equal, then the value of x is ",
             "options":["30 2/3","40","25","33 1/3"],
             "answer":"33 1/3",
-            "category":
+            "category":"Percentage"
         },
         {
             "question":"The monthly salary of a person was Rs.50,000. He used to spend on three heads- personal and family expenses (E), taxes(T), philanthropy (P), and the rest were his savings. E was 50% of the income, T was 20%of E and P was 15% of T. When his salary got raised by 40%, he maintained the average level of E, but T became 30% of E and P became 20% of T. By what percentage is the new savings more or less than the earlier savings?(correct upto one decimal place)",
@@ -248,7 +248,7 @@
             "question":"For an examination of a practical based subject, the total marks is 100. The break-up for theory, practical, project and viva voce is 40%, 30%, 20%, 10%. A candidate scored 80% in theory, 70% in practical, 60% in project and 50% in viva voce. What was her aggregate percentage ?",
             "options":[70,72,68,67],
             "answer":70,
-            "category":
+            "category":"Percentage"
         },
         {
             "question":"Two students, A and B, appeared for an examination. A secured 8 marks more than B and the marks of the former was 55% of the sum of their marks. The marks obtained by A and B, respectively, are :",

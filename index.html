@@ -45,7 +45,7 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Mensuration','#'],['Allegation and Mixture','#'],['Ratios and Proportion','#'],['Work and Time','#'],['Distance Speed Time','#'],['Profit and Loss','Aptitude.html?topic=profitloss'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','#'],['Probability','#'],['Pipes and Cisterns','#'],['Simple Interest and Compund Interest','#'],['Problems on Train','#'],['Boats and Streams','#']]
+            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Allegation and Mixture','#'],['Ratios and Proportion','Aptitude.html?topic=ratiosandproportion'],['Time and Work','Aptitude.html?topic=timeandwork'],['Distance Speed Time','Aptitude.html?topic=distancespeedtime'],['Profit and Loss','Aptitude.html?topic=profitandloss'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','Aptitude.html?topic=permutationandcombination'],['Probability','#'],['Pipes and Cisterns','Aptitude.html?topic=pipesandcisterns'],['Simple Interest and Compund Interest','Aptitude.html?topic=simpleinterestandcompoundinterest'],['Problems on Train','Aptitude.html?topic=trains'],['Boats and Streams','Aptitude.html?topic=boatsandstreams']]
             let cards=document.getElementsByClassName('cards')[0];
             topics.map((ele,index)=>{
                 let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
@@ -80,5 +80,10 @@
         })
     </script>
 </body>
+<!-- 
+topics to be added
 
+    ['Mensuration','#']
+
+-->
 </html>

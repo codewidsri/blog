@@ -51,7 +51,7 @@
       let appendquestion = document.getElementsByClassName("questions")[0];
       let url = new URLSearchParams(window.location.search).get("test");
       let topic = new URLSearchParams(window.location.search).get("topic");
-      fetch(`${topic}.json`).then((data) => { return data.json();}).then((data) =>
+      fetch(`./jsons/${topic}.json`).then((data) => { return data.json();}).then((data) =>
           data[url].map((ele, index) => {
             appendquestion.innerHTML += `<div class="question">
           <p>${index+1}&nbsp;)&nbsp; ${ele['question']}</p>

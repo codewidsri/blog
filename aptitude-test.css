@@ -145,9 +145,6 @@ body.dark form{
 }
 
 @media screen and (max-width:480px) {
-    html{
-        font-size: 0.8rem;
-    }
     section.questions .question{
         margin: 0px;
     }

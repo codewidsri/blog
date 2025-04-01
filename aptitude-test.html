@@ -21,20 +21,6 @@
   <main>
     <form>
       <section class="questions">
-        <!-- <div class="question">
-          <p>1) What is the HCF (Highest Common Factor) of 24 and 36?</p>
-          <div class="options">
-            <div class="left">
-              <input type="radio" name="0" id="0" value="4"><label for="0">4</label>
-              <input type="radio" name="0" id="1" value="6"><label for="1">6</label>
-            </div>
-            <div class="right">
-              <input type="radio" name="0" id="2" value="12"><label for="2">12</label>
-              <input type="radio" name="0" id="3" value="18"><label for="3">18</label>
-            </div>
-          </div>
-          <span>category :- Average</span>
-        </div> -->
       </section>
       <div class="btn-group">
         <button type="reset" class="btn resetbtn">Reset</button>
@@ -75,7 +61,7 @@
         event.preventDefault();
         let score = 0;
         let questions = document.querySelectorAll("input[type=radio]:checked");
-        fetch(`${topic}.json`).then((data) => {return data.json();}).then((data) => {
+        fetch(`./jsons/${topic}.json`).then((data) => {return data.json();}).then((data) => {
             const answers = data[url];
             for (let index = 0; index < questions.length; index++) {
               if (answers[questions[index].name].answer == questions[index].value) {

@@ -17,10 +17,10 @@ body {
 }
 
 .overlay{
-    right: -100%;
+    width: 0%;
+    right: 200%;
     top: 0px;
     height: 100dvh;
-    width: 0%;
     position: absolute;
     background-color: #1e2028;
     color: var(--font-color);
@@ -58,7 +58,7 @@ header nav ul {
 }
 
 header nav ul li{
-    padding: 8px 20px;
+    padding: 8px 10px;
     text-decoration: none;
     font-size: 18px;
     margin: 5px;
@@ -72,8 +72,8 @@ header nav ul li.openmenu{
 }
 
 header nav ul li:hover {
-    background-color:#ffffff;
-    color: #000000;
+    /* background-color:rgb(127, 13, 241); */
+    border: 1px solid rgb(127, 13, 241);
     border-radius: 20px;
 }
 
@@ -119,16 +119,50 @@ main section.aptitude div.cards a:hover{
     border-bottom: 3px solid;
 }
 
+/* coding */
+
+main section.coding{
+    display: none;
+}
+
+main section.coding .searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+}
+
+main section.coding .searchbar input{
+    width: 80%;
+    padding: 15px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline: none;
+    border: none;
+    text-indent: 10px;
+    box-shadow: -5px 5px 30px rgba(167, 160, 160,0.7);
+    font-size: 15px;
+}
+
+main section.coding .searchbar button{
+    border: 0;
+    padding: 10px 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(242, 177, 93);
+}
+
+main section.coding .searchbar button span{
+    font-weight: bolder;
+}
+
 footer{
     text-align: center;
 }
 
 body.dark{
     background-color: #1e2028;
-    color: wheat;
-}
-
-body.dark main section.aptitude h1{
     color: wheat;
 }
 
@@ -140,6 +174,10 @@ body.dark main section.aptitude div.cards a{
 
 body.dark main section.aptitude div.cards span{
     color: wheat;
+}
+
+body.dark main section.coding .searchbar input{
+    box-shadow: 15px 15px 70px rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 480px) {

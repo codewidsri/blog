@@ -4,7 +4,7 @@
             "question":"",
             "options":[],
             "answer":,
-            "category":"Permutation and Combination"
+            "category":
         },
         {
             "question":"",
@@ -91,4 +91,5 @@
             "category":
         }
     ]
+
 ]

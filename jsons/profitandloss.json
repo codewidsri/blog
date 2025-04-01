@@ -182,6 +182,98 @@
             "answer":"3:5",
             "category":"Profit and Loss"
         }
+    ],
+    [
+        {
+            "question":"Parikh sold his pen at a profit of Rs 11. He calculated the profit percentage on selling price and found it to be 25%. the cost price (in Rs) of the pen is:",
+            "options":[33,24,36,44],
+            "answer":33,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"If 20% of the goods are sold at 50% profit, 40% of the goods at 20% loss, 20% of the goods at 5% loss and the remaining at no loss or no profit, then the overall profit percentage is:",
+            "options":[5,8,4,1],
+            "answer":1,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Two articles were sold for Rs 2400 each by a shopkeeper. The shopkeeper incurred no profit and no loss on the whole transaction. If one of the two articles sold at a profit of 20%, then what was the loss incurred on the other article?",
+            "options":[600,400,380,240],
+            "answer":400,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"P sold an article to Q at a profit of 20%. Q sold the same article to R at a loss of 25%. R sold the same article to T at a profit of 50%. If P bought the article at Rs 100, then at what price did T buy that article? ",
+            "options":[145,125,115,135],
+            "answer":135,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A sold an article on 15% profit for Rs. 1495. He purchased another article whose cost price was equal to that of the first article. He sold this new article at 10% profit. What is the total profit of A ?",
+            "options":[325,450,375,425],
+            "answer":325,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The cost prices of article A and article B are Rs. 1200 and Rs. 1600 respectively. The selling price of article A is Rs. 1380 and the total profit after selling both the articles is 25%. What is the profit percentage on the article B ?",
+            "options":[27.5,32.5,29.5,35.5],
+            "answer":32.5,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"An article is sold for Rs 6500 so as to earn a profit of 4%. A second article whose cost price is Rs 3750, is sold at a loss of 4%. What is the overall gain or loss percent in the whole transaction?",
+            "options":["Gain 45%","Loss 1%","Loss 4%","Gain 1%"],
+            "answer":"Gain 1%",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A man bought three articles for Rs 3,000 each. He sold the articles respectively at 10% profit, 5% profit and 15% loss. The total percentage profit/loss he earned is:",
+            "options":["10% Loss","5% Loss","5% Profit","no profit no loss"],
+            "answer":"no profit no loss",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Two articles are sold for Rs.9,720 each. On one, the seller gains 8% and on the other, he loses 10%. What is his overall gain or loss?",
+            "options":["380 gain","380 loss","360 loss","360 gain"],
+            "answer":"360 loss",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A person sells an article at a profit of 12%. If he had purchased it for 12% less and sold it for Rs.9 less, he would have gained 27%. What is the original cost price of the article?",
+            "options":[4250,4000,4500,3750],
+            "answer":3750,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Sushma bought 6 tables and 12 chairs for Rs.12000. She sold the tables at a profit of 15% and the chairs at a loss of 10%. If her total gain was 300, then the total cost of the tables was:",
+            "options":[6000,5000,5400,4800],
+            "answer":6000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Abhi bought two articles for Rs.624. He sold one at a loss of 14% and the other at a profit of 14%. If the selling price of both the articles is equal, then the difference between their cost prices (in Rs) is:",
+            "options":[89.64,87.36,89.68,88.84],
+            "answer":87.36,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The marked price of an article is Rs.315. It is sold for Rs. 288. If there is a loss of 4%, then by what percent above the cost is the article marked?",
+            "options":[5,8,7.5,5.5],
+            "answer":5,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A person sold an article at a loss of 15%. Had he sold it for Rs. 30.60 more, he would have gained 9%. To gain 10%, he should have sold it for:",
+            "options":[140.25,132,130,128.40],
+            "answer":140.25,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A bought 38 kg. Rice at Rs. 54.50/kg, 45 Kg rice at Rs. 62/kg, and 55 kg rice at Rs. 48/kg . He sold the mixture at Rs. 65/kg. His loss or profit percentage is:",
+            "options":["loss 1.04","loss 1.","profit 19.6","profit 16.8"],
+            "answer":"profit 19.6",
+            "category":"Profit and Loss"
+        }
     ]
 
 ]

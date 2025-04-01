@@ -23,12 +23,13 @@
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         let topic = new URLSearchParams(window.location.search).get("topic");
+        let title = new URLSearchParams(window.location.search).get("title");
         let posts = document.getElementsByClassName('posts')[0];
         fetch(`./jsons/${topic}.json`).then((data) => { return data.json() }).then((data) => {
             data.map((ele, index) => {
                 posts.innerHTML += `
                 <div class="post">
-                    <a href="aptitude-test.html?topic=${topic}&test=${index}"><h4>${topic} ${index+1}</h4><span class="material-symbols-sharp">double_arrow</span></a>
+                    <a href="aptitude-test.html?topic=${topic}&test=${index}"><h4>${title} ${index+1}</h4><span class="material-symbols-sharp">double_arrow</span></a>
                 </div>`;
             })
         })

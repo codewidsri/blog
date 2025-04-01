@@ -1,39 +1,46 @@
 [
   {
-    "shape": "circular cone",
-    "volume": "V = (1/3)πr²h",
-    "csa":"CSA = π × r × l"
+    "mensuration": [
+      {
+        "shape": "circular cone",
+        "volume": "V = (1/3)πr²h",
+        "csa": "CSA = π × r × l"
+      },
+      {
+        "shape": "square",
+        "area": "A = s²",
+        "perimeter": "P = 4s"
+      },
+      {
+        "shape": "circle",
+        "area": "A = π · r²",
+        "circumference": "C = 2πr"
+      },
+      {
+        "shape": "rectangle",
+        "area": "A = l × w"
+      },
+      {
+        "shape": "cylinder",
+        "tsa": "TSA = 2πr² + 2πrh"
+      },
+      {
+        "shape": "cube",
+        "volume": "V = s³",
+        "diagonal": "d = s√3"
+      },
+      {
+        "shape": "sphere",
+        "volume": "V = (4/3)πr³",
+        "csa": "A = 4πr²"
+      },
+      {
+        "shape": "hemisphere",
+        "tsa": "TSA = 2πr² + πr² = 3πr²"
+      }
+    ]
   },
   {
-    "shape":"square",
-    "area":"A = s²",
-    "perimeter":"P = 4s"
-  },
-  {
-    "shape":"circle",
-    "area":"A = π · r²",
-    "circumference":"C = 2πr"
-  },
-  {
-    "shape":"rectangle",
-    "area":"A = l × w"
-  },
-  {
-    "shape":"cylinder",
-    "tsa":"TSA = 2πr² + 2πrh"
-  },
-  {
-    "shape":"cube",
-    "volume":"V = s³",
-    "diagonal":"d = s√3"
-  },
-  {
-    "shape":"sphere",
-    "volume":"V = (4/3)πr³",
-    "csa":"A = 4πr²"
-  },
-  {
-    "shape":"hemisphere",
-    "tsa":"TSA = 2πr² + πr² = 3πr²"
+
   }
 ]

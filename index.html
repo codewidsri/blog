@@ -1,86 +1,132 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Aptitude</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./index.css'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,200" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=double_arrow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,200"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,700,0,200&icon_names=double_arrow"/>
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <span class="material-symbols-outlined" id="toggle">partly_cloudy_day</span>
-                </li>
-                <li>Aptitude</li>
-                <li>Coding Problems</li>
-                <li class="openmenu"><span class="material-symbols-outlined">menu</span></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li id="toggle"><span class="material-symbols-outlined" id="themeicon">partly_cloudy_day</span></li>
+          <li onclick="tabaptitude()">Aptitude</li>
+          <li onclick="tabcoding()">Coding Problems</li>
+          <li class="openmenu"><span class="material-symbols-outlined">menu</span></li>
+        </ul>
+      </nav>
     </header>
     <section class="overlay">
-        <h1 class="closemenu"><span class="material-symbols-outlined">close</span></h1>
-        <ul>
-            <li>Aptitude</li>
-            <li>Coding Problems</li>
-        </ul>
+      <h1 class="closemenu">
+        <span class="material-symbols-outlined">close</span>
+      </h1>
+      <ul>
+        <li onclick="tabaptitude()">Aptitude</li>
+        <li onclick="tabcoding()">Coding Problems</li>
+      </ul>
     </section>
-     <main>
-        <section class="aptitude">
-            <h2>Learn Aptitude Concepts Topic Wise</h2>
-            <div class="cards"></div>
-            <h2>Company wise Aptitude Questions</h2>
-            <div class="cards company"></div>
-        </section>
-     </main>
+    <main>
+      <section class="aptitude">
+        <h2>Learn Aptitude Concepts Topic Wise</h2>
+        <div class="cards"></div>
+        <h2>Company wise Aptitude Questions</h2>
+        <div class="cards company"></div>
+      </section>
+      <section class="coding">
+        <div class="searchbar">
+          <input type="text" name="" id="text" placeholder="Search" />
+          <button><span class="material-symbols-outlined">search</span></button>
+        </div>
+        <div class="programs">
+            <a href="" class="program">odd or even</a>
+        </div>
+      </section>
+    </main>
     <footer>
-        <p>&copy; designed and developed by <strong>sriharish kumar ❤️</strong></p>
+      <p>
+        &copy; designed and developed by <strong>sriharish kumar ❤️</strong>
+      </p>
     </footer>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            let topics=[['Averages','Aptitude.html?topic=average'],['Number System','#'],['Percentage','Aptitude.html?topic=percentage'],['LCM and HCF','#'],['Allegation and Mixture','#'],['Ratios and Proportion','Aptitude.html?topic=ratiosandproportion'],['Time and Work','Aptitude.html?topic=timeandwork'],['Distance Speed Time','Aptitude.html?topic=distancespeedtime'],['Profit and Loss','Aptitude.html?topic=profitandloss'],['Ages','#'],['Clocks and Calender','#'],['Permutation and Combination','Aptitude.html?topic=permutationandcombination'],['Probability','#'],['Pipes and Cisterns','Aptitude.html?topic=pipesandcisterns'],['Simple Interest and Compund Interest','Aptitude.html?topic=simpleinterestandcompoundinterest'],['Problems on Train','Aptitude.html?topic=trains'],['Boats and Streams','Aptitude.html?topic=boatsandstreams']]
-            let cards=document.getElementsByClassName('cards')[0];
-            topics.map((ele,index)=>{
-                let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
-                cards.innerHTML+=div
-            })
 
-            let companies=[['Zoho','#'],['TCS NQT','Aptitude.html?topic=tcsnqt']]
-            let company=document.getElementsByClassName("company")[0];
-            companies.map((ele,index)=>{
-                let div=`<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
-                company.innerHTML+=div;
-            })
-
-            
-            document.getElementById('toggle').addEventListener('click',()=>{
-                document.body.classList.toggle('dark')
-                document.getElementById('toggle').textContent=document.getElementById('toggle').textContent=='partly_cloudy_day'?'partly_cloudy_night':'partly_cloudy_day';
-                localStorage.setItem('theme',document.getElementById('toggle').textContent=='partly_cloudy_night'?'dark':'light')
-            })
-            
-            let theme=localStorage.getItem('theme');
+        document.addEventListener("DOMContentLoaded", () => {
+            let theme = localStorage.getItem("theme");
             document.body.classList.toggle(theme);
-            document.getElementById('toggle').textContent=theme=='light'?'partly_cloudy_day':'partly_cloudy_night'
+            document.getElementById("themeicon").textContent = theme == "light" ? "partly_cloudy_day" : "partly_cloudy_night";
 
-            document.querySelector('.openmenu').addEventListener('click',()=>{
-                document.getElementsByClassName('overlay')[0].classList.add('show');
-            })
+            let tab = localStorage.getItem("tab");
+            tab == "coding" ? tabcoding() : tabaptitude()
 
-            document.querySelector('.closemenu').addEventListener('click',()=>{
-                document.getElementsByClassName('overlay')[0].classList.remove('show');
-            })
-        })
+            let topics = [
+                ["Averages", "Aptitude.html?topic=average&title=Averages"],
+                ["Number System", "Aptitude.html?topic=numbersystem&title=Number System"],
+                ["Percentage", "Aptitude.html?topic=percentage&title=percentage"],
+                ["LCM and HCF", "#"],
+                ["Allegation and Mixture", "#"],
+                ["Ratios and Proportion", "Aptitude.html?topic=ratiosandproportion&title=Ratio and Proportion"],
+                ["Time and Work", "Aptitude.html?topic=timeandwork"],
+                ["Distance Speed Time", "Aptitude.html?topic=distancespeedtime&title=Distance Speed Time"],
+                ["Profit and Loss", "Aptitude.html?topic=profitandloss&title=Profit and Loss"],
+                ["Ages", "#"],
+                ["Clocks and Calender", "#"],
+                ["Permutation and Combination","Aptitude.html?topic=permutationandcombination&title=Permutation and Combination",],
+                ["Probability", "#"],
+                ["Pipes and Cisterns", "Aptitude.html?topic=pipesandcisterns&title=Pipes and Cisterns"],
+                ["Simple and Compund Interest","Aptitude.html?topic=simpleandcompoundinterest&title=Simple and Compound Interest",],
+                ["Problems on Train", "Aptitude.html?topic=trains&title=Trains"],
+                ["Boats and Streams", "Aptitude.html?topic=boatsandstreams&title=Boats and Streams"],
+            ];
+            let cards = document.getElementsByClassName("cards")[0];
+            topics.map((ele, index) => {
+                let div = `<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
+                cards.innerHTML += div;
+            });
+
+            let companies = [
+                ["Zoho", "#"],
+                ["TCS NQT", "Aptitude.html?topic=tcsnqt&title=TCS NQT"],
+            ];
+            let company = document.getElementsByClassName("company")[0];
+            companies.map((ele, index) => {
+                let div = `<a href="${ele[1]}">${ele[0]} <span class="material-symbols-sharp">double_arrow</span></a>`;
+                company.innerHTML += div;
+            });
+
+            document.getElementById("toggle").addEventListener("click", () => {
+                document.body.classList.toggle("dark");
+                document.getElementById("themeicon").textContent = document.getElementById("themeicon").textContent == "partly_cloudy_day" ? "partly_cloudy_night" : "partly_cloudy_day";
+                localStorage.setItem("theme",document.getElementById("themeicon").textContent == "partly_cloudy_night" ? "dark" : "light" );
+            });
+
+            document.querySelector(".openmenu").addEventListener("click", () => {
+                document.getElementsByClassName("overlay")[0].classList.add("show");
+            });
+
+            document.querySelector(".closemenu").addEventListener("click", () => {
+                document.getElementsByClassName("overlay")[0].classList.remove("show");
+            });
+        });
+
+        function tabaptitude() {
+            document.querySelector(".coding").style.display = "none";
+            document.querySelector(".aptitude").style.display = "block";
+            localStorage.setItem("tab", "aptitude");
+        }
+
+        function tabcoding() {
+            document.querySelector(".aptitude").style.display = "none";
+            document.querySelector(".coding").style.display = "block";
+            localStorage.setItem("tab", "coding");
+        }
     </script>
 </body>
-<!-- 
+  <!-- 
 topics to be added
 
     ['Mensuration','#']

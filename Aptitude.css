@@ -39,7 +39,6 @@ main section.posts a{
     padding: 20px 50px;
     text-decoration: none;
     color: rgb(127, 13, 241);
-    /* box-shadow: 15px 15px 70px rgba(167, 160, 160,0.7); */
     box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
     margin: 20px;
 }
@@ -55,11 +54,11 @@ main section.posts a:hover{
 
 main section.posts a span{
     transition: transform 0.5s;
-    color: green;
+    color: rgb(0, 255, 0);
 }
 
 main section.posts a:hover span{
-    color: green;
+    color: rgb(0, 255, 0);
     transform: translateX(30px);
 }
 

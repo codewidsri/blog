@@ -16,7 +16,7 @@
         <ul>
           <li id="toggle"><span class="material-symbols-outlined" id="themeicon">partly_cloudy_day</span></li>
           <li onclick="tabaptitude()">Aptitude</li>
-          <li onclick="tabcoding()">Coding Problems</li>
+          <li onclick="tabcoding()">Coding</li>
           <li class="openmenu"><span class="material-symbols-outlined">menu</span></li>
         </ul>
       </nav>
@@ -27,7 +27,7 @@
       </h1>
       <ul>
         <li onclick="tabaptitude()">Aptitude</li>
-        <li onclick="tabcoding()">Coding Problems</li>
+        <li onclick="tabcoding()">Coding</li>
       </ul>
     </section>
     <main>
@@ -39,11 +39,32 @@
       </section>
       <section class="coding">
         <div class="searchbar">
-          <input type="text" name="" id="text" placeholder="Search" />
-          <button><span class="material-symbols-outlined">search</span></button>
+          <input type="text" onkeyup="search()" name="" id="search" placeholder="Enter Program Name to Search" />
         </div>
-        <div class="programs">
-            <a href="" class="program">odd or even</a>
+        <div class="content">
+          <div class="filter">  
+            <h4>sort by</h4>
+            <label for="array"><input type="checkbox" name="" id="array"><span>Arrays</span></label>
+            <label for="string"><input type="checkbox" name="" id="string"><span>Strings</span></label>
+            <label for="pattern"><input type="checkbox" name="" id="pattern"><span>Pattern</span></label>
+            <label for="dsa"><input type="checkbox" name="" id="dsa"><span>DSA</span></label>
+            <label for="leetcode"><input type="checkbox" name="" id="leetcode"><span>Leetcode</span></label>
+          </div>
+          <div class="programs">
+              <!-- <div class="program">
+                <div class="program-meta">
+                  <h1>Odd or Even</h1>
+                  <p>Language : <code>Java</code></p>
+                  <p>Category : <code>normal</code></p>
+                  <p>Companies asked : <code>zoho</code><code>tcs</code><code>infosys</code></p>
+                </div>
+                  <details>
+                    <summary><span class="material-symbols-outlined">code</span>code<span class="material-symbols-sharp">double_arrow</span></summary>
+                    <button onclick="copycode()"><span class="material-symbols-outlined">content_copy</span></button>
+                    <pre id=""></pre>
+                  </details>
+              </div> -->
+          </div>
         </div>
       </section>
     </main>
@@ -56,6 +77,7 @@
     <script>
 
         document.addEventListener("DOMContentLoaded", () => {
+
             let theme = localStorage.getItem("theme");
             document.body.classList.toggle(theme);
             document.getElementById("themeicon").textContent = theme == "light" ? "partly_cloudy_day" : "partly_cloudy_night";
@@ -98,6 +120,26 @@
                 company.innerHTML += div;
             });
 
+            let programs=document.querySelector('.programs');
+            fetch(`./programs/program.json`).then(data => {return data.json()}).then((data)=>{
+              data.map((ele,index)=>{
+                programs.innerHTML+=`
+                <div class="program" data-name="${transformString(ele.name)}" date-category="${transformString(ele.category)}">
+                  <div class="program-meta">
+                    <h1>${ele.name}</h1>
+                    <p>Language : <code>${ele.language}</code></p>
+                    <p>Category : <code>${ele.category}</code></p>
+                    <p>Companies asked : ${ele.companies.map((e,i)=>{return `<code>${e}</code>`}).join("")}</p>
+                  </div>
+                  <details>
+                    <summary><span class="material-symbols-outlined">code</span>code<span class="material-symbols-sharp">double_arrow</span></summary>
+                    <button onclick="copycode(${ele.id})"><span class="material-symbols-outlined">content_copy</span></button>
+                    <pre id="">${ele.code}</pre>
+                  </details>
+              </div>`;
+              })
+            })
+
             document.getElementById("toggle").addEventListener("click", () => {
                 document.body.classList.toggle("dark");
                 document.getElementById("themeicon").textContent = document.getElementById("themeicon").textContent == "partly_cloudy_day" ? "partly_cloudy_night" : "partly_cloudy_day";
@@ -123,6 +165,31 @@
             document.querySelector(".aptitude").style.display = "none";
             document.querySelector(".coding").style.display = "block";
             localStorage.setItem("tab", "coding");
+        }
+
+        function copycode(id) {
+          fetch(`./programs/program.json`).then((data)=>{return data.json()}).then((data)=>{
+            navigator.clipboard.writeText(data[id].code).then(()=>{
+              alert("code successfully copied")
+            })
+          })
+        }
+
+        function search() {
+            let search=transformString(document.getElementById('search').value)
+            let programs=document.querySelectorAll('.program')
+            programs.forEach(program => {
+              if(program.dataset.name.includes(search)){
+                program.style.display='block'
+              }
+              else{
+                program.style.display='none'
+              }
+            })
+        }
+
+        function transformString(input) {
+            return input.replace(/\s+/g, '').toLowerCase();
         }
     </script>
 </body>

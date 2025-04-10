@@ -1,0 +1,50 @@
+[
+    {
+        "id":1,
+        "name":"odd or even",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys"],
+        "code": "import java.util.Scanner;\n\npublic class OddEvenChecker {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a number: \");\n        int number = scanner.nextInt();\n        if (number % 2 == 0) {\n            System.out.println(number + \" is even.\");\n        } else {\n            System.out.println(number + \" is odd.\");\n        }\n        scanner.close();\n    }\n}"
+    },
+    {
+        "id":2,
+        "name":"factorial",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys","tcs"],
+        "code": "import java.util.Scanner;\n\npublic class Factorial {\n\n    // Iterative method to calculate factorial\n    public static long factorialIterative(int n) {\n        if (n < 0) {\n            throw new IllegalArgumentException(\"Factorial is not defined for negative numbers.\");\n        }\n        long result = 1;\n        for (int i = 1; i <= n; i++) {\n            result *= i;\n        }\n        return result;\n    }\n\n    // Recursive method to calculate factorial\n    public static long factorialRecursive(int n) {\n        if (n < 0) {\n            throw new IllegalArgumentException(\"Factorial is not defined for negative numbers.\");\n        }\n        if (n == 0 || n == 1) {\n            return 1;\n        } else {\n            return n * factorialRecursive(n - 1);\n        }\n    }\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter a number to calculate its factorial: \");\n        int number = scanner.nextInt();\n\n        // Using iterative method\n        long iterativeResult = factorialIterative(number);\n        System.out.println(\"Iterative: The factorial of \" + number + \" is: \" + iterativeResult);\n\n        // Using recursive method\n        long recursiveResult = factorialRecursive(number);\n        System.out.println(\"Recursive: The factorial of \" + number + \" is: \" + recursiveResult);\n\n        scanner.close();\n    }\n}"    
+    },
+    {
+        "id":3,
+        "name":"fibonacci",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys"],
+        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
+    },
+    {
+        "id":3,
+        "name":"fibonacci",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys"],
+        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
+    },
+    {
+        "id":3,
+        "name":"fibonacci",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys"],
+        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
+    },
+    {
+        "id":3,
+        "name":"fibonacci",
+        "language":"java",
+        "category":"normal",
+        "companies":["zoho","infosys"],
+        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
+    }
+]

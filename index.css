@@ -48,7 +48,6 @@ header nav {
   flex-wrap: wrap;
   background-color: var(--background-color);
   padding: 5px;
-  width: 100dvw;
 }
 
 header nav ul {

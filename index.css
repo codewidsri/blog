@@ -48,6 +48,7 @@ header nav {
   flex-wrap: wrap;
   background-color: var(--background-color);
   padding: 5px;
+  width: 100dvw;
 }
 
 header nav ul {
@@ -193,6 +194,7 @@ main section.coding .content .programs .program {
 
 main section.coding .content .programs .program:hover {
   border-bottom: 3px solid rgb(127, 13, 241);
+  transform: scale(1.02);
 }
 
 main section.coding .content .programs .program .program-meta h1 {
@@ -315,7 +317,7 @@ body.dark main section.coding .content .filter label:hover {
   }
 
   main section.aptitude div.cards a {
-    font-size: 0.8rem;
+    width: 250px;
   }
 
   main section.coding .content {
@@ -326,6 +328,8 @@ body.dark main section.coding .content .filter label:hover {
     position: static;
     display: flex;
     padding: 3px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   main section.coding .content .filter h4 {

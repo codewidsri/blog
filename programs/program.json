@@ -22,29 +22,5 @@
         "category":"normal",
         "companies":["zoho","infosys"],
         "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
-    },
-    {
-        "id":3,
-        "name":"fibonacci",
-        "language":"java",
-        "category":"normal",
-        "companies":["zoho","infosys"],
-        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
-    },
-    {
-        "id":3,
-        "name":"fibonacci",
-        "language":"java",
-        "category":"normal",
-        "companies":["zoho","infosys"],
-        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
-    },
-    {
-        "id":3,
-        "name":"fibonacci",
-        "language":"java",
-        "category":"normal",
-        "companies":["zoho","infosys"],
-        "code": "import java.util.Scanner;\n\npublic class SimpleFibonacci {\n\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter the number of terms in the Fibonacci series: \");\n        int number = scanner.nextInt();\n\n        int a = 0, b = 1;\n\n        System.out.print(\"Fibonacci Series: \");\n        for (int i = 1; i <= number; i++) {\n            System.out.print(a + \" \");\n            int next = a + b; // Calculate the next term\n            a = b;            // Update a to the next term\n            b = next;        // Update b to the next term\n        }\n        System.out.println(); // Move to the next line after printing the series\n\n        scanner.close();\n    }\n}"
     }
 ]

@@ -918,5 +918,1293 @@
             "answer":10,
             "category":"Profit and Loss"
         }
-    ]
+    ],
+    [
+        {
+            "question":"A man sells a good at 5% profit. If he had sold it at a 10% profit, he would have received ₹175 more. What is the selling price of the good ?",
+            "options":[3750,3850,3675,3500],
+            "answer":3675,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The cost price of 240 articles is the same as the selling price of x articles. If profit is 20%, find the value of x.",
+            "options":[200,21,180,240],
+            "answer":200,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The marked price of a school bag was ₹ 550. This price was 10% above the cost price. It was sold at a discount of 10% on the marked price. Find the gain or loss percentage.",
+            "options":["loss 1%","loss 0.1%","gain 0.1%","gain 1%"],
+            "answer":"loss 1%",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The marked price of 85 items was equal to the cost price of 153 items. The selling price of 104 items was equal to the marked price of 65 items. Calculate the percentage profit from the sale of each item.",
+            "options":[12.5,12.35,15,12.25],
+            "answer":12.5,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A man buys an article for ₹80 and marks it at ₹125. He then allows a discount of 40%. What is his percentage of loss or gain?",
+            "options":["12% gain","10% gain","6.25%  loss","12% loss"],
+            "answer":"6.25% loss",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A man sells rice at 8% profit and uses weight 25% less than the actual measure. What is his percentage profit?",
+            "options":[44,41,23,36],
+            "answer":44,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A person sold two items selling each for ₹42,600. On the first item, he made a loss of 25%, while on the second, he gained 20%. Find his overall percentage gain or loss, giving your answer correct to one place of decimal",
+            "options":["7.7% loss","7.7% gain","8.3% gain","8.2% loss"],
+            "answer":"7.7% loss",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A 45% profit is made when a discount of 45% is given on the marked price of an item. If the discount on the marked price of the same item is 50%, then the profit will be:",
+            "options":["31 9/11%","33 2/11%","30 7/11%","31 7/11%"],
+            "answer":"31 9/11%",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A shopkeeper earns a profit of 20% after offering a discount of 10% on the marked price of an electric mixer. What is the cost price (in ₹) of the electric mixer having marked price ₹ 6,500?",
+            "options":[4900,4825,4850,4875],
+            "answer":4875,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A trader allows a discount of 5% for cash payment. What percentage above the cost price must he mark his goods to make a profit of 14% ?",
+            "options":[30,40,50,20],
+            "answer":20,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Deepak starts a business with a capital of ₹1,60,000. He incurs a loss of 10% during the first year. But he makes a profit of 5% during the second year on his remaining investment. Finally, he makes a profit of 25% on his new capital during the third year. Find his total profit at the end of three years.",
+            "options":[29500,29000,28000,28500],
+            "answer":29000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A manufacturer marked an item at ₹75 and sold it allowing a 14% discount. If his profit was 29%, then the cost price (in ₹) of the item was",
+            "options":[64,57,45,50],
+            "answer":50,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A sells a television to B for ₹4,860, thereby losing 19%. B sells it to C at a price which would have given A a 17% profit. Find the gain of B.",
+            "options":[4160,2160,3160,1160],
+            "answer":2160,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"The cost price of an article is 72% of the marked price. The profit percentage after allowing a discount of 6% on the marked price is (rounded off to 2 decimal places) ",
+            "options":[32.50,28.23,30.56,35.65],
+            "answer":30.56,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A shopkeeper does a faulty weighing of an item of 930 gram instead of 1 kg and sells it at its cost price. Find his profit percentage on selling 15 kg of the item.",
+            "options":["8 79/93%","5 21/93%","7 49/93%","6 19/93%"],
+            "answer":"7 49/93%",
+            "category":"Profit and Loss"
+        }
+    ],
+    [
+        {
+            "question":"Upon selling an article at of 3/7 the marked price, a loss of 30% is incurred. What is the ratio between the marked price and the cost price of the article?",
+            "options":["48:60","49:30","25:37","50:80"],
+            "answer":"49:30",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A shopkeeper publishes a list of prices which are 60% above the CP. He proposes to give 20% discount. How much profit does he really make?",
+            "options":[35,22,18,28],
+            "answer":28,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Ranjeet buys 1 kg potato for ₹20 and sells it for ₹25. He also uses a weight of 800 gm in place of 1 kg. What is the Ranjeet’s actual profit percentage on the sale of 1 kg potato?",
+            "options":[56.75,56.25,55.75,57.25],
+            "answer":56.25,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A dealer offers a discount of 10% on the marked price of an article and still makes a profit of 20%. If the cost price of the article is ₹540, then find the marked price (in ₹) of the articles",
+            "options":[810,750,720,690],
+            "answer":720,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A discount of 20% is given on the marked price of a cycle, and still there is a profit of 20%. If the profit is ₹800, find the marked price of the cycle.",
+            "options":[4000,58000,48000,6000],
+            "answer":6000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"If oranges are bought at 11 for ₹ 10 and sold at 10 for ₹11, what is the gain or loss percentage?",
+            "options":["gain 11%","loss 11%","loss 21%","gain 21%"],
+            "answer":"gain 21%",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Sourabh purchased an article for ₹48,000 and sold it at a loss of 12%. With that amount, she purchased another item and sold it at a gain of 20%. What is the overall gain of loss in ₹?",
+            "options":["2688 loss","14208 loss","14208 gain","2688 gain"],
+            "answer":"2688 gain",
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A seller sold a bag at a profit of 12%. If he had sold it for ₹900 more, he would have gained 27%. What is the CP of the bag ?",
+            "options":[6000,6500,5560,7000],
+            "answer":6000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Shailja allows a discount of 10% to her customer and still gains 20% on the sale of a cosmetic product. What is the marked price (in ₹) of the cosmetic product having a cost price ₹450 ?",
+            "options":[580,560,600,540],
+            "answer":600,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A person bought two goods for ₹19,500. He sold one at a loss of 20% and the other at a profit of 15%. If the selling price of each goods is the same, find the cost price of goods sold at profit.",
+            "options":[11475,11500,9750,8000],
+            "answer":8000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"Akash sold a motorcycle to Navin at a profit of 10%. Navin sold it to Vinay at a profit of 20%. Vinay sold it to Vishal at a loss of 5%. If Vishal paid ₹62,700 for the motorcycle, then what was the cost of the motorcycle (in ₹) for Akash?",
+            "options":[48000,48500,52500,50000],
+            "answer":50000,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A shopkeeper uses 940 gm weight in place of one kg weight. He sells it at 4% profit. What will be the actual profit percentage? (rounded off to two decimal places)",
+            "options":[9.25,10.32,10.64,10.96],
+            "answer":10.64,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A shopkeeper gains 20% in place of 16% loss if the selling price of an article is increased by ₹324. The cost price of the article is:",
+            "options":[900,750,1350,60],
+            "answer":900,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"If the selling price of an article is doubled, then the profit becomes four times. What was the original profit percentage?",
+            "options":[75,100,50,25],
+            "answer":50,
+            "category":"Profit and Loss"
+        },
+        {
+            "question":"A dealer marks his goods at 20% above the cost price and allows a discount of 15% on the marked price. What is his gain or loss percentage?",
+            "options":["4% gain","2% loss","2% gain","4% loss"],
+            "answer":"2% gain",
+            "category":"Profit and Loss"
+        }
+    ],
+    [
+        {
+         "question" : "R lends some money to S on which S pays ₹17,000 more to R. S lends the same money to T, on which T pays 8.5% more to S. What should be the minimum amount (in ₹) that S must borrow so that he does not incur any loss in the process?",
+         "options" : ["2,00,000","2,25,000","1,80,000","1,70,000"],
+         "answer" : "2,00,000",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A seller professes to sell his fruits at cost price but still gains 5 5/19%. How much does he give for 1 kg?",
+         "options" : ["905 gm","5 gm","900 gm","950 gm"],
+         "answer" : "950 gm",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The cost price and selling price of rice are the same. Due to a faulty weighing machine, the seller earns a 15% profit. If Rs. x is the cost price of 1000 gm rice and the machine is changed which shows 1000 gm instead of 950 gm, what should be the selling price (in ₹) now to get the same percentage of profit?",
+         "options" : ["1.0295x","1.0259x","1.0925x","1.0950x"],
+         "answer" : "1.0925x",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A dishonest shopkeeper sells millet at ₹20 per kg which he has bought at ₹16 per kg and he is giving 800 gm instead of 1000 gm. Find his actual profit percentage.",
+         "options" : ["52.12%","58.36%","54.25%","56.25%"],
+         "answer" : "56.25%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A person marks his goods x% above the cost price and allows a discount of 12% on the marked price. If his profit is 10%, then the difference between x% and the profit percentage is:",
+         "options" : ["15%","18%","13%","10%"],
+         "answer" : "15%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Mona purchased two sets of jewellery for ₹4,000 each. She sold these sets of jewellery, gaining 8% on one and loosing 6% on the other. Calculate her total loss or gain in this whole transaction",
+         "options" : ["₹120 gain","₹80 gain","₹80 loss","₹120 loss"],
+         "answer" : "₹80 gain",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "R's weighing machine shows 400 gm when the actual weight is 350 gm. The cost price of almonds is ₹880 per kg and packets of 200 gm are made using the faulty machine. What should be the selling price (in ₹) of each packet to get a profit of 25%?",
+         "options" : ["197.50","175.50","182.50","192.50"],
+         "answer" : "192.50",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The marked price of an article is 40% above its cost price. If its selling price is 73 1/2% of the marked price, then the percentage profit is:",
+         "options" : ["2.9%","2.7%","2.6%","2.5%"],
+         "answer" : "2.9%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Ram bought a cell phone and paid 30% less than its original price. He sold it at 50% profit on the price he had paid. The percentage of profit earned by Ram on the original price was:",
+         "options" : ["25%","50%","15%","5%"],
+         "answer" : "5%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "On selling a painting at Rs.1,498, the gain is 25% more than the loss incurred on selling it at Rs.1,300. In order to gain 25%, the selling price will be:",
+         "options" : ["Rs.1,735","Rs.1,335","Rs.1,755","Rs.1,388"],
+         "answer" : "Rs.1,735",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The cost price of milk has increased to ₹62 from ₹60. The milkman sold milk at 10% profit earlier. What is his profit% now if he sells milk at the same rate?",
+         "options" : ["5.46%","6.54%","6.45%","5.64%"],
+         "answer" : "6.45%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A piece of land was sold to a person through two middlemen, each gaining 25%. If the person purchased the land for ₹6,25,000, the original cost (in) of the land was",
+         "options" : ["4,25,000","4,00,000","3,50,000","3,75,000"],
+         "answer" : "4,00,000",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A shopkeeper bought articles A and B for a total ₹2,540. He sold A at a gain of 15% and sold B at a loss of 25%. The selling price of A was ₹109 more than that of B. His profit or loss percentage in the entire transaction was (rounded off to one decimal place):",
+         "options" : ["Loss, 8.3%","Profit, 8.3%","Profit, 9.5%","Loss, 9.5%"],
+         "answer" : "Loss, 8.3%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A dealer sells rice at a profit of 15% and uses a weight that is 15% less than the actual weight. Find his percentage gain.",
+         "options" : ["26%","53.3%","35.3%","37.5%"],
+         "answer" : "35.3%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Muskan buys two kg of pulses for ₹400 and sells it for ₹440. She also uses the weight of 850 gm instead of 1 kg. What is Muskan's actual profit percentage?",
+         "options" : ["30%","27%","25 15/17%","29 7/17%"],
+         "answer" : "29 7/17%",
+         "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+         "question" : "A shopkeeper is purchasing goods from a wholesaler. The wholesaler is selling 1265 units of goods to the shopkeeper after gaining the sale price of 165 units of goods. What is the gain percentage of the wholesaler?",
+         "options" : ["15%","20%","25%","18%"],
+         "answer" : "15%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Mukesh sells almonds at the cost price but uses a false weight and thus gains a 23% profit. How many grams of almonds is he giving for 3.075 kg?",
+         "options" : ["2500","2700","2400","2600"],
+         "answer" : "2500",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "If by selling 12 textbooks, a seller earns profit equal to the selling price of 4 textbooks, what is his percentage profit ?",
+         "options" : ["25%","50%","16 2/3%","30%"],
+         "answer" : "50%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The retail price of a fan is Rs.2,530. If the manufacturer gains 10%, the wholesale dealer gains 15% and the retailer gains 25%, then the cost of the product is:",
+         "options" : ["Rs.1,500","Rs.1,800","Rs.1,600","Rs.1,700"],
+         "answer" : "Rs.1,600",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "In a grocery shop, Samarth sold 950 g of sugar to a customer in place of 1 kg for ₹54. The cost price of 1 kg sugar was ₹36. How much profit (in ₹) did he earn on selling the sugar?",
+         "options" : ["16.2","18.7","20.2","19.8"],
+         "answer" : "19.8",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The marked price of a television set is ₹18,000. A shopkeeper allows a discount of 40% and gets a profit of 10%. What is the cost price of the television set?",
+         "options" : ["₹9,531 5/11","₹8,181 1/11","₹7,821 3/11","₹9,818 2/11"],
+         "answer" : "₹9,818 2/11",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A man earns a profit of 45 percent by selling a bike for a certain price. If he sells that bike at double the price, then what will be the profit percentage?",
+         "options" : ["80 %","180 %","90 %","190 %"],
+         "answer" : "190 %",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "If two mixers and one T.V cost Rs. 700. While two T.Vs and one mixer cost Rs. 980. The value of one T.V is:",
+         "options" : ["Rs.420","Rs.400","Rs.450","Rs.480"],
+         "answer" : "Rs.420",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A shopkeeper earns 20% profit on his goods. He lost 20% of his goods during a theft. What is his profit or loss percent ?",
+         "options" : ["4% loss","4% gain","6% gain","6% loss"],
+         "answer" : "4% loss",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A person sold an article at a loss of 4%. Had he sold it at a gain of 1%, he would have received Rs.42.5 more. To gain 18%, what must be his selling price?",
+         "options" : ["Rs.756","Rs.900","Rs.1003","Rs.850"],
+         "answer" : "Rs.1003",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A man buys 21 mangoes for a rupee. How many mangoes had he sold for a rupee so that there is a loss of 30 percent ?",
+         "options" : ["30","40","35","25"],
+         "answer" : "30",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "P sells a toy to Q at a profit of 40 percent and Q sells it to R at a profit of 10 percent. If R pays Rs. 539 for the toy, then what was the cost price of toy for P?",
+         "options" : ["Rs. 450","Rs. 300","Rs. 400","Rs. 350"],
+         "answer" : "Rs. 350",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A man bought an old printer for Rs.2200 and spent Rs.800 on its repair. He sold it for Rs.3600. Find his profit percentage.",
+         "options" : ["30%","20%","15%","25%"],
+         "answer" : "20%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A dishonest shopkeeper sells sugar at a rate of Rs.45 per kg. The cost price of the sugar is Rs.40 per kg. Even after doing this, he tries to increase his profit by removing 100 gm from each packet of 1 kg. What is the gain percent of the shopkeeper ?",
+         "options" : ["30%","35%","20%","25%"],
+         "answer" : "25%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A dishonest shopkeeper pretends to sell his goods at cost price but uses false weights and gain 10%. How much false weight he is using instead 1 kg weight ?",
+         "options" : ["909.09 gm","900 gm","920.30 gm","911.12 gm"],
+         "answer" : "909.09 gm",
+         "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+         "question" : "After selling the article for Rs. 430, a person had a loss of 14%. For earning a gain of 14% how much amount an article will be sold?",
+         "options" : ["Rs. 480","Rs. 490","Rs. 570","Rs. 600"],
+         "answer" : "Rs. 570",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The marked price of an article is 150 percent of the cost price. If 30 percent discount is given, then what will be the profit percentage?",
+         "options" : ["3%","5%","6%","4%"],
+         "answer" : "5%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A vendor bought 12 oranges for Rs. 50 and sold them at 12 for Rs. 30. Find the loss percentage.",
+         "options" : ["30%","25%","40%","45%"],
+         "answer" : "40%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The marked price of a chair is 10 percent more than its cost price. If thechair is sold for Rs.300 after a discountof Rs.140, then what will be the losspercentage?",
+         "options" : ["20 %","12.5 %","25 %","17 %"],
+         "answer" : "25 %",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "If the selling price of 9 boxes is equal to the cost price of 15 boxes. The gain percent is (Selling price of all boxes is same. Cost price of all boxes is same):",
+         "options" : ["(50/3)%","(200/3)%","(100/3)%","(140/3)%"],
+         "answer" : "(200/3)%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Vijay sells bananas at the rate of Rs. 13 per dozen and earns a profit of 30 percent. The cost price of the bananas increases by 10 percent. If the selling price remains the same, then what is his new profit percent?",
+         "options" : ["16.66%","18.18%","14.28%","12.5%"],
+         "answer" : "18.18%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The difference between cost price and selling price is Rs. 143. If profit percentage is 26 percent, then what is the selling price?",
+         "options" : ["Rs. 603","Rs. 676","Rs. 693","Rs. 713"],
+         "answer" : "Rs. 693",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "The cost price of 50 articles is same as the selling price of x articles. If there is a profit of 25 percent, then what is the value of x? (Selling price of all articles is same. Cost price of all articles is same)",
+         "options" : ["20","40","30","25"],
+         "answer" : "40",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "By selling 55 meters of cloth, one gains the selling price of 11 meters. Find the gain percent.",
+         "options" : ["33%","15%","25%","23%"],
+         "answer" : "25%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A person loses 20 percent on selling 80 pens for Rs. 40. What should be the selling price of 80 pens to earn a profit of 10 percent?",
+         "options" : ["Rs.80","Rs.60","Rs.55","Rs.65"],
+         "answer" : "Rs.55",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A refrigerator and a washing machine were sold for Rs. 24000 each. If the refrigerator was sold at a gain of 20% and the washing machine at a loss of 20%. What is the overall profit or loss percent in the whole transaction?",
+         "options" : ["4% profit","5% profit","4% loss","5% loss"],
+         "answer" : "4% loss",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "Shivam purchased two watches, first for Rs. 12000 and the second for Rs. 10000. He sold both the watches, first one at the profit of 10 percent and the second at a loss of 10 percent. What is the overall profit or loss?",
+         "options" : ["2.25 percent profit","2.25 percent loss","0.909 percent profit","0.909 percent loss"],
+         "answer" : "0.909 percent profit",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A fruit seller sells 2/5th part of fruits at a profit of 10% and remaining at a loss of 5%. If the total profit is Rs.1850, then what is the total cost price of fruits?",
+         "options" : ["Rs.198000","Rs.205000","Rs.185000","Rs.176000"],
+         "answer" : "Rs.185000",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A person earns a profit of 30 percent by selling an article for Rs. 325. How much percent should he increase his selling price to earn a profit of 40 percent?",
+         "options" : ["6.66%","8.25%","7.69%","5.25%"],
+         "answer" : "7.69%",
+         "category" : "Profit and Loss"
+        },
+        {
+         "question" : "A shopkeeper sells a book at a loss of 60 percent. Had he sold the book for Rs. 150 more, then he would have suffered a loss of 30 percent. To earn a profit of 20 percent, what should be the selling price of the book?",
+         "options" : ["Rs. 650","Rs. 600","Rs. 700","Rs. 550"],
+         "answer" : "Rs. 600",
+         "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "If 2 times of selling price is equal of 3 times of cost price, then what is the profit percentage?",
+             "options" : ["4 %","40 %","25 %","50 %"],
+             "answer" : "50 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If 80 percent of total articles are sold at a loss of 25 percent and remaining articles are sold at a profit of 20 percent, then what will be the overall loss percentage?",
+             "options" : ["20%","18%","16%","22%"],
+             "answer" : "16%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If 80 percent of total articles are sold at a profit of 25 percent and remaining articles are sold at a loss of 20 percent, then what will be the overall profit percentage?",
+             "options" : ["15 %","12.5 %","16 %","20 %"],
+             "answer" : "16 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Profit after selling a commodity for Rs. 400 is same as loss after selling it for Rs.300. The cost of the commodity is:",
+             "options" : ["Rs.450","Rs.400","Rs.350","Rs.250"],
+             "answer" : "Rs.350",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Marked price of a car is Rs. 600000. Rahul buys that car at two successive discounts of 30 percent and 20 percent. If after using the car, he sells the car for Rs. 478000, then what is the profit percentage?",
+             "options" : ["39.87%","36.85%","33.33%","42.26%"],
+             "answer" : "42.26%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "40 percent of selling price of a fan is equal to 4/5 of the cost price of the fan. What is the profit percent?",
+             "options" : ["150%","125%","100%","120%"],
+             "answer" : "100%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "An article is sold at 5 percent loss. If its cost price is decreased by Rs. 20 and selling price is increased by Rs. 13, then profit of 10 percent is earned on it. What is the original selling price of the article?",
+             "options" : ["Rs. 266.66","Rs. 221.66","Rs. 283.33","Rs. 250"],
+             "answer" : "Rs. 221.66",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The profit earned by selling a jacket for Rs. 3860 is equal to the loss incurred by selling the same jacket for Rs. 1900. What should be the selling price of the jacket to earn 10 percent profit?",
+             "options" : ["Rs.3450","Rs.3168","Rs.3360","Rs.3250"],
+             "answer" : "Rs.3168",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The difference between cost price and selling price is Rs.341. If the profit percentage is 22 percent, then what is the selling price?",
+             "options" : ["Rs.1972","Rs.1752","Rs.1891","Rs.1858"],
+             "answer" : "Rs.1891",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A trader buys two articles for Rs.4000 each article. If he earns a profit of 10 percent on one and losses 30 percent on the other, then what will be his  overall loss percentage?",
+             "options" : ["5 %","10 %","20 %","15 %"],
+             "answer" : "10 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "By selling 100 notebooks, a shopkeeper gains the selling price of 20 notebooks. What is his gain percentage?",
+             "options" : ["62.4%","22.5%","50.4%","25%"],
+             "answer" : "25%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A man bought two flats for Rs. 6075000 each. He sold one flat at 10% gain and other at 15% loss. How much percent he gain or lose in the whole?",
+             "options" : ["5% loss","5% gain","2.5% loss","3% gain"],
+             "answer" : "2.5% loss",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Profit obtained on selling an article for Rs. 600 is equal to the loss incurred on selling the same article for Rs. 400. If selling price is Rs. 750, then what is the profit percentage?",
+             "options" : ["80 %","50 %","70 %","60 %"],
+             "answer" : "50 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Shivam purchased two watches, first for Rs. 12000 and the second for Rs. 16000. He sold both the watches, first one at the profit of 10 percent and the second at a loss of 10 percent. What is the overall profit or loss?",
+             "options" : ["Profit = Rs. 600","Profit = Rs. 200","Loss = Rs. 800","Loss = Rs. 400"],
+             "answer" : "Loss = Rs. 400",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person sells wheat at a profit of 25 percent. If he reduces its selling price by Rs. 40, then he suffers a loss of 25 percent. What was the initial selling price of the wheat ?",
+             "options" : ["Rs.80","Rs.120","Rs.60","Rs.100"],
+             "answer" : "Rs.100",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "Ram purchases two watches for Rs.3,500. By selling one watch at a profit of 25 percent and the other at a loss of 10 ‘percent he neither earns profit nor suffers loss in the whole transaction. What is the cost price of each watch ?",
+             "options" : ["Rs. 1500 and Rs. 2000","Rs. 1500 and Rs. 1720","Rs. 1000 and Rs. 2500","Rs. 1250 and Rs. 2250"],
+             "answer" : "Rs. 1000 and Rs. 2500",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "On Selling a book at 8/15 of the marked price there is a loss of 20 percent. What will be the ratio of marked price and cost price of the book?",
+             "options" : ["5 : 2","6 : 5","5 : 3","3 : 2"],
+             "answer" : "3 : 2",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Vijay sells bananas at the rate of Rs. 14 per dozen and earns a profit of 40 percent. The cost price of bananas increases by 30 percent. If the selling price remains the same, then what is his new profit percent?",
+             "options" : ["7.69 %","9.09 %","7.14 %","8.33 %"],
+             "answer" : "7.69 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of an article is 20 percent more than its cost price. What maximum discount percentage can be offered by the shopkeeper to sell his article so that there is no loss?",
+             "options" : ["16.66 percentage","12.56 percentage","15.33 percentage","13.33 percentage"],
+             "answer" : "16.66 percentage",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A dealer sells two machines at the rate of Rs. 15000 per machine. On one he earns a profit of 20 percent and on the other he loses 40 percent. What is his profit/loss percentage in the whole transaction?",
+             "options" : ["20 percent loss","10 percent loss","10 percent profit","20 percent profit"],
+             "answer" : "20 percent loss",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A milk merchant buys 30 litres of milk at the rate of Rs. 50 per litre and mixes 20 litres of water in it (water is free of cost). If he sells this mixture at the rate of Rs. 48 per litre, then what is the profit percentage?",
+             "options" : ["40 %","50 %","66.66 %","60 %"],
+             "answer" : "60 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A trader sells an article at 20 percent profit. If he buys it at half of the cost price and sells at the same selling price as before, then what will be the profit percentage?",
+             "options" : ["240 %","40 %","140 %","60 %"],
+             "answer" : "140 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Ritika purchased 𝑥 kg wheat at Rs.30/kg and sold 8 kg of this at Rs. 'x' per kg and remaining at Rs.45/kg. Overall profit percent earned is 10%, then what quantity of wheat Ritika sold at Rs.45/kg?",
+             "options" : ["18 kg","16 kg","10 kg","14 kg"],
+             "answer" : "10 kg",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper sells a table at a discount of 20 percent and earns a profit of 30 percent. If he sells the same table at 10 percent discount. then what will be his new profit or loss percent?",
+             "options" : ["32.5 percent profit","40.5 percent loss","46.25 percent profit","50.5 percent loss"],
+             "answer" : "46.25 percent profit",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If an article is sold at 9/10th of its usual selling price. 20% profit would be made on it. Find the profit percentage which would have been made on it on selling it at its usual selling price.",
+             "options" : ["33.33%","25%","30%","20%"],
+             "answer" : "33.33%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If 60 chairs are bought for Rs.24,560, then how many chairs must be sold for Rs.24,560 to earn a profit of 20 percent?",
+             "options" : ["50","40","30","60"],
+             "answer" : "50",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of an article is 150 percent of the cost price. If 20 percent discount is given, then what will be the profit percentage?",
+             "options" : ["20 %","12.5 %","25 %","10 %"],
+             "answer" : "20 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Manoj bought two T.V. for Rs.2,280. He sold one at a loss of 20 percent and other at a profit of 10 percent. If each T.V was sold for the same price, then what is the cost price of the TV which was sold at loss?",
+             "options" : ["Rs.1,380","Rs.1,320","Rs.1,050","Rs.1,440"],
+             "answer" : "Rs.1,320",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person buys three spectacles at the rate of Rs.4,000 per spectacles. He sells first spectacles at a profit of 30 percent, sells second spectacles at a loss of 10 percent and sells third spectacles at a loss of 10 percent. What is the total percentage of profit earned in the whole transaction?",
+             "options" : ["7.14 percent","2.18 percent","3.33 percent","5.41 percent"],
+             "answer" : "3.33 percent",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "On selling a table for Rs. 210 and Rs. 420 there will be loss of l1% and l2% respectively. If l1-l2 = 7, then what is the cost price of table ?",
+             "options" : ["Rs. 5,000","Rs. 3,000","Rs. 7,000","Rs. 4,000"],
+             "answer" : "Rs. 3,000",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "Rajiv sells a pen at a profit of 5 percent. If he sells the pen for Rs. 36 more, then he earns a profit of 14 percent. What is the cost price of the pen?",
+             "options" : ["Rs. 600","Rs. 300","Rs. 500","Rs. 400"],
+             "answer" : "Rs. 400",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of an article is 40 percent more than its cost price. If 20 percent discount is given on the marked price, then what will be the profit percentage ?",
+             "options" : ["15 %","12 %","10 %","8 %"],
+             "answer" : "12 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "In what ratio tea of Rs.60 per kg should be mixed with tea of Rs.70 per kg so that on selling the mixture at Rs.80 per kg there is a profit of 25 percent?",
+             "options" : ["3 : 2","2 : 3","5 : 2","4 : 1"],
+             "answer" : "3 : 2",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Shivam purchased two watches, first for Rs. 12000 and the second for Rs. 20,000. He sold both the watches, first one at the profit of 10 percent and the second at a loss of 20 percent. What is the overall profit or loss?",
+             "options" : ["Profit = Rs. 2600","Loss = Rs. 2800","Loss = Rs. 2400","Profit = Rs. 2200"],
+             "answer" : "Loss = Rs. 2800",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of a chair is 30 percent more than its cost price. If the chair is sold for Rs. 200 after a discount of Rs. 40, then what will be the profit percentage?",
+             "options" : ["8.34 percent","7.28 percent","9.66 percent","8.13 percent"],
+             "answer" : "8.34 percent",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A merchant marks the price of his article 20 percent above the cost price. If he allows 10 percent discount, then what is the profit or loss percentage?",
+             "options" : ["8 percent profit","3.33 percent loss","6 percent loss","5 percent profit"],
+             "answer" : "8 percent profit",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A faulty weighing machine reads 1 kg when 900 gm is actually weighted on it. The shopkeeper marked the price of his goods by 10%, but unfortunately he was caught by the metrology department and then they ordered him to repair his weighing machine and gave punishment to sell the goods at a 10% discount on cost price for a month. If each customer is now paying ₹20 for 1 kg, then before the raid _______ amount they have paid for the same quantity. (Rounded off to two places of decimal)",
+             "options" : ["₹27.16","₹27.04","₹28.05","₹28.15"],
+             "answer" : "₹27.16",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A dishonest merchant sells goods at a 12.5% loss on the cost price, but uses 28 g weight instead of 36 g. What is his percentage profit or loss?",
+             "options" : ["6.25% loss","12.5% gain","18.75% gain","10.5% loss"],
+             "answer" : "12.5% gain",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The price of some wooden furniture increases by 65% when it passes through three hands. If the first and second sellers made a profit of 20% and 25%, respectively, then find the profit percentage of the third seller.",
+             "options" : ["10%","12.5%","16%","8%"],
+             "answer" : "10%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost of a piece of diamond varies with the square of its weight. A diamond of Rs.6,084 value is cut into 3 pieces whose weights are in the ratio 3 : 2 : 1. Find the loss involved in the cutting.",
+             "options" : ["Rs.3,768","Rs.3,718","Rs.3,168","Rs.3,518"],
+             "answer" : "Rs.3,718",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A dishonest trader says to customers that he sells his goods at a cost price, but he uses a false weight and gains 12.5% as profit. How many grams does he use to weigh 1 kg?",
+             "options" : ["900 g","880.5 g","850 g","888.8 g"],
+             "answer" : "888.8 g",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper earns 10% on an investment but loses 20% on another investment. If the ratio of the two investments is 2 : 3, then the combined loss percentage is:",
+             "options" : ["5.5%","7%","6%","8%"],
+             "answer" : "8%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Apples were purchased at 100 for Rs.350 and sold at Rs.48 a dozen. What is the profit or loss percentage?",
+             "options" : ["Profit 14 2/7 %","Loss 18 3/5 %","Loss 10%","Profit 12%"],
+             "answer" : "Profit 14 2/7 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper has 2220 kg of rice. A part of which he sells at a 20% profit and the rest at a 12% profit. He gains 18% on the whole. The quantity (in kg) sold at a 12% profit is:",
+             "options" : ["555","1210","1665","425"],
+             "answer" : "555",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Three-fourth of a consignment was sold at a profit of 8% and the rest at a loss of 4%. If there was an overall profit of Rs.600, then find the value of the consignment.",
+             "options" : ["Rs.15,000","Rs.6,000","Rs.18,000","Rs.12,000"],
+             "answer" : "Rs.12,000",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "Ramesh claims that he is selling onions at Rs.36 per kg, which costs him Rs.40 per kg, but he gives 800 grams instead of 1 kg. Find Ramesh's percentage gain or loss.",
+             "options" : ["Gain 13.5%","Loss 13.5%","Loss 12.5%","Gain 12.5%"],
+             "answer" : "Gain 12.5%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper advertises for selling clothes at a 7% loss. However, by using a false scale of length 1 metre he actually gains 24%. What will be the actual length he uses instead of 1 metre ?",
+             "options" : ["75cm","31cm","76cm","93cm"],
+             "answer" : "75cm",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A man sells two cows for Rs.15,640 each, gaining 15% on one and losing 15% on the other. Find his total gain or loss.",
+             "options" : ["Rs.720 loss","Rs.360 loss","Rs.720 gain","Rs.360 gain"],
+             "answer" : "Rs.720 loss",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A dishonest dealer professes to sell his goods at cost price but uses a false weight and thus gains 15%. For a kilogram, he uses a weight of _________ (rounded off to one digit after decimal).",
+             "options" : ["833.3 gm","876.7 gm","869.6 gm","898.33 gm"],
+             "answer" : "869.6 gm",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Ramesh purchases a table and a chair for Rs.3,900. He sells the table at a profit of 8% and the chair at a profit of 16%. He earns a profit of Rs.540. What is the difference between the original price of the table and the chair?",
+             "options" : ["Rs.2,000","Rs.1,800","Rs.1,900","Rs.1,700"],
+             "answer" : "Rs.1,800",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A seller uses faulty weight in place of a 2 kg weight and earns a 25% profit. He claims that he is selling on the cost price in front of the customers but uses a faulty weight. How much error is there in the 2 kg weight to gain 25%?",
+             "options" : ["250 g","400 g","500 g","300 g"],
+             "answer" : "400 g",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A wrist watch is sold for ₹1,200 at a profit per cent equal to its cost price. Find the cost price of the wrist watch.",
+             "options" : ["₹ 400","₹ 250","₹ 350","₹ 300"],
+             "answer" : "₹ 300",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "What will be the actual profit percentage (rounded off to nearest integer) after selling an article at a certain price, while there occurs a loss of 45% on selling the article at 3/8 of the selling price ?",
+             "options" : ["17 %","37 %","47 %","27 %"],
+             "answer" : "47 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper sells his items using a faulty balance which measures 25% less. He then marks up his items 15% above the cost price. If he also gives a discount of 10%, then find his net profit percentage on 1 kg items.",
+             "options" : ["32%","41%","44%","38%"],
+             "answer" : "38%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost price of an article is ₹1,200. On buying four such articles, the customer gets one for free. If the selling price of each article is ₹1,800, then determine the net percentage profit earned by the shopkeeper on selling four articles.",
+             "options" : ["12%","20%","18%","15%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper gives 20% commission on the retail price of one article and earns 5% profit. If his commission is reduced by 10%, then what is his approximate profit  percentage? (Nearest integral value)",
+             "options" : ["18%","10%","15%","8%"],
+             "answer" : "18%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper claims to sell his articles at ₹20 per kg which cost him ₹23 per kg. But while selling, he uses a false weight and gives only 800 gm instead of 1 kg. What is his profit percentage?",
+             "options" : ["8 17/23 %","8 16/23 %","8 14/23 %","8 15/23 %"],
+             "answer" : "8 16/23 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Rajkumar decides to sell his watch at a discount of 5%. However, his brother purchases it from him and receives an 8% discount. Rajkumar loses Rs.45 in profit as a result of this. What was the watch's marked price?",
+             "options" : ["Rs.1,500","Rs.1,410","Rs.1,430","Rs.1,560"],
+             "answer" : "Rs.1,500",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A merchant marks up the price of his goods by 40% more than the cost price. He then sells 1/5th of his goods at a discount of 10%, half of the goods at the marked price and the rest of the goods at a discount of 20%. Find his profit percentage.",
+             "options" : ["20.4 %","30.2 %","28.8 %","14.6 %"],
+             "answer" : "28.8 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person sells an article for a loss of 18 percent. If he increases the selling price by ₹144 and decreases the cost price by 30 percent, then there is profit of 20 percent. What is the original selling price?",
+             "options" : ["₹ 5068","₹ 6036","₹ 5904","₹ 6124"],
+             "answer" : "₹ 5904",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "The selling prices of articles A and B are the same. A is sold at a profit of 28 percent and B is sold at a loss of 24 percent. If the total selling price of the both articles is ₹48640, then what is the cost price of A and B, respectively?",
+             "options" : ["₹ 26000, ₹ 40000","₹ 24000, ₹ 38000","₹ 17000, ₹ 28000","₹ 19000, ₹ 32000"],
+             "answer" : "₹ 19000, ₹ 32000",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Raheem sold a crockery set for ₹1,092 at a profit of 20%. What would have been the actual percentage profit or loss on it, if he sold it for ₹950 (rounded to two decimal places)?",
+             "options" : ["5.40% loss","4.40% loss","5.40% profit","4.40% profit"],
+             "answer" : "4.40% profit",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Mukesh sells 80% part of a commodity at a profit of 20% and rest of the part at a loss of 5% and in this way earns a profit of ₹9,300. What was the cost price of the commodity for Mukesh?",
+             "options" : ["₹61,000","₹62,000","₹60,000","₹58,000"],
+             "answer" : "₹62,000",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "P buys an article for Rs.280 and sells it to Q at a profit of 25%. Q sells it to R at some profit. R sells it to S for Rs.560 making a profit of 40%. What percentage profit (rounded off to the nearest integer) did Q make?",
+             "options" : ["26 %","14 %","32 %","20 %"],
+             "answer" : "14 %",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A 15% discount is allowed by a tradesman. How much above the cost price (in percentage) must he mark his goods so as to gain 19% ?",
+             "options" : ["32%","40%","35%","47%"],
+             "answer" : "40%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A multi-store outlet sold 1375 items in a week earning 25% gain. The gain is also equal to the selling price of ‘Q’ number of items. What is the value of Q ?",
+             "options" : ["250","325","225","275"],
+             "answer" : "275",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper purchases supplies from a supplier. The supplier sells 750 units of bags to the shopkeeper after gaining the sale price of 125 units of bags. What is the gain percentage of the supplier?",
+             "options" : ["16%","20%","22%","15%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper buys three products a, b, c and sells them at 20%, 30%, 40% profit, respectively. What is the ratio of the selling price of these products, if the ratio of their cost prices is 4 : 3 : 2?",
+             "options" : ["34 : 54 : 12","48 : 39 : 28","56 : 26 : 21","24 : 39 : 14"],
+             "answer" : "48 : 39 : 28",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost price of a table to Ravi, was ₹1,600. Ravi sold this table at a loss of 10%. What was the price at which Ravi sold the table ?",
+             "options" : ["₹1,380","₹1,520","₹1,510","₹1,440"],
+             "answer" : "₹1,440",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Ranveer bought a computer paying 25% less than the list price and sold it to his neighbour at a 40% profit on his purchase cost. The profit percentage earned by Rnaveer on the list price of the computer is :",
+             "options" : ["10%","7.5%","6.67%","5%"],
+             "answer" : "5%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Rohit purchased 12 kg of oranges for a total price of ₹480 and 18 kg of guavas at ₹30 per kg. What is the per kg average cost of the fruits purchased by Rohit?",
+             "options" : ["₹36.00","₹34.00","₹37.20","₹38.20"],
+             "answer" : "₹34.00",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A bought a bag and a bottle for a total of ₹900. He sold the bottle at a profit of 12% and the bag at a profit of 20%. If he earned a total profit of ₹160.80, then calculate the cost price of the bottle.",
+             "options" : ["₹320","₹300","₹200","₹240"],
+             "answer" : "₹240",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The ratio of the cost price of an item and the profit gained while selling the item is 4 : 1. What is the profit percentage?",
+             "options" : ["20%","25%","15%","18%"],
+             "answer" : "25%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Shubham bought a book from Meesho at ₹500. Meesho also charged an additional ₹25 for packaging and ₹50 for delivering the book. For what amount should Shubham sell his book to make a profit of 16%?",
+             "options" : ["₹667","₹612","₹783","₹458"],
+             "answer" : "₹667",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If 25% discount is given on an article, then there will be a loss of 15% . if the article is sold at its marked price, Then what will the profit percentage be? [Give your answer correct to 2 decimal places]",
+             "options" : ["15.66%","12.66%","13.33%","10.22%"],
+             "answer" : "13.33%",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "A person buys some bananas at ₹Y per dozen and sells them at ₹Y/4 per banana. What is his gain percentage?",
+             "options" : ["200%","50%","80%","100%"],
+             "answer" : "200%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "2/5 of the marked price of an item is equal to 4/7 of its cost price. If a discount of 15% is given on its sale, then what is the approximate profit percentage earned?",
+             "options" : ["19.84%","23.63%","21.43%","14.28%"],
+             "answer" : "21.43%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A retailer bought 50 kg of Arhar Dal at a discount of 20%. Another 2 kg of Arhar dal was offered to him for free by the wholesaler on the purchase of 50 kg of the dal. If the retailer sells the entire quantity of the dal at the marked price to a customer, what is the profit percentage gained by the retailer?",
+             "options" : ["30%","22%","12%","15%"],
+             "answer" : "30%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The Cost prices of a pen and a notebook are ₹600 and ₹4,000 respectively. If the pen and the notebook are sold at losses of 20% and 32% respectively, what will be the approximate percentage of total loss incurred through the two sales made?",
+             "options" : ["21.40%","26.08%","30.43%","28.42%"],
+             "answer" : "30.43%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper earns a profit of 16% if he allows a discount of 20% on the marked price of an article. What will be the profit % earned by the shopkeeper if he sold the article at its marked price?",
+             "options" : ["45%","35%","36%","55%"],
+             "answer" : "45%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The selling price of a desktop is 9 times of the profit earned on selling this desktop. What is the profit percentage?",
+             "options" : ["10%","12.5%","11.11%","8.33%"],
+             "answer" : "12.5%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Nalini purchased 20 dozen apples at ₹48 per dozen. She sold 8 dozen of them at 10% profit and the remaining 12 dozen at 20% profit. What is the overall profit percentage gained in this transaction?",
+             "options" : ["10%","45%","16%","22%"],
+             "answer" : "16%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Kapil bought 100 frocks at the rate of ₹320 per frock. Transport expenditure was ₹ 1000. He paid a tax of ₹1.50 per frock and the labor fee was ₹500. What should be the selling price per frock if she wants to make a profit of 10%?",
+             "options" : ["₹385.45","₹370.15","₹390.80","₹336.50"],
+             "answer" : "₹370.15",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The selling prices of an apple and an orange are Rs 90 and Rs 40, respectively. If the profit percentage gained on the sales of an apple and an orange are 50% and 100%, respectively, then what is the total cost price of an apple and an orange.",
+             "options" : ["65","100","85","80"],
+             "answer" : "80",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A merchant bought 60 sheep at Rs 120 per sheep. He sold 40 of them at RS 150 each. Another 10 of the sheep died. What should be the selling price of the remaining sheep, If he wants a total profit of RS 800?",
+             "options" : ["150","180","250","200"],
+             "answer" : "200",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A milkman purchases milk at ₹ ‘a’ per litre and sells it at ₹ 1.5a per litre. Still he mixes 2 litres water with every 9 litres of pure milk. What is his profit percentage?",
+             "options" : ["250/3%","328/9%","789/5%","1000/3%"],
+             "answer" : "250/3%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Vishal and Param each sold their article at ₹1,818 but Vishal incurred a loss of 10%, while Param gained by 1%. What is the ratio of the cost price of Vishal’s article to that of Param’s article?",
+             "options" : ["101 : 90","3 : 4","85 : 89","81 : 75"],
+             "answer" : "101 : 90",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Kisna buys a cow for ₹15,000. After one year, he sells it for ₹18,500. After one year, again he buys the same cow at ₹19,000 and sells it for ₹22,300. What is the overall profit percentage of Kisna?",
+             "options" : ["18 %","10%","20%","15%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A mobile phone is sold at a profit of 80%. The nominal profit is approximately what percentage of the selling price of the mobile phone?",
+             "options" : ["33.33%","28.56%","44.44%","36.66%"],
+             "answer" : "44.44%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "David purchased an item and marked his price up by 10%. He sold the same item by giving a discount of 5% and he made a profit of Rs.12.87. What is the actual cost price of the item?",
+             "options" : ["Rs 220","Rs 280","Rs 286","Rs 256"],
+             "answer" : "Rs 286",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "What is the profit percentage of a dishonest cloth merchant who uses a scale which measures 16 2/3 % less than what is marked on it, and also sells a price of 10% higher than the cost price?",
+             "options" : ["20%","32%","26%","30%"],
+             "answer" : "32%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "When a watch is sold at 7/8th of the marked price, there is profit of 25%. At what percentage more than the cost price has the marked price of the watch been fixed?. [Give your answer correct to 2 decimal places]",
+             "options" : ["34.46%","42.86%","37.15%","30%"],
+             "answer" : "42.86%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper sold 24 shirts, each at a profit of 20% and 16 shirts, each at a profit of 10%. If he had sold all the 40 shirts, each at a profit of 15% , then his overall profit would have been reduced by ₹36. What is the cost price of each shirt?",
+             "options" : ["₹100","₹220","₹90","₹150"],
+             "answer" : "₹90",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A man P purchased a land for ₹4,32,000 on the outskirts of a city. Due to some reason, its value depreciated at 25% per annum and he sold it to Q after 2 years. At this time, the city expanded and new projects of infrastructures started coming up. As a result of the expansion, there was an appreciation of real estate prices at the rate of 50%. What would be the value (in ₹) of the land after 2 years, from the time Q bought the land from P ?",
+             "options" : ["₹5,46,750","₹5,57,450","₹5,76,450","₹6,05,070"],
+             "answer" : "₹5,46,750",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Kamal purchases 80 articles for ₹11,180 and sells them at a loss equal to the selling price of 6 articles. What will be the selling price of 1 article?",
+             "options" : ["₹130","₹120","₹135","₹125"],
+             "answer" : "₹130",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper normally makes a profit of 20% in a certain transaction; he weighs 900 g instead of 1 kg, due to an issue with the weighing machine. If he charges 10% less than what he normally charges, what is his actual profit or loss percentage?",
+             "options" : ["20%","28%","25%","30%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A fruit seller purchased 300 bananas at the rate of ₹18 per dozen and sold 200 bananas at the rate of ₹24 per dozen and the remaining bananas at the rate of ₹21 per dozen. What is his net profit percentage?",
+             "options" : ["28%","26%","27%","27 7/9%"],
+             "answer" : "27 7/9%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of 42 items was equal to the cost price of 70 items. The selling price of 25 items was equal to the marked price of 21 items. Calculate the percentage profit or loss from the sale of each item.",
+             "options" : ["42% profit","29% profit","29% loss","40% profit"],
+             "answer" : "40% profit",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A seller combines 26 kg of rice priced at ₹20 per kg with 30 kg of rice priced at ₹36 per kg and sells the mixture for ₹30 per kg. What is the percentage of profit he makes?",
+             "options" : ["8","5","7","3"],
+             "answer" : "5",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A merchant gives an additional discount of 10% on the product after an initial discount of 20% on the listed price. He managed to make a 10% profit by selling the product for ₹54,000. What was the listed price of the product?",
+             "options" : ["₹77,500","₹77,000","₹75,000","₹72,500"],
+             "answer" : "₹75,000",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "If half of the quantity of sugar in a bag was sold at a profit of 20%, a quarter of the quantity of sugar in the bag was sold at a profit of 16% and the remaining sugar in the bag was sold at a profit of 24%, and the total profit obtained by selling all the sugar in the bag was ₹90, what was the cost price of the entire quantity of sugar in the bag?",
+             "options" : ["₹450","₹750","₹500","₹400"],
+             "answer" : "₹450",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A table fan, passing through two hands, is finally sold at a profit of 30% of the original cost price. If the first dealer makes a profit of 25%, then the profit made by the second dealer is:",
+             "options" : ["5%","10%","15%","4%"],
+             "answer" : "4%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of an article is ₹10,927. Due to the festive season, a certain percentage of discount is declared. Raju buys an article at a reduced price and sells it at ₹10,927, and makes a profit of 11.5%. What was the percentage discount offered?",
+             "options" : ["10.3%","11.3%","11.5%","10.9%"],
+             "answer" : "10.3%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person sold an article at a loss of 18%. Had it been sold for Rs. 960 more, he would have gained 12%. If the article is sold for Rs. 3,840, then how much is the profit percentage?",
+             "options" : ["15%","24%","20%","21%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost price of two articles A and B are in the ratio 4 : 5 . While selling these articles ,the shopkeepers gains 10% on article A and 20% on article B and the difference in their selling price is ₹480. The difference in the cost price (in ₹) of article B and A is ;",
+             "options" : ["250","300","400","350"],
+             "answer" : "300",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "A shopkeeper bought 40 pieces of an article at a rate of ₹50 per item.He sold 35 pieces with 20% profit. The remaining 5 Pieces were found to be damaged and he sold them with 10% loss. Find his overall profit percentage.",
+             "options" : ["30%","32.5%","16.25%","10%"],
+             "answer" : "16.25%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Manjeet bought a second hand motorbike for र22,000 and spent र3,000 on its overhauling and maintenance . He then sold it with 12% profit.If he had sold it for र500 less, then what would have been his profit percentage ?",
+             "options" : ["10.5%","10%","5%","8%"],
+             "answer" : "10%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "An article is sold at a certain price. If it is sold at 70% of this price, then there is a loss of 10%. What is the percentage profit, when it is sold at the original selling price ?",
+             "options" : ["50/7%","200/7%","300/7%","100/7%"],
+             "answer" : "200/7%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A vegetable vendor sold 1 kg of potatoes for Rs. 25 and earned 25% profit. In the evening, he started selling potatoes with only 10% profit. At what cost (in ₹) per kg did he sell the potatoes in the evening?",
+             "options" : ["21","20","24","22"],
+             "answer" : "22",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "An article is sold at a certainprice. If it is sold at 33 1/3% of this price,  there is a loss of 33 1/3%. What is the  percentage profit if the article is sold at 80% of its original selling price?",
+             "options" : ["70%","60%","40%","50%"],
+             "answer" : "60%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Some fruits are bought at 11 for ₹100 and twice the number at 8 for ₹100. If all the fruits are sold at 9 for ₹100, then what is the profit or loss percentage?",
+             "options" : ["Gain, 3%","Loss, 3%","Gain, 4 1/9%","Loss, 2 2/9%"],
+             "answer" : "Loss, 2 2/9%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost prices of two articles are in the ratio 4 : 5. While selling these articles, the shopkeeper gains 10% on one article and 20% profit on the other article, and the difference in the selling price is ₹480. Find the total cost price of both the articles.",
+             "options" : ["₹3,000","₹2,700","₹2,500","₹2,800"],
+             "answer" : "₹2,700",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "When an article is sold for ₹768, the profit percentage is x%. When the same article is sold for ₹896, the profit percentage is (x + 20)%. What is the value of x?",
+             "options" : ["30","25","15","20"],
+             "answer" : "20",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The cost price of 30 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+             "options" : ["18","30","24","25"],
+             "answer" : "24",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A man sold a radio and a TV set together for ₹30,400, thereby making a profit of 25% on the radio and 10% on the TV set. By selling them together for ₹30,700, he would have made a 10% profit on the radio and 25% on the TV set. The cost price of the radio is:",
+             "options" : ["₹10,000","₹12,000","₹8,000","₹9,000"],
+             "answer" : "₹12,000",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper bought 500 notebooks. He sold 300 of them for the price he paid for all 500 notebooks. He sold 140 notebooks at a 20% higher rate than that at which he sold 300 notebooks and the remaining at the cost price.What is the profit percentage in the whole transaction?",
+             "options" : ["60%","56%","68%","64%"],
+             "answer" : "68%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A trader purchased 500 kg of sugar at ₹40 per kg. He sold 200 kg of it at a profit of 10% and 120 kg at a loss of 5%. At what rate per kg (in ₹, correct to 2 decimal places) should he sell the remaining sugar to gain 12% on his initial investment?",
+             "options" : ["48.67","52.33","50.22","44.80"],
+             "answer" : "50.22",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Raghu bought an article for ₹6,800 and spent ₹700 on its repairs. He marked this article at 8% above the overall cost price. He sold the article for ₹6,480 after giving x% discount. The value of x is:",
+             "options" : ["15%","25%","18%","20%"],
+             "answer" : "20%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The marked price of an article is 35% above its cost price. After giving a 20% discount on the marked price, it is sold for ₹432. What is the cost price of the article?",
+             "options" : ["₹400","₹380","₹425","₹420"],
+             "answer" : "₹400",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper buys 60 oranges at 10 for ₹72, and an equal number at 12 for ₹90. He spends ₹118 on the transaction and sells all the oranges that he buys. If there is a profit of 26% in the entire transaction, then what is the selling price of 32 oranges?",
+             "options" : ["₹336","₹313.60","₹316.80","₹320"],
+             "answer" : "₹336",
+             "category" : "Profit and Loss"
+        }
+    ],
+    [
+        {
+             "question" : "If a shopkeeper purchases a certain number of items for a certain sum and sells a fraction of the said number for the same amount, then his profit is 300%. What is the fraction?",
+             "options" : ["1/4","1/3","1/6","1/2"],
+             "answer" : "1/4",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper bought 20 kg of sugar at Rs.45 per kg, 25 kg of sugar at Rs.50 per kg and 35 kg of sugar at Rs.40 per kg. He spent a sum of Rs.450 on transportation and other expenses. He mixed all the three types of sugar and sold all the stock at Rs.52.50 per kg. His profit percent in the entire transaction is:",
+             "options" : ["5%","7.25%","4.25%","6.5%"],
+             "answer" : "5%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper sold two items. The selling price of the first item equals the cost price of the second item. He sold the first item at a profit of 20%, and the second item at a loss of 10%. What is the overall profit/loss percent?",
+             "options" : ["Loss, 4 6/11%","Profit, 3 7/11%","Profit, 4 7/11%","Loss, 8 1/3%"],
+             "answer" : "Profit, 3 7/11%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper sold an article at four-fifth of the marked price and suffered a loss of 3 1/3%. Find the profit percent, if he sold the article at the marked price. (correct to nearest integer)",
+             "options" : ["20","22","18","21"],
+             "answer" : "21",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A shopkeeper bought 40 dozen eggs at Rs. 1.40 each. 80 eggs were broken in transportation. He sold the remaining eggs at Rs. 1.60 each. What is his profit or loss per cent?",
+             "options" : ["Loss, 3 19/27","Profit, 3 19/27","Profit, 4 16/21","Loss, 4 16/21"],
+             "answer" : "Profit, 4 16/21",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A man buys goods for Rs.8000. He sells 30% of those goods at a profit of 12% and 40% of the remaining goods at a profit of 25%. At what profit percentage should he sell the remaining goods to gain 30% in the entire transaction. (correct to one decimal place)?",
+             "options" : ["42.6%","46.2%","48.4%","31.6%"],
+             "answer" : "46.2%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "By selling a car for Rs.6,32,500, a showroom owner makes a profit of 15%. If he sold the car at Rs. 8,10,000, then what would be the profit percentage (correct to one decimal place)",
+             "options" : ["47.3%","44.8%","41.5%","51.4%"],
+             "answer" : "47.3%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person sold an article at a loss of 16%. Had he sold it for Rs. 660 more, he would have gained 8%. If the article is sold at Rs. 3,080, then how much profit percentage is gained?",
+             "options" : ["10%","15%","20%","12%"],
+             "answer" : "12%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Remi earns a profit of 20% on selling an article of a certain price. If she sells the article for Rs. 8 more, she will gain 30%.What is the original price of 16 such articles ?",
+             "options" : ["Rs1,280","Rs1,152","Rs1,120","Rs1,200"],
+             "answer" : "Rs1,280",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Anil bought two articles A and B at a total cost of 𝑅𝑠10,000. He sold the article A at 15% profit and the article B at 10% loss. In the whole deal, he made no profit or no loss. Find the selling price of the article A.",
+             "options" : ["5400","4500","4600","4200"],
+             "answer" : "4600",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The difference between the selling prices of some articles if sold for Rs 12 per article instead of Rs 9 per article is Rs 150. If the cost price of these articles is Rs250, then find the selling price of 21 articles if profit earned is 20%.",
+             "options" : ["126","136","125","130"],
+             "answer" : "126",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "On selling 26 balls for Rs.1350, there is a loss equal to the cost price of eight balls. The cost price of a ball is:",
+             "options" : ["70","65","60","75"],
+             "answer" : "75",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "A person purchased 40 items at some price. He sold some items at a profit of 30% by selling them at a price equal to the cost price of 26 items. The remaining items are sold at 18% profit. The total profit percentage is:",
+             "options" : ["27%","28%","25%","24%"],
+             "answer" : "24%",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "The selling price of a book, including the sales tax, is Rs 956.34. The rate of sales tax is 10%. If the shopkeeper has made a profit of 15%, then the cost price of the book is:",
+             "options" : ["Rs 756","Rs 797.34","Rs.845.98","Rs.836"],
+             "answer" : "Rs 756",
+             "category" : "Profit and Loss"
+        },
+        {
+             "question" : "Anu fixes the selling price of an article at 25% above its cost of production. If the cost of production goes up by 20% and she raises the selling price by 10%, then her percentage profit is (correct to one decimal place):",
+             "options" : ["16.4%","14.6%","13.8%","15.2%"],
+             "answer" : "14.6%",
+             "category" : "Profit and Loss"
+        }
+    ]    
 ]

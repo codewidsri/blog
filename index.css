@@ -64,6 +64,10 @@ header nav ul li {
   color: whitesmoke;
   cursor: pointer;
   user-select: none;
+  /* border: 1px solid orangered; */
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
 }
 
 header nav ul li.openmenu {
@@ -96,7 +100,8 @@ main section.aptitude div.cards a {
   text-decoration: none;
   color: rgb(127, 13, 241);
   box-shadow: 15px 15px 70px rgba(167, 160, 160, 0.7);
-  box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
+  /* box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7); */
+  border-radius: 20px;
   margin: 20px;
   font-weight: bold;
 }
@@ -114,7 +119,7 @@ main section.aptitude div.cards a:hover span {
 
 main section.aptitude div.cards a:hover {
   transform: scale(1.05);
-  border-bottom: 3px solid;
+  border: 2px solid;
 }
 
 /* coding */
@@ -312,7 +317,7 @@ body.dark main section.coding .content .filter label:hover {
   }
 
   main section.aptitude h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   main section.aptitude div.cards a {

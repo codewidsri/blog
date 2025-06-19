@@ -1,81 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --background-color: #f9f9f9;
-    --font-color: #333;
+  --background-color: #f9f9f9;
+  --font-color: #333;
 }
 
 body {
-    /* width: 100dvw; */
-    height: 100dvh;
-    background-color: var(--background-color);
-    color: var(--font-color);
-    font-family: Arial, sans-serif;
+  /* width: 100dvw; */
+  height: 100dvh;
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: Arial, sans-serif;
 }
 
-main h2{
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
+main h2 {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
 }
 
-main section.posts{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin: 10px;
+main section.posts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  user-select: none;
 }
 
-main section.posts a{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 50px;
-    text-decoration: none;
-    color: rgb(127, 13, 241);
-    box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
-    margin: 20px;
+main section.posts a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  text-decoration: none;
+  color: rgb(127, 13, 241);
+  box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
+  margin: 20px;
+  border-radius: 15px;
 }
 
-main section.posts .post h4{
-    text-transform: capitalize;
+main section.posts .post h4 {
+  text-transform: capitalize;
 }
 
-main section.posts a:hover{
-    transform: scale(1.05);
-    border-bottom: 2px solid rebeccapurple;
+main section.posts a:hover {
+  transform: scale(1.05);
+  border: 2px solid;
 }
 
-main section.posts a span{
-    transition: transform 0.5s;
-    color: rgb(0, 255, 0);
+main section.posts a span {
+  transition: transform 0.5s;
+  color: rgb(0, 255, 0);
+  margin-left: 10px;
+  font-size: 1rem;
 }
 
-main section.posts a:hover span{
-    color: rgb(0, 255, 0);
-    transform: translateX(30px);
+main section.posts a:hover span {
+  color: rgb(0, 255, 0);
+  transform: translateX(30px);
 }
 
-body.dark{
-    background-color: #1e2028;
-    color: wheat;
+body.dark {
+  background-color: #1e2028;
+  color: white;
 }
 
-body.dark main section.posts a{
-    box-shadow: 15px 15px 70px rgb(11, 11, 11);
+body.dark main section.posts a {
+  box-shadow: 15px 15px 70px rgb(11, 11, 11);
 }
 
 @media screen and (max-width: 480px) {
-    main h2{
-        font-size: 1rem;
-    }
-    main section.posts .post h4{
-        font-size: 0.9rem;
-    }
+  main h2 {
+    font-size: 1.5rem;
+  }
+  main section.posts .post h4 {
+    font-size: 1rem;
+  }
 }

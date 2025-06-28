@@ -35,7 +35,7 @@ main section.posts a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 5%;
   text-decoration: none;
   color: rgb(127, 13, 241);
   box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);

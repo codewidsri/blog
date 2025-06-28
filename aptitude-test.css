@@ -10,7 +10,6 @@
 }
 
 body {
-    /* width: 100dvw; */
     height: 100dvh;
     background-color: var(--background-color);
     color: var(--font-color);
@@ -67,6 +66,11 @@ section.questions .question .options .left,.right{
     width: 100%;
 }
 
+section.questions .question .options input{
+    accent-color: rebeccapurple;
+    display: none;
+}
+
 section.questions .question .options label{
     display: block;
 }
@@ -75,11 +79,6 @@ section.questions .question .options input[type='radio']:checked + label{
     background-color: rebeccapurple;
     color: white;
     font-weight: bold;
-}
-
-section.questions .question .options input{
-    accent-color: rebeccapurple;
-    display: none;
 }
 
 section.questions .question .options label{
@@ -127,7 +126,7 @@ main form .btn-group{
 
 .resetbtn{
     background-color: tomato;
-    background-color: yellow;
+    background-color: rgb(255, 208, 0);
 }
 
 #time{
@@ -147,6 +146,9 @@ body.dark form{
 @media screen and (max-width:480px) {
     section.questions .question{
         margin: 0px;
+    }
+    section.questions .question .options{
+        flex-wrap: wrap;
     }
     .btn{
         font-size: 1rem;

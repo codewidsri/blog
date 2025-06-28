@@ -10,7 +10,6 @@
 }
 
 body {
-  /* width: 100dvw; */
   height: 100dvh;
   background-color: var(--background-color);
   color: var(--font-color);
@@ -40,17 +39,16 @@ main section.posts a {
   text-decoration: none;
   color: rgb(127, 13, 241);
   box-shadow: 15px 15px 70px rgba(184, 177, 177, 0.7);
-  margin: 20px;
-  border-radius: 15px;
+  margin: 15px;
 }
 
-main section.posts .post h4 {
+main section.posts a h4 {
   text-transform: capitalize;
 }
 
 main section.posts a:hover {
   transform: scale(1.05);
-  border: 2px solid;
+  border-bottom: 2px solid;
 }
 
 main section.posts a span {
@@ -78,7 +76,8 @@ body.dark main section.posts a {
   main h2 {
     font-size: 1.5rem;
   }
-  main section.posts .post h4 {
-    font-size: 1rem;
+ 
+  main section.posts a h4 {
+    font-size: 1.2rem;
   }
 }

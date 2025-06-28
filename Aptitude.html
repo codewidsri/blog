@@ -27,10 +27,7 @@
         let posts = document.getElementsByClassName('posts')[0];
         fetch(`./jsons/${topic}.json`).then((data) => { return data.json() }).then((data) => {
             data.map((ele, index) => {
-                posts.innerHTML += `
-                <div class="post">
-                    <a href="aptitude-test.html?topic=${topic}&test=${index}"><h4>${title} ${index+1}</h4><span class="material-symbols-sharp">double_arrow</span></a>
-                </div>`;
+                posts.innerHTML += `<a href="aptitude-test.html?topic=${topic}&test=${index}"><h4>${title} ${index+1}</h4><span class="material-symbols-sharp">double_arrow</span></a>`;
             })
         })
         

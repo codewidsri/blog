@@ -66,9 +66,9 @@
             for (let index = 0; index < questions.length; index++) {
               if (answers[questions[index].name].answer == questions[index].value) {
                 score++;
-                document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = "green";
+                document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = "rgb(83, 190, 11)";
               } else {
-                document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = "red";
+                document.querySelector(`#${questions[index].id} + label`).style.backgroundColor = "rgb(185, 43, 43)";
               }
               document.querySelector(`#${questions[index].id} + label`).style.color = "white";
             }

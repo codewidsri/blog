@@ -1,3 +1,186 @@
 [
-    
+    [
+		{
+			 "question" : "A man runs for 40 km. The time taken by him in the first 10 km is twice the time taken by him in the second 10 km. The time taken in the third 10 km is half of the time taken in the fourth 10 km, and the time taken in the fourth 10 km is equal to the time taken in the first 10 km. If his speed in the first 10 km is 40 km/h, then what is the average speed for 40 km?",
+			 "options" : ["160/3 km/h","70/3 km/h","50 km/h","40 km/h"],
+			 "answer" : "160/3 km/h",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "If the ratio among the time taken by three cars to travel a certain distance is 2 : 3 : 5, then the ratio of speeds of these cars will be:",
+			 "options" : ["10 : 6 : 15","15 : 9 : 8","10 : 15 : 8","15 : 10 : 6"],
+			 "answer" : "15 : 10 : 6",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A policeman chases a thief who is 630 metres ahead of him. If they run at a speed of 9.5 km per hour and 6.5 km per hour, respectively, then what distance (in km, rounded off to 1 decimal place) does the thief run before he is nabbed by the policeman?",
+			 "options" : ["1.8","2.0","1.4","1.2"],
+			 "answer" : "1.4",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Anil completed a certain journey by a car. If he covered 35% of the distance at 70 km/h. 40% of the distance at 80 km/h and the remaining distance at 50 km/h, his average speed (in km/h) for the entire journey is:",
+			 "options" : ["66 3/3 km/h","66 2/3 km/h","66 1/3 km/h","66 4/3 km/h"],
+			 "answer" : "66 2/3 km/h",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "On parallel tracks, two trains of equal length are moving at speeds of 46 and 36 kilometers per hour in the same direction. In 36 seconds, the quicker train overtakes the slower one. The length of each train is :",
+			 "options" : ["60 m","50 m","56 m","52 m"],
+			 "answer" : "50 m",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Two men do the same journey by travelling at the speed of 18 km/h and 24 km/h, respectively. If one man takes 20 minutes more than the other man, then the distance (in km) of the total journey is:",
+			 "options" : ["24","20","18","21"],
+			 "answer" : "24",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Mohan completed a certain journey by car. If he covered 30% of the distance at 90 km/h, 45% of the distance at 135 km/h and the remaining distance at 75 km/h. His average speed (in km/h) for the entire journey is:",
+			 "options" : ["100","90","105","95"],
+			 "answer" : "100",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A train starts from a station P for another station Q at 6 p.m. at an average speed of 75 km per hour. Another trainstarts from station Q for station P at 8 p.m. at an average speed of 105 km per hour. If the distance between these two stations is 690 km, then at what time will the two trains meet ?",
+			 "options" : ["10 : 30 p.m.","10 p.m.","11 p.m.","11 : 30 p.m."],
+			 "answer" : "11 p.m.",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A boy covers a certain distance between his house and school on a cycle. Riding on an average speed of 15 km/h, he is late by 10 min. However, with an average speed of 20 km/h, he reaches the school 5 min earlier. Find the distance between his house and school.",
+			 "options" : ["25 km","20 km","15 km","30 km"],
+			 "answer" : "15 km",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A thief steals an item and escapes, running at a speed of 15 km/h. A policeman arrives at the spot of the crime after 4 minutes and immediately starts chasing the thief. 16 minutes after the policeman started to chase the thief; there is still a gap of 200 m between the two. At what distance from the spot of the crime will the policeman catch up the thief and what is the speed (in km/h) of the policeman ?",
+			 "options" : ["5.5 km; 16.5","6 km; 18","6.5 km; 19.5","5 km; 15"],
+			 "answer" : "6 km; 18",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Anil and Tirath drove between two points A and B 192 km apart. Anil started the journey from point A at 8 : 20 a.m.; drove at a speed of 64 km/h; reached point B and immediately returned to A at the same speed. Tirath started the journey from point A at 9 : 50 a.m.; drove at a speed of 96 km/h; reached point B and immediately returned to A at the same speed. At what time did Anil and Tirath first meet each other?",
+			 "options" : ["11 : 38 a.m.","11 : 28 a.m.","11 : 43 a.m.","11 : 33 a.m."],
+			 "answer" : "11 : 38 a.m.",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Anuj and Anup have to travel from a place A to a place B in their respective cars, Anuj is driving at 70 km/h, and takes 3 halts of 10 minutes each, while Anup is driving at 80 km/h, and takes 4 halts of 15 minutes each. The time taken by Anup to reach Place B, if Anuj takes 8.5 hours, is :",
+			 "options" : ["8 hours","7 hours","4 hours","6 hours"],
+			 "answer" : "8 hours",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Anand covers a certain distance in the first lag of 5 hours at the speed of 50 km/h. In the second lag, he increased the speed by 20% due to which he covered 20% extra distance than that of the first lag. He covered the third lag at the average speed of the first two lags and covered 10% extra distance than that of the second lag distance.How much total time (in hours) did he take to complete all three lags?",
+			 "options" : ["16","15","18","14"],
+			 "answer" : "16",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A car starts running at an initial speed of 60km/h, with its speed increasing every hour by 10 km/h. How many hours will it take to cover a distance of 1210 km?",
+			 "options" : ["12","8","10","11"],
+			 "answer" : "11",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "The distance between two places is 1200 km. To cover this distance, a person X takes 5 hours lesser than another person Y, whose average speed is 40 km/h lesser than that of X. The time taken by Y to complete the travel is:",
+			 "options" : ["16 hours","14 hours","18 hours","15 hours"],
+			 "answer" : "15 hours",
+			 "category" : "Distance Speed Time"
+		}
+	],
+	[
+		{
+			 "question" : "A car left 4 hours later than the scheduled time but in order to reach its destination 480 km away in time, it had to increase its usual speed by 10 km/hr. What is the usual speed of the car ?",
+			 "options" : ["40 km/hr","60 km/hr","30 km/hr","50 km/hr"],
+			 "answer" : "30 km/hr",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "The speed of a train including stoppages is 75 kmph and excluding stoppages, the speed of the train is 90 kmph. For how many minutes does the train stop per hour?",
+			 "options" : ["10 minutes","15 minutes","20 minutes","11 minutes"],
+			 "answer" : "10 minutes",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A bus starts from a bus station after every 30 minutes in the same direction. The speed of each bus is the same. Z is riding a bike in the opposite direction at a speed of 25 km/h . Z meets each bus in 20 minutes. What is the speed of each bus ?",
+			 "options" : ["50 km/h","75 km/h","30 km/h","60 km/h"],
+			 "answer" : "50 km/h",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A person goes from P to Q at a speed of 20 km/h.Then he goes from Q to R at a speed of q km/h. Finally the person goes from R to S at a speed of r km/h. The distances from P to Q, Q to R and R to S are equal. If the average speed from P to R is 280/11 km/h and the average speed from Q to S is 112/3 km/h then what is the value of r ?",
+			 "options" : ["40","37.5","42.5","45"],
+			 "answer" : "40",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A man had to travel 49 km, which he divided into six stretches which were exact multiples of either 4 km or 5 km. The first four stretches were 4 km, 5 km, 8 km, and 10 km. Multiples of 4 km and 5 km were travelled at the rates of 40 and 60 km/h, respectively, and between two consecutive stretches, he rested for six minutes. What was his average speed (in km/h) for the whole journey?",
+			 "options" : ["31 7/11","32 4/13","33 3/8","34 4/15"],
+			 "answer" : "32 4/13",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A takes 2 hours more than B to cover a distance of 40 km. If A doubles his speed, he takes 1 1/2 hour more than B to cover 80 km. To cover a distance of 120 km, how much time (in hours) will B take travelling at his same speed?",
+			 "options" : ["1 1/3","1 2/3","1 1/4","1 1/2"],
+			 "answer" : "1 1/2",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A train leaves station A at 8 am and reaches station B at 12 noon. A car leaves station B at 8:30 am and reaches station A at the same time when the train reaches station B. At what time do they meet?",
+			 "options" : ["9 : 38 am","10 : 22 am","10 : 08 am","9 : 52 am"],
+			 "answer" : "10 : 08 am",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "X and Y start at the same time to ride from place A to place B, which is 80km away from A. X travels 4 km/hour slower than Y.Y reaches place B and at once turns back meeting X, 16 km from place B. Y’s speed(in km/h) is:",
+			 "options" : ["9","15","8","12"],
+			 "answer" : "12",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Vaibhav and Vignesh each travel a distance of 78 km such that the speed of Vaibhav is faster than that of Vignesh. The sum of their speeds is 91 kmph and the total time taken by both is 3 hours and 30 minutes. The speed (Km/h) of Vaibhav is:",
+			 "options" : ["48","45","52","54"],
+			 "answer" : "52",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Train A takes 1 4/5hours more than the time taken by train B to cover a distance of 360 km. If the speed of train A doubles, it will take 36 min less than the time taken by train B to travel the same distance. What is the speed of train B ? (in kmph)",
+			 "options" : ["96","100","90","120"],
+			 "answer" : "120",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Two trains start at the same time from two stations and proceed towards each other at speeds of 90 km/h and 70 km /h , respectively. When they meet, it is found that one train has travelled 140 km more than the other. What is the distance between the two stations? (in km)",
+			 "options" : ["980","1100","1200","1120"],
+			 "answer" : "1120",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A person travels a distance of 300km and then returns to the starting point. The time taken by him for the outward journey is 5 hours more than the time taken for the return journey. If he returns at a speed of 10km/h more than the speed of going, what is the average speed (in km/h) for the entire journey ?",
+			 "options" : ["24","15","20","30"],
+			 "answer" : "24",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "A delivery boy started from his office at 10 a.m. to deliver an article. He rode his scooter at a speed of 32 km/h. He delivered the article and waited for 15 minutes to get the payment. After the payment was made, he reached his office at 11 : 25 a.m., travelling at a speed of 24 km/h. Find the total distance travelled by the boy.",
+			 "options" : ["32 km","30 km","35 km","40 km"],
+			 "answer" : "32 km",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "The distance between two railway stations is 1176 km. To cover this distance, an express train 5 hours less than a passenger train while the average speed of the passenger train is 70 km/h less than that of the express train. The time taken by the passenger train to complete the travel is:",
+			 "options" : ["18","17","23","12"],
+			 "answer" : "12",
+			 "category" : "Distance Speed Time"
+		},
+		{
+			 "question" : "Two cars start from the same place at the same time at right angles to each other. Their speeds are 54 km/h and 72 km/h, respectively. After 20 seconds, the distance between them will be :",
+			 "options" : ["480 m","540 m","720 m","500 m"],
+			 "answer" : "500 m",
+			 "category" : "Distance Speed Time"
+		}
+	]
 ]

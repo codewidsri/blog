@@ -550,5 +550,373 @@
 			 "answer" : "33",
 			 "category" : "Average"
 		}
+	],
+	[
+		{
+			 "question" : "The speed of a bus from station A to B is 55 km/h, and while coming back from station B to A, the speed of the bus is 95 km/h. The average speed (in km/h) of the bus during the whole journey is :",
+			 "options" : ["72 1/3","67 1/3","62 2/3","69 2/3"],
+			 "answer" : "69 2/3",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "A student's marks were incorrectly entered as 44 instead of 86. Due to this, the average of the class got decreased by 3/2. What is the number of students in the class ?",
+			 "options" : ["24","28","36","30"],
+			 "answer" : "28",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average weight of some students in class 12th was 56 kg. When seven students whose average weight was 58 kg joined the class, the average weight of all the students increased by 200 gm. Find the number of students in the class in the beginning?",
+			 "options" : ["56","77","49","63"],
+			 "answer" : "63",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "There are 75 students in the hostel. Due to new admissions, 15 new students join the mess, and the daily expenses of the mess increased by ₹240, while the average expenditure per head diminished by ₹5. What was the original expenditure (in ₹) of the mess?",
+			 "options" : ["3,450","4,530","3,540","4,350"],
+			 "answer" : "3,450",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of the boys in the class was 16 years. When 4 boys whose average age was 13 years are admitted to the class, the average age of the class was reduced by 6 months. How many boys were there initially in the class ?",
+			 "options" : ["22","20","18","25"],
+			 "answer" : "20",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "In a school, the average height of the students of the tenth standard is 100 cm. The average height of boys is 118 cm, whereas the average height of girls is 95 cm. What is the number of girls in the class if there are 20 boys?",
+			 "options" : ["72","63","54","36"],
+			 "answer" : "72",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Sandeep drives a distance of 500 metres to a store in 175 seconds. Then he drives 400 metres to another store in 125 seconds. What is his average speed (in m/s)?",
+			 "options" : ["3.5","3","2","2.5"],
+			 "answer" : "3",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "In a subject, there are 40 marks for practical and 110 marks for theory. In another subject, the practical marks are 60 and the theory marks are 40. If R gets an average mark of 40 in practical and an average mark of 60 in theory, then his average marks per subject are ______ .",
+			 "options" : ["80","60","100","40"],
+			 "answer" : "100",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "While calculating the average marks of a class, the score increased by 0.5 when the marks of one student is wrongly entered as 54 instead of 45. The number of students in the class is:",
+			 "options" : ["36","18","45","54"],
+			 "answer" : "18",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "If the average marks of three sections of Class IX, having 25, 35 and 40 students, respectively is 60, 70 and 80, then the average marks of all the students of Class IX is:",
+			 "options" : ["75","71.5","70.5","72"],
+			 "answer" : "71.5",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "What is the average of natural numbers from 1 to 73 ?",
+			 "options" : ["28","37","30","34"],
+			 "answer" : "37",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "S gets 65, 74, 62, 68 and 68 marks in Hindi, English, Mathematics, Physics and Chemistry, respectively. His average marks in Mathematics, Hindi and English are _______ more than the average marks in Mathematics, Physics and Chemistry.",
+			 "options" : ["0.5","1.33","1.67","1"],
+			 "answer" : "1",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average weight of group A and group B is 12 kg and 24 kg, respectively. The ratio of the members in group A to group B is 1 : 2. Find the combined average of both the groups.",
+			 "options" : ["16 kg","22 kg","20 kg","18 kg"],
+			 "answer" : "20 kg",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average weight of the group of 12 players increases by 1.5 kg when a player who weighs 63 kg is replaced by a new player. What is the weight of the new player?",
+			 "options" : ["84 kg","81 kg","83 kg","79 kg"],
+			 "answer" : "81 kg",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Find the average of the prime numbers lying between 51 and 77.",
+			 "options" : ["65","64","67","66"],
+			 "answer" : "64",
+			 "category" : "Average"
+		}
+	],
+	[
+		{
+			 "question" : "The average monthly salary of workers in a factory is ₹6,000. The average monthly salary of 100 technicians is ₹12,000, and the average monthly salary of non-technicians is ₹4,000. Find the total number of workers in the factory.",
+			 "options" : ["400","300","250","450"],
+			 "answer" : "400",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of 30 students in a class is 12 years. The average age of a group of 5 of the students is 10 years and that of another group of 5 of them is 14 years. The average of the remaining students is:",
+			 "options" : ["14 years","12 years","11 years","13 years"],
+			 "answer" : "12 years",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of 25 students in a class is 14 years. Five new students with an average age of 14.6 years join this class. What is the average age of 30 students in the class ?",
+			 "options" : ["13.1 years","14.1 years","15.1 years","16.1 years"],
+			 "answer" : "14.1 years",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average number of runs scored by a cricketer in 42 innings is 30. The difference between his maximum and minimum scores in an inning is 100. If these two innings are not taken into consideration, then the average score of the remaining 40 innings is 28. What are the maximum runs scored by him in an inning?",
+			 "options" : ["120","105","115","110"],
+			 "answer" : "120",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 18 integers is found to be 41. It was detected that by mistake the integer 127 was copied as 341, while calculating the average. Then the correct average is:",
+			 "options" : ["23 1/7","33 1/9","29 1/9","37 1/3"],
+			 "answer" : "29 1/9",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "A man bought 13 chairs at ₹150 each and 15 chairs at ₹130 each. The average price of a chair (to the nearest rupee) is:",
+			 "options" : ["₹130","₹145","₹142","₹139"],
+			 "answer" : "₹139",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 36 numbers was found to be 45. Later, it was detected that 84 was misread as 48. Find the correct average of the given numbers.",
+			 "options" : ["58","48","46","56"],
+			 "answer" : "46",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "According to Raghav, his weight is more than 64 kg but less than 74 kg. His sister does not agree with Raghv and she thinks that his weight is more than 60 kg but less than 69 kg. His mother’s view is that his weight cannot be more than 68 kg. His father’s view is that his weight cannot be more than 67 kg. If all are them are correct in their estimation, then what is the average of different probable weights of Raghav measures (in kg)?",
+			 "options" : ["66","67","68","65"],
+			 "answer" : "66",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average monthly income of the father and mother is ₹5,000. The average monthly income of the mother and her son is ₹6,000. The average monthly income of the father and his son is ₹10,000. Find the monthly income (in ₹) of the father.",
+			 "options" : ["9000","8000","12000","10000"],
+			 "answer" : "9000",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "College P has 180 students scoring average marks of 88 and college Q has 320 students scoring average marks of 72. Find the average marks of both the colleges together.",
+			 "options" : ["82.00","75.25","77.76","80.00"],
+			 "answer" : "77.76",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "In an examination of 7 papers of 100 marks each, there were 3 mathematics papers, 2 English papers and 2 Hindi papers. D gets average marks of 45, 55 and 60 in mathematics, English and Hindi, respectively. What are the average marks per paper?",
+			 "options" : ["56.5","52.1","55.6","54.1"],
+			 "answer" : "52.1",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of all prime numbers between 32 and 69 is:",
+			 "options" : ["52.5","60","51","56.5"],
+			 "answer" : "51",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average weight of 30 students in a class is 60 kg. If the weight of the class teacher is included, the average increases by 0.5 kg. The weight (in kg) of the teacher is:",
+			 "options" : ["76.5","75.5","72.5","74.5"],
+			 "answer" : "75.5",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average marks of 13 students is 67. If the average marks of the first seven students is 61 and that of the last seven students is 65, then what is the marks of the 7 students now? 𝑡ℎ",
+			 "options" : ["11","9","7","6"],
+			 "answer" : "11",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "In a company, the total customer calls on Monday, Wednesday and Friday are 15,500 and the total calls on Tuesday and Thursday are 12,500. The average calls on Saturday and Sunday are 7,000. What are the average calls per day in a week?",
+			 "options" : ["6500","7500","7000","6000"],
+			 "answer" : "6000",
+			 "category" : "Average"
+		}
+	],
+	[
+		{
+			 "question" : "A class of 40 students took a mathematics test. 18 students had an average score of 75. The other students had an average score of 62. What is the average score of the entire class?",
+			 "options" : ["67.85","72.52","68.50","69.85"],
+			 "answer" : "67.85",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "What is the average marks of all the students if the average marks of three batches of 55, 60, and 45 students is 50, 55, and 60, respectively ?",
+			 "options" : ["51.23","55.98","57.42","54.68"],
+			 "answer" : "54.68",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of the square of first five even natural numbers is:",
+			 "options" : ["40","44","42","46"],
+			 "answer" : "44",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 10 numbers is 42. If each number is increased by 5, then what will be the new average ?",
+			 "options" : ["42","47","92","57"],
+			 "answer" : "47",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average marks obtained by 19 boys of a college is 48. If the highest marks and lowest marks obtained are removed, then the average reduces by 4. What is the average of the highest and lowest marks obtained ?",
+			 "options" : ["76","80","84","82"],
+			 "answer" : "82",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 24 numbers is 43. If we subtract a number 'M' from each number, then the average becomes 38. What was the value of M?",
+			 "options" : ["12","5","7","10"],
+			 "answer" : "5",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of five consecutive numbers is 53. What is the biggest of these numbers?",
+			 "options" : ["52","55","53","54"],
+			 "answer" : "55",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of 15 members of a committee is increased by 4 years when two members whose ages are 60 years and 70 years are replaced by the two new members. What is the average age of the new members?",
+			 "options" : ["105 years","80 years","85 years","95 years"],
+			 "answer" : "95 years",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of five consecutive odd numbers is 15. What is the smallest of these five numbers ?",
+			 "options" : ["11","13","15","9"],
+			 "answer" : "11",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average price of 20 pens is Rs. 18. If 12 new pens are added, then the average price rise by Rs. 4. What is the total price of the new pens?",
+			 "options" : ["Rs.384","Rs.368","Rs.328","Rs.344"],
+			 "answer" : "Rs.344",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average expenditure of Raman for 5 days is Rs. 160. If his expenditure for the first 4 days is Rs. 90, Rs. 135, Rs. 75 and Rs. 180 respectively, then what is his expenditure on the 5th day ?",
+			 "options" : ["Rs.360","Rs.320","Rs.280","Rs.250"],
+			 "answer" : "Rs.320",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average of 4 numbers is 45. Average of first two numbers is thrice the Average of other two numbers. What is the sum of first two numbers?",
+			 "options" : ["122","105","125","135"],
+			 "answer" : "135",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average height of 40 sticks is 156 cm. Some sticks of average height 162 cm are taken out. If the new average height is 150 cm, then how many sticks are remaining?",
+			 "options" : ["25","20","16","32"],
+			 "answer" : "20",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Among four students sitting in a row, average age of last three students is 48 years and the average age of first three students is 50 years. If the age of first student is 56 years, then what is the age of the last student?",
+			 "options" : ["30","40","50","60"],
+			 "answer" : "50",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average of 11 numbers is 8. If every number is tripled, then what will be the new average of the numbers?",
+			 "options" : ["8","24","16","32"],
+			 "answer" : "24",
+			 "category" : "Average"
+		}
+	],
+	[
+		{
+			 "question" : "What will be the average of all the even numbers between 5 and 29?",
+			 "options" : ["14","19","22","17"],
+			 "answer" : "17",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average of 24 observations is 41. Average of first 9 observations is 42. Average of last 16 observations is 39. What is the value of 9th observation ?",
+			 "options" : ["14","24","18","20"],
+			 "answer" : "18",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "A group of students has an average weight of 42 kg. One student of weight 48 kg leaves the group and another student of weight 44 kg joins the group. If the new average weight becomes 41.6 kg, then how many students are there in the group?",
+			 "options" : ["15","10","8","12"],
+			 "answer" : "10",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 7 consecutive odd numbers is A. If next 3 and previous 2 odd numbers to these 7 odd numbers are also included, then what is the new average of these 12 consecutive odd numbers?",
+			 "options" : ["A + 1","A - 2","A + 2","A + 3"],
+			 "answer" : "A + 1",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of marks obtained by S1 and S2 is 30 more than the average marks obtained by S2 and S3. If the marks obtained by S3 is 50, then what are the marks obtained by S1?",
+			 "options" : ["80","105","95","110"],
+			 "answer" : "110",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "What is the average of the squares of the first 13 natural numbers?",
+			 "options" : ["63","74","65","72"],
+			 "answer" : "63",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Seven friends each spent Rs. 16 and the eighth friend spent Rs.35 more than the average of all the eight. What is the total amount spent by them?",
+			 "options" : ["Rs. 148","Rs. 176","Rs. 168","Rs. 160"],
+			 "answer" : "Rs. 168",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of 120 members of a society is 62.5 years. By addition of 30 new members, the average age becomes 58.2 years. What is the average age of newly joined members?",
+			 "options" : ["40 years","41 years","39 years","42 years"],
+			 "answer" : "41 years",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average age of a class of 6 girls is x years. Four new girls having ages x- 2, x + 4, x + 8 and x + 10 joins the class. What is the new average age of the class?",
+			 "options" : ["x - 2","x + 2","x + 5","x + 1"],
+			 "answer" : "x + 2",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average of 9 consecutive odd numbers is 27. If the previous and next odd number to these 9 odd numbers are also included, then what will be the new average?",
+			 "options" : ["32","28","29","27"],
+			 "answer" : "27",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "In a school average weight of girls and boys are 30 kg and 36 kg. If the number of girls is twice of the number of boys, then what will be the average weight of all the students in school?",
+			 "options" : ["31 kg","31.5 kg","32 kg","33 kg"],
+			 "answer" : "32 kg",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "The average of 10 consecutive integers is 33/2 What is the average of first three integers?",
+			 "options" : ["12","13","15","11"],
+			 "answer" : "13",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "2 years ago the average age of husband, wife and child was 28 years, and 5 years ago the average age of husband and child was 21 years. What is the present age of the wife?",
+			 "options" : ["38 years","40 years","36 years","42 years"],
+			 "answer" : "38 years",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "Average of the marks of 132 students of a college is 50. If the average of the marks of the passed students is 55 and the average of the marks of the failed students is 35, then what will be the respective ratio of the total marks of passed students and the total marks of failed students?",
+			 "options" : ["1 : 3","11 : 7","33 : 7","21 : 8"],
+			 "answer" : "33 : 7",
+			 "category" : "Average"
+		},
+		{
+			 "question" : "10 Consecutive numbers are given. If the average of the two numbers given in the middle is 13.5, then what is the sum of the first 6 numbers?",
+			 "options" : ["58","55","67","69"],
+			 "answer" : "69",
+			 "category" : "Average"
+		}
 	]
 ]
